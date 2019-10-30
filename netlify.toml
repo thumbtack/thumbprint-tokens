@@ -1,0 +1,8 @@
+[build]
+  # Directory with the serverless Lambda functions to deploy to AWS.
+  functions = "functions/"
+
+[[redirects]]
+  from = "/"
+  to = "/.netlify/functions/graphql"
+  status = 200
