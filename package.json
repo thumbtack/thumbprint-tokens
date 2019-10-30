@@ -1,0 +1,59 @@
+{
+    "name": "@thumbtack/thumbprint-tokens-tokens",
+    "description": "Design variables that power Thumbtack’s UI.",
+    "version": "8.3.3",
+    "main": "dist/javascript-cjs/index.js",
+    "module": "dist/javascript-es/index.js",
+    "sideEffects": false,
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "start": "yarn clear && yarn build",
+        "build:main": "./src/index.js",
+        "build:esm": "tsc --project ./tsconfig.json --module es2015 --target ES2015 --outDir dist/javascript-es",
+        "build:cjs": "tsc --project ./tsconfig.json --module commonjs --target ES2015 --outDir dist/javascript-cjs",
+        "build": "yarn build:main && yarn build:esm && yarn build:cjs",
+        "clear": "rm -rf dist",
+        "test": "yarn test:eslint && yarn test:jest && yarn test:prettier",
+        "test:eslint": "eslint . --ext .jsx --ext .js",
+        "test:jest": "jest",
+        "test:prettier": "prettier \"**/*.{js,jsx,css,scss,json,md,mdx,html}\" --check",
+        "prepublishOnly": "yarn start"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/",
+        "access": "public"
+    },
+    "author": "Daniel O'Connor <daniel@danoc.me>",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "eslint": "^6.6.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-config-prettier": "^6.5.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jest": "^23.0.2",
+        "fs-extra": "^8.1.0",
+        "glob": "^7.1.2",
+        "handlebars": "^4.2.0",
+        "husky": "^3.0.9",
+        "jest": "^24.9.0",
+        "lodash": "^4.17.4",
+        "prettier": "^1.18.2",
+        "pretty-quick": "^2.0.0",
+        "typescript": "^3.6.4"
+    },
+    "bugs": {
+        "url": "https://github.com/thumbtack/thumbprint-tokens/issues"
+    },
+    "homepage": "https://thumbprint.design/tokens",
+    "dependencies": {
+        "jszip": "^3.2.2",
+        "number-to-words": "^1.2.4"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "pretty-quick --staged"
+        }
+    }
+}

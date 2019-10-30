@@ -1,0 +1,13 @@
+{
+    "name": "Font Weight",
+    "tokens": [
+        {
+            "id": "normal",
+            "value": { "web": "400" }
+        },
+        {
+            "id": "bold",
+            "value": { "web": "700" }
+        }
+    ]
+}

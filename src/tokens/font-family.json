@@ -1,0 +1,13 @@
+{
+    "name": "Font Family",
+    "tokens": [
+        {
+            "id": "base",
+            "value": { "web": "Mark, Avenir, Helvetica, Arial, sans-serif" }
+        },
+        {
+            "id": "monospace",
+            "value": { "web": "'Source Code Pro', monospace" }
+        }
+    ]
+}
