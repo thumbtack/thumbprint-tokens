@@ -1,5 +1,8 @@
 const { ApolloServer, gql } = require('apollo-server-lambda');
-const tokens = require('../src/tokens');
+// The required file is `gitignored` because the soure of truth is in
+// `src/tokens`. This is a workaround for:
+// https://github.com/netlify/zip-it-and-ship-it/issues/38
+const tokens = require('./tokens');
 
 const typeDefs = gql`
     type TokenValue {

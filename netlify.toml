@@ -1,4 +1,5 @@
 [build]
+  build = "yarn install --frozen-lockfile --prod && yarn run netlify-zip-it-ship-it-issue-38-workaround"
   functions = "functions/"
 
 [[redirects]]

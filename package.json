@@ -19,6 +19,7 @@
         "test:eslint": "eslint . --ext .jsx --ext .js",
         "test:jest": "jest",
         "test:prettier": "prettier \"**/*.{js,jsx,css,scss,json,md,mdx,html}\" --check",
+        "netlify-zip-it-ship-it-issue-38-workaround": "cp src/tokens.js functions/graphql/tokens.js",
         "prepublishOnly": "yarn start"
     },
     "publishConfig": {
