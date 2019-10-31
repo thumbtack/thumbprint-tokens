@@ -9,7 +9,7 @@
 {{#if token.deprecated}}
     <!-- Deprecated -->
 {{/if}}
-    <{{getTag token.type}} name="{{formatId section token}}">{{{formatValue token}}}</{{getTag token.type}}>
+    <{{getTag token.category}} name="{{formatId section token}}">{{{formatValue token}}}</{{getTag token.category}}>
 {{/if}}
 {{/each}}
 {{/each}}

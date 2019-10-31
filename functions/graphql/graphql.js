@@ -5,10 +5,21 @@ const { ApolloServer, gql } = require('apollo-server-lambda');
 const tokens = require('./tokens');
 
 const typeDefs = gql`
+    enum TokenType {
+        string
+        number
+    }
+
     type TokenValue {
-        web: String
-        ios: String
-        android: String
+        name: String!
+        value: String!
+    }
+
+    type TokenPlatforms {
+        react: TokenValue
+        scss: TokenValue
+        ios: TokenValue
+        android: TokenValue
     }
 
     type TokenDescription {
@@ -17,16 +28,16 @@ const typeDefs = gql`
         android: String
     }
 
-    enum TokenTypes {
+    enum TokenFormats {
         color
         size
     }
 
     type Token {
         id: String!
-        description: TokenDescription
-        type: TokenTypes
-        value: TokenValue!
+        platforms: TokenPlatforms!
+        format: TokenFormats
+        type: TokenType!
         group: String
         deprecated: Boolean
     }

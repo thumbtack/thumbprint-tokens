@@ -24,9 +24,9 @@ module.exports = {
         const formattedToken = token.id.replace(/-/g, '_');
 
         // This conditional ensures that `<color name="red_300">#ffb0b0</color>` doesn't get
-        // printed as `<color name="color_red_300">#ffb0b0</color>` since including the type
+        // printed as `<color name="color_red_300">#ffb0b0</color>` since including the category
         // in the name is redundant in such a case.
-        if (token.type === getTag(token.type)) {
+        if (token.category === getTag(token.category)) {
             return prefix + formattedToken;
         }
 
