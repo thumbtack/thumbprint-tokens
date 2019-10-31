@@ -46,6 +46,11 @@ const resolvers = {
         categories: () => {
             // Combine all the files and tokens into a big array.
             const files = glob.sync(path.resolve(__dirname, '../src/tokens/*.json'));
+
+            console.log(__dirname);
+            console.log(path.resolve(__dirname, '../src/tokens/*.json'));
+            console.log('************************************');
+
             const allFiles = files.map(file => fs.readFileSync(file).toString());
             const allTokens = allFiles.map(fileText => JSON.parse(fileText));
 
