@@ -16,7 +16,7 @@ const typeDefs = gql`
     }
 
     type TokenPlatforms {
-        react: TokenValue
+        javascript: TokenValue
         scss: TokenValue
         ios: TokenValue
         android: TokenValue
