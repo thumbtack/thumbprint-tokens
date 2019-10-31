@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 const path = require('path');
-const glob = require('glob');
 const fse = require('fs-extra');
 const JSZip = require('jszip');
 const handlebars = require('handlebars');
+const allTokens = require('./tokens');
 
 const outputs = [
     { slug: 'typescript', distName: 'index.ts' },
@@ -49,13 +49,6 @@ const compile = (output, tokens) => {
 };
 
 (() => {
-    const files = glob.sync(path.resolve(__dirname, './tokens/*.json'));
-
-    const allFiles = files.map(file => fse.readFileSync(file).toString());
-
-    // All of the files and tokens as a big array.
-    const allTokens = allFiles.map(fileText => JSON.parse(fileText));
-
     outputs.forEach(async ({ slug, distName, postWrite }) => {
         const contents = compile(slug, allTokens);
         const dist = path.resolve(__dirname, `../dist/${slug}/${distName}`);
