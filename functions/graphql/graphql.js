@@ -49,13 +49,29 @@ const typeDefs = gql`
     }
 
     type Query {
-        categories: [Category]!
+        categories(platform: String): [Category!]!
     }
 `;
 
 const resolvers = {
     Query: {
-        categories: () => tokens,
+        categories: (parent, args) => {
+            const { platform } = args;
+
+            if (!platform) {
+                return tokens;
+            }
+
+            // Only return the tokens that have a value in the desired
+            // platform. Categories that don't have any tokens in that
+            // platform are omitted entirely.
+            return tokens
+                .map(category => ({
+                    ...category,
+                    ...{ tokens: category.tokens.filter(token => token.platforms[platform]) },
+                }))
+                .filter(category => category.tokens.length > 0);
+        },
     },
 };
 
