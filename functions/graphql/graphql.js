@@ -4,8 +4,8 @@ const { ApolloServer, gql } = require('apollo-server-lambda');
 // https://github.com/netlify/zip-it-and-ship-it/issues/38
 // Once the bug is fixed, these two files should also be removed from
 // `.gitignore` file.
-const tokens = require('./tokens');
-const { version } = require('./package.json');
+const tokens = require('./tokens-copy');
+const { version } = require('./package-copy.json');
 
 const typeDefs = gql`
     enum TokenType {

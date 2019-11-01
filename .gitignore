@@ -2,8 +2,8 @@
 # https://github.com/netlify/zip-it-and-ship-it/issues/38
 # The `graphql.js` file should also be updated to require the original versions
 # of those files.
-functions/graphql/tokens.js
-functions/graphql/package.json
+functions/graphql/tokens-copy.js
+functions/graphql/package-copy.json
 
 .netlify
 dist
