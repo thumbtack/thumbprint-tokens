@@ -8,6 +8,10 @@ functions/graphql/package-copy.json
 .netlify
 dist
 
+###################################
+### Generated with gitignore.io ###
+###################################
+
 # Created by https://www.gitignore.io/api/osx,node,intellij+all
 # Edit at https://www.gitignore.io/?templates=osx,node,intellij+all
 

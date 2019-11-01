@@ -1,9 +1,25 @@
-# Custom to .prettierignore
+#################################
+### Custom to .prettierignore ###
+#################################
 package.json
 
-# Copied from .gitignore
+##############################
+### Copied from .gitignore ###
+##############################
+
+# Thse two should be removed once this bug is fixed:
+# https://github.com/netlify/zip-it-and-ship-it/issues/38
+# The `graphql.js` file should also be updated to require the original versions
+# of those files.
+functions/graphql/tokens-copy.js
+functions/graphql/package-copy.json
+
 .netlify
 dist
+
+###################################
+### Generated with gitignore.io ###
+###################################
 
 # Created by https://www.gitignore.io/api/osx,node,intellij+all
 # Edit at https://www.gitignore.io/?templates=osx,node,intellij+all
