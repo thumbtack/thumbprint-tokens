@@ -3,7 +3,7 @@ const { ApolloServer, gql } = require('apollo-server-lambda');
 // These imports are of copied files to work around this bug:
 // https://github.com/netlify/zip-it-and-ship-it/issues/38
 // Once the bug is fixed, these two files should also be removed from
-// `.gitignore`.
+// `.gitignore` file.
 const tokens = require('./tokens');
 const { version } = require('./package.json');
 
