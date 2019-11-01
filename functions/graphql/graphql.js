@@ -13,6 +13,7 @@ const typeDefs = gql`
     type TokenValue {
         name: String!
         value: String!
+        description: String
     }
 
     type TokenPlatforms {
