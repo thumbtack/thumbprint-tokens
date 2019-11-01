@@ -2,14 +2,14 @@
 <resources>
 {{#each this as |section|}}
 {{#each section.tokens as |token|}}
-{{#if token.value.android}}
-{{#if token.description.android}}
-    <!-- {{token.description.android}} -->
+{{#if token.platforms.android}}
+{{#if token.platforms.android.description}}
+    <!-- {{token.platforms.android.description}} -->
 {{/if}}
 {{#if token.deprecated}}
     <!-- Deprecated -->
 {{/if}}
-    <{{getTag token.category}} name="{{formatId section token}}">{{{formatValue token}}}</{{getTag token.category}}>
+    <{{getAndroidTag token.format}} name="{{token.platforms.android.name}}">{{token.platforms.android.value}}</{{getAndroidTag token.format}}>
 {{/if}}
 {{/each}}
 {{/each}}

@@ -4,6 +4,7 @@ const fse = require('fs-extra');
 const JSZip = require('jszip');
 const handlebars = require('handlebars');
 const allTokens = require('./tokens');
+const helpers = require('./helpers');
 
 const outputs = [
     { slug: 'typescript', distName: 'index.ts' },
@@ -34,9 +35,6 @@ const outputs = [
 
 const compile = (output, tokens) => {
     const template = fse.readFileSync(require.resolve(`./templates/${output}.handlebars`), 'utf-8');
-
-    // eslint-disable-next-line import/no-dynamic-require, global-require
-    const helpers = require(`./helpers/${output}`);
 
     // Dynamically register the helpers for each `template`.
     const helperNames = Object.keys(helpers);

@@ -1,19 +1,19 @@
 import UIKit.UIColor
 
-{{#eachSectionWithPlatformTokens this}}
+{{#eachSectionWithPlatformTokens this "ios"}}
 {{#if description}}
 /// {{description}}
 {{/if}}
-public enum {{formatSectionName this.name}} {
+public enum {{removeSpaces this.name}} {
     {{#each tokens as |token|}}
-    {{#if token.value.ios}}
-    {{#if token.description.ios}}
-    /// {{token.description.ios}}
+    {{#if token.platforms.ios}}
+    {{#if token.platforms.ios.description}}
+    /// {{token.platforms.ios.description}}
     {{/if}}
     {{#if token.deprecated}}
     @available(*, deprecated)
     {{/if}}
-    public static let {{formatId token.id}}: {{{formatValue token.value}}}
+    public static let {{token.platforms.ios.name}}: {{{token.platforms.ios.value}}}
     {{/if}}
     {{/each}}
 }

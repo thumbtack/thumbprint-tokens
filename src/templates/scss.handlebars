@@ -1,13 +1,13 @@
 {{#each this as |section|}}
 {{#each section.tokens as |token|}}
-{{#if token.value.web}}
-{{#if token.description.web}}
-// {{token.description.web}}
+{{#if token.platforms.scss.value}}
+{{#if token.platforms.scss.description}}
+// {{token.platforms.scss.description}}
 {{/if}}
 {{#if token.deprecated}}
 // @deprecated
 {{/if}}
-{{formatId section token}}: {{{formatValue token.value}}};
+{{token.platforms.scss.name}}: {{{token.platforms.scss.value}}};
 {{/if}}
 {{/each}}
 {{/each}}
