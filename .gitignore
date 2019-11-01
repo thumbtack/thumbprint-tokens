@@ -1,4 +1,10 @@
+# Thse two should be removed once this bug is fixed:
+# https://github.com/netlify/zip-it-and-ship-it/issues/38
+# The `graphql.js` file should also be updated to require the original versions
+# of those files.
 functions/graphql/tokens.js
+functions/graphql/package.json
+
 .netlify
 dist
 

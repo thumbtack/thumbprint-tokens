@@ -1,8 +1,11 @@
 const { ApolloServer, gql } = require('apollo-server-lambda');
-// The required file is `gitignored` because the soure of truth is in
-// `src/tokens`. This is a workaround for:
+
+// These imports are of copied files to work around this bug:
 // https://github.com/netlify/zip-it-and-ship-it/issues/38
+// Once the bug is fixed, these two files should also be removed from
+// `.gitignore`.
 const tokens = require('./tokens');
+const { version } = require('./package.json');
 
 const typeDefs = gql`
     enum TokenType {
@@ -50,12 +53,14 @@ const typeDefs = gql`
     }
 
     type Query {
+        version: String!
         categories(platform: String): [Category!]!
     }
 `;
 
 const resolvers = {
     Query: {
+        version: () => version,
         categories: (parent, args) => {
             const { platform } = args;
 
