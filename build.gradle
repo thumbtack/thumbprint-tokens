@@ -55,12 +55,3 @@ task buildThumbprintDistFiles(type: YarnTask) {
 
 buildThumbprintDistFiles.dependsOn 'yarn'
 preBuild.dependsOn 'buildThumbprintDistFiles'
-
-publishing {
-    publications {
-        myPublicationName(MavenPublication) {
-            groupId = 'com.github.thumbtack'
-            artifact("${buildDir}/outputs/aar/thumbprint-tokens-release.aar")
-        }
-    }
-}
