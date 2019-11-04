@@ -50,7 +50,7 @@ android {
 }
 
 task buildThumbprintDistFiles(type: YarnTask) {
-  args = ['run', 'build:dist']
+  args = ['run', 'start']
 }
 
 buildThumbprintDistFiles.dependsOn 'yarn'
