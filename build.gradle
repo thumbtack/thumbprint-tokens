@@ -59,7 +59,7 @@ preBuild.dependsOn 'buildThumbprintDistFiles'
 publishing {
     publications {
         myPublicationName(MavenPublication) {
-            groupId = 'com.github.thumbtack'
+            groupId = 'com.github.thumbtack.thumbprint-tokens'
             artifact("${buildDir}/outputs/aar/thumbprint-tokens-release.aar")
         }
     }
