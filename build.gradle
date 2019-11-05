@@ -61,7 +61,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.github.thumbtack'
 
-            artifact("${buildDir}/outputs/aar/thumbprint-tokens-release.aar") {
+            artifact("${buildDir}/outputs/aar/thumbprint-tokens.aar") {
                 builtBy(assemble)
             }
         }
