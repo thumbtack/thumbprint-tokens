@@ -1,7 +1,7 @@
 {
     "name": "@thumbtack/thumbprint-tokens",
     "description": "Design variables that power Thumbtack’s UI.",
-    "version": "9.0.0",
+    "version": "9.0.1",
     "main": "dist/javascript-cjs/index.js",
     "module": "dist/javascript-es/index.js",
     "sideEffects": false,
@@ -21,7 +21,6 @@
         "test:prettier": "prettier \"**/*.{js,jsx,css,scss,json,md,mdx,html}\" --check",
         "netlify-zip-it-ship-it-issue-38-workaround": "cp src/tokens.js functions/graphql/tokens-copy.js && cp package.json functions/graphql/package-copy.json",
         "prepublishOnly": "yarn start",
-        "postpublish": "pod trunk push ThumbprintTokens",
         "release": "np"
     },
     "publishConfig": {
