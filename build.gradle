@@ -62,7 +62,7 @@ publishing {
             groupId = 'com.github.thumbtack'
 
             artifact("${buildDir}/outputs/aar/thumbprint-tokens-release.aar") {
-                builtBy(build)
+                builtBy(assemble)
             }
         }
     }
