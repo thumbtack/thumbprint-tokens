@@ -17,6 +17,8 @@ plugins {
 
 apply plugin: 'com.android.library'
 
+archivesBaseName = "thumbprint-tokens"
+
 node {
     nodeModulesDir = file("${project.projectDir}")
     download = true
@@ -60,7 +62,7 @@ publishing {
     publications {
         maven(MavenPublication) {
             groupId = 'com.github.thumbtack'
-            artifact("${buildDir}/outputs/aar/build-release.aar")
+            artifact("${buildDir}/outputs/aar/thumbprint-tokens-release.aar")
         }
     }
 }
