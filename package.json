@@ -46,6 +46,10 @@
         "pretty-quick": "^2.0.0",
         "typescript": "^3.6.4"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thumbtack/thumbprint-tokens.git"
+    },
     "bugs": {
         "url": "https://github.com/thumbtack/thumbprint-tokens/issues"
     },
