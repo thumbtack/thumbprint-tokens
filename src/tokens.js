@@ -1264,6 +1264,128 @@ module.exports = [
         ],
     },
     {
+        name: 'Duration',
+        tokens: [
+            {
+                id: '1',
+                type: 'string',
+                platforms: {
+                    scss: {
+                        name: 'tp-duration__1',
+                        value: '150ms',
+                    },
+                    javascript: {
+                        name: 'tpDuration1',
+                        value: '150ms',
+                    },
+                },
+            },
+            {
+                id: '2',
+                type: 'string',
+                platforms: {
+                    scss: {
+                        name: 'tp-duration__2',
+                        value: '200ms',
+                    },
+                    javascript: {
+                        name: 'tpDuration2',
+                        value: '200ms',
+                    },
+                },
+            },
+            {
+                id: '3',
+                type: 'string',
+                platforms: {
+                    scss: {
+                        name: 'tp-duration__3',
+                        value: '250ms',
+                    },
+                    javascript: {
+                        name: 'tpDuration3',
+                        value: '250ms',
+                    },
+                },
+            },
+            {
+                id: '4',
+                type: 'string',
+                platforms: {
+                    scss: {
+                        name: 'tp-duration__4',
+                        value: '300ms',
+                    },
+                    javascript: {
+                        name: 'tpDuration4',
+                        value: '300ms',
+                    },
+                },
+            },
+            {
+                id: '5',
+                type: 'string',
+                platforms: {
+                    scss: {
+                        name: 'tp-duration__5',
+                        value: '350ms',
+                    },
+                    javascript: {
+                        name: 'tpDuration5',
+                        value: '350ms',
+                    },
+                },
+            },
+        ],
+    },
+    {
+        name: 'Easing',
+        tokens: [
+            {
+                id: 'ease-in',
+                type: 'string',
+                platforms: {
+                    scss: {
+                        name: 'tp-ease__in',
+                        value: 'cubic-bezier(0.50, 0, 1, 1)',
+                    },
+                    javascript: {
+                        name: 'tpEaseIn',
+                        value: 'cubic-bezier(0.50, 0, 1, 1)',
+                    },
+                },
+            },
+            {
+                id: 'ease-out',
+                type: 'string',
+                platforms: {
+                    scss: {
+                        name: 'tp-ease__out',
+                        value: 'cubic-bezier(0, 0, 0.40, 1)',
+                    },
+                    javascript: {
+                        name: 'tpEaseOut',
+                        value: 'cubic-bezier(0, 0, 0.40, 1)',
+                    },
+                },
+            },
+            {
+                id: 'ease-in-out',
+                type: 'string',
+                platforms: {
+                    scss: {
+                        name: 'tp-ease__in-out',
+                        value: 'cubic-bezier(0.45, 0, 0.40, 1)',
+                    },
+                    javascript: {
+                        name: 'tpEaseInOut',
+                        value: 'cubic-bezier(0.45, 0, 0.40, 1)',
+                    },
+                },
+            },
+        ],
+    },
+    {
         name: 'Font Family',
         tokens: [
             {
