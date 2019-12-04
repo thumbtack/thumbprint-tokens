@@ -2090,6 +2090,34 @@ module.exports = [
         ],
     },
     {
+        name: 'Scrim',
+        tokens: [
+            {
+                id: 'base',
+                type: 'string',
+                platforms: {
+                    scss: {
+                        name: '$tp-scrim',
+                        value: 'rgba(255, 255, 255, 0.8)',
+                    },
+                    javascript: {
+                        name: 'tpScrim',
+                        value: 'rgba(255, 255, 255, 0.8)',
+                    },
+                    ios: {
+                        name: 'one',
+                        value: 'UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)',
+                        description: 'Scrim',
+                    },
+                    android: {
+                        name: 'tp_scrim',
+                        value: '#ccffffff',
+                    },
+                },
+            },
+        ],
+    },
+    {
         name: 'Space',
         tokens: [
             {
