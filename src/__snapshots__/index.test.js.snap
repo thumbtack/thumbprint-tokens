@@ -45,6 +45,7 @@ exports[`outputted Android matches snapshot 1`] = `
     <color name=\\"tp_gray_300\\">#e9eced</color>
     <color name=\\"tp_gray\\">#d3d4d5</color>
     <color name=\\"tp_white\\">#ffffff</color>
+    <item name=\\"tp_scrim\\">#ccffffff</item>
     <dimen name=\\"tp_space_1\\">4dp</dimen>
     <dimen name=\\"tp_space_2\\">8dp</dimen>
     <dimen name=\\"tp_space_3\\">16dp</dimen>
@@ -169,6 +170,7 @@ exports.tpShadow300 = \\"0px 2px 7px rgba(0, 0, 0, 0.15)\\";
 exports.tpShadow400 = \\"0px 2px 10px rgba(0, 0, 0, 0.2)\\";
 // @deprecated
 exports.tpShadowCard = \\"0 -1px 1px 0 rgba(0, 0, 0, 0.04), 0 1px 2px 0 rgba(0, 0, 0, 0.16)\\";
+exports.tpScrim = \\"rgba(255, 255, 255, 0.8)\\";
 exports.tpSpace1 = \\"4px\\";
 exports.tpSpace2 = \\"8px\\";
 exports.tpSpace3 = \\"16px\\";
@@ -295,6 +297,7 @@ export var tpShadow300 = \\"0px 2px 7px rgba(0, 0, 0, 0.15)\\";
 export var tpShadow400 = \\"0px 2px 10px rgba(0, 0, 0, 0.2)\\";
 // @deprecated
 export var tpShadowCard = \\"0 -1px 1px 0 rgba(0, 0, 0, 0.04), 0 1px 2px 0 rgba(0, 0, 0, 0.16)\\";
+export var tpScrim = \\"rgba(255, 255, 255, 0.8)\\";
 export var tpSpace1 = \\"4px\\";
 export var tpSpace2 = \\"8px\\";
 export var tpSpace3 = \\"16px\\";
@@ -421,6 +424,7 @@ $tp-shadow__300: 0px 2px 7px rgba(0, 0, 0, 0.15);
 $tp-shadow__400: 0px 2px 10px rgba(0, 0, 0, 0.2);
 // @deprecated
 $tp-shadow__card: 0 -1px 1px 0 rgba(0, 0, 0, 0.04), 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+$tp-scrim: rgba(255, 255, 255, 0.8);
 $tp-space__1: 4px;
 $tp-space__2: 8px;
 $tp-space__3: 16px;
@@ -524,6 +528,11 @@ public enum Color {
     public static let gray: UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)
     /// White – #ffffff
     public static let white: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+}
+
+public enum Scrim {
+    /// Scrim
+    public static let one: UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)
 }
 
 public enum Space {

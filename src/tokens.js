@@ -2091,6 +2091,7 @@ module.exports = [
     },
     {
         name: 'Scrim',
+        description: 'Value for transparent white curtain used with loader dots to cover content.',
         tokens: [
             {
                 id: 'base',
@@ -2107,7 +2108,6 @@ module.exports = [
                     ios: {
                         name: 'one',
                         value: 'UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)',
-                        description: 'Scrim',
                     },
                     android: {
                         name: 'tp_scrim',
