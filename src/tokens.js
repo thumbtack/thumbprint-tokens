@@ -2091,48 +2091,48 @@ module.exports = [
     },
     {
         name: 'Scrim',
-        description: 'Values for transparent light or dark curtains used to cover content.',
+        description: 'Values for transparent light and dark curtains that cover content.',
         tokens: [
             {
-                id: 'light',
+                id: 'scrim-light-80',
                 type: 'string',
                 platforms: {
                     scss: {
-                        name: '$tp-scrim__light',
+                        name: '$tp-scrim__light-80',
                         value: 'rgba(255, 255, 255, 0.8)',
                     },
                     javascript: {
-                        name: 'tpScrimLight',
+                        name: 'tpScrimLight80',
                         value: 'rgba(255, 255, 255, 0.8)',
                     },
                     ios: {
-                        name: 'light',
+                        name: 'light-80',
                         value: 'UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)',
                     },
                     android: {
-                        name: 'tp_scrim_light',
+                        name: 'tp_scrim_light_80',
                         value: '#ccffffff',
                     },
                 },
             },
             {
-                id: 'dark',
+                id: 'scrim-dark-80',
                 type: 'string',
                 platforms: {
                     scss: {
-                        name: '$tp-scrim__dark',
+                        name: '$tp-scrim__dark-80',
                         value: 'rgba(0, 0, 0, 0.8)',
                     },
                     javascript: {
-                        name: 'tpScrimDark',
+                        name: 'tpScrimDark80',
                         value: 'rgba(0, 0, 0, 0.8)',
                     },
                     ios: {
-                        name: 'dark',
+                        name: 'dark-80',
                         value: 'UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.8)',
                     },
                     android: {
-                        name: 'tp_scrim_dark',
+                        name: 'tp_scrim_dark_80',
                         value: '#cc000000',
                     },
                 },
