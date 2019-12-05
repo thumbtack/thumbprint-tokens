@@ -2091,27 +2091,49 @@ module.exports = [
     },
     {
         name: 'Scrim',
-        description: 'Value for transparent white curtain used with loader dots to cover content.',
+        description: 'Values for transparent light or dark curtains used to cover content.',
         tokens: [
             {
-                id: 'base',
+                id: 'light',
                 type: 'string',
                 platforms: {
                     scss: {
-                        name: '$tp-scrim',
+                        name: '$tp-scrim__light',
                         value: 'rgba(255, 255, 255, 0.8)',
                     },
                     javascript: {
-                        name: 'tpScrim',
+                        name: 'tpScrimLight',
                         value: 'rgba(255, 255, 255, 0.8)',
                     },
                     ios: {
-                        name: 'one',
+                        name: 'light',
                         value: 'UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)',
                     },
                     android: {
-                        name: 'tp_scrim',
+                        name: 'tp_scrim_light',
                         value: '#ccffffff',
+                    },
+                },
+            },
+            {
+                id: 'dark',
+                type: 'string',
+                platforms: {
+                    scss: {
+                        name: '$tp-scrim__dark',
+                        value: 'rgba(0, 0, 0, 0.8)',
+                    },
+                    javascript: {
+                        name: 'tpScrimDark',
+                        value: 'rgba(0, 0, 0, 0.8)',
+                    },
+                    ios: {
+                        name: 'dark',
+                        value: 'UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.8)',
+                    },
+                    android: {
+                        name: 'tp_scrim_dark',
+                        value: '#cc000000',
                     },
                 },
             },
