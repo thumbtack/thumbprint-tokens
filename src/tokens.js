@@ -2106,7 +2106,7 @@ module.exports = [
                         value: 'rgba(255, 255, 255, 0.8)',
                     },
                     ios: {
-                        name: 'light-80',
+                        name: 'light80',
                         value: 'UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)',
                     },
                     android: {
@@ -2128,7 +2128,7 @@ module.exports = [
                         value: 'rgba(0, 0, 0, 0.8)',
                     },
                     ios: {
-                        name: 'dark-80',
+                        name: 'dark80',
                         value: 'UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.8)',
                     },
                     android: {

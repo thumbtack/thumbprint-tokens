@@ -536,8 +536,8 @@ public enum Color {
 
 /// Values for transparent light and dark curtains that cover content.
 public enum Scrim {
-    public static let light-80: UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)
-    public static let dark-80: UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.8)
+    public static let light80: UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)
+    public static let dark80: UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.8)
 }
 
 public enum Space {
