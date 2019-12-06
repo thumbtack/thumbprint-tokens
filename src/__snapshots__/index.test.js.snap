@@ -574,6 +574,8 @@ public enum Duration {
     public static let duration4: 0.25
     public static let duration5: 0.3
     public static let duration6: 0.35
+}
+
 /// Values for transparent light and dark curtains that cover content.
 public enum Scrim {
     public static let light80: UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)
