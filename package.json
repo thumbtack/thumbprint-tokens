@@ -21,7 +21,7 @@
         "test:prettier": "prettier \"**/*.{js,jsx,css,scss,json,md,mdx,html}\" --check",
         "netlify-zip-it-ship-it-issue-38-workaround": "cp src/tokens.js functions/graphql/tokens-copy.js && cp package.json functions/graphql/package-copy.json",
         "prepublishOnly": "yarn start",
-        "release": "np"
+        "release": "np --no-release-draft"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org/",
