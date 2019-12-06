@@ -564,22 +564,22 @@ public enum Color {
     /// Gray – #d3d4d5
     public static let gray: UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)
     /// White – #ffffff
-    public static let white: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+    public static let white: UIColor = UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
 }
 
 public enum Duration {
-    public static let duration1: 0.075
-    public static let duration2: 0.15
-    public static let duration3: 0.2
-    public static let duration4: 0.25
-    public static let duration5: 0.3
-    public static let duration6: 0.35
+    public static let duration1: TimeInterval = 0.075
+    public static let duration2: TimeInterval = 0.15
+    public static let duration3: TimeInterval = 0.2
+    public static let duration4: TimeInterval = 0.25
+    public static let duration5: TimeInterval = 0.3
+    public static let duration6: TimeInterval = 0.35
 }
 
 /// Values for transparent light and dark curtains that cover content.
 public enum Scrim {
-    public static let light80: UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)
-    public static let dark80: UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.8)
+    public static let light80: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)
+    public static let dark80: UIColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.8)
 }
 
 public enum Space {

@@ -1251,7 +1251,8 @@ module.exports = [
                     ios: {
                         name: 'white',
                         description: 'White – #ffffff',
-                        value: 'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                        value:
+                            'UIColor = UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_white',
@@ -1280,7 +1281,7 @@ module.exports = [
                     },
                     ios: {
                         name: 'duration1',
-                        value: '0.075',
+                        value: 'TimeInterval = 0.075',
                     },
                     android: {
                         name: 'tp_duration_1',
@@ -1302,7 +1303,7 @@ module.exports = [
                     },
                     ios: {
                         name: 'duration2',
-                        value: '0.15',
+                        value: 'TimeInterval = 0.15',
                     },
                     android: {
                         name: 'tp_duration_2',
@@ -1324,7 +1325,7 @@ module.exports = [
                     },
                     ios: {
                         name: 'duration3',
-                        value: '0.2',
+                        value: 'TimeInterval = 0.2',
                     },
                     android: {
                         name: 'tp_duration_3',
@@ -1346,7 +1347,7 @@ module.exports = [
                     },
                     ios: {
                         name: 'duration4',
-                        value: '0.25',
+                        value: 'TimeInterval = 0.25',
                     },
                     android: {
                         name: 'tp_duration_4',
@@ -1368,7 +1369,7 @@ module.exports = [
                     },
                     ios: {
                         name: 'duration5',
-                        value: '0.3',
+                        value: 'TimeInterval = 0.3',
                     },
                     android: {
                         name: 'tp_duration_5',
@@ -1390,7 +1391,7 @@ module.exports = [
                     },
                     ios: {
                         name: 'duration6',
-                        value: '0.35',
+                        value: 'TimeInterval = 0.35',
                     },
                     android: {
                         name: 'tp_duration_6',
@@ -2291,7 +2292,7 @@ module.exports = [
                     },
                     ios: {
                         name: 'light80',
-                        value: 'UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)',
+                        value: 'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)',
                     },
                     android: {
                         name: 'tp_scrim_light_80',
@@ -2313,7 +2314,7 @@ module.exports = [
                     },
                     ios: {
                         name: 'dark80',
-                        value: 'UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.8)',
+                        value: 'UIColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.8)',
                     },
                     android: {
                         name: 'tp_scrim_dark_80',
