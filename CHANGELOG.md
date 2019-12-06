@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Added
+
+-   [Minor] Add tokens for light and dark scrims. These are values for transparent light and dark curtains that cover content.
+
 ## 10.0.0 - 2019-11-05
 
 -   [Minor] Add Android support through JitPack.
