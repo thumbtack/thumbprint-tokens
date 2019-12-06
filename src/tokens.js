@@ -1272,11 +1272,19 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: 'tp-duration__1',
-                        value: '150ms',
+                        value: '75ms',
                     },
                     javascript: {
                         name: 'tpDuration1',
-                        value: '150ms',
+                        value: '75ms',
+                    },
+                    ios: {
+                        name: 'duration1',
+                        value: '0.075',
+                    },
+                    android: {
+                        name: 'tp_duration_1',
+                        value: '75',
                     },
                 },
             },
@@ -1286,11 +1294,19 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: 'tp-duration__2',
-                        value: '200ms',
+                        value: '150ms',
                     },
                     javascript: {
                         name: 'tpDuration2',
-                        value: '200ms',
+                        value: '150ms',
+                    },
+                    ios: {
+                        name: 'duration2',
+                        value: '0.15',
+                    },
+                    android: {
+                        name: 'tp_duration_2',
+                        value: '150',
                     },
                 },
             },
@@ -1300,11 +1316,19 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: 'tp-duration__3',
-                        value: '250ms',
+                        value: '200ms',
                     },
                     javascript: {
                         name: 'tpDuration3',
-                        value: '250ms',
+                        value: '200ms',
+                    },
+                    ios: {
+                        name: 'duration3',
+                        value: '0.2',
+                    },
+                    android: {
+                        name: 'tp_duration_3',
+                        value: '200',
                     },
                 },
             },
@@ -1314,11 +1338,19 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: 'tp-duration__4',
-                        value: '300ms',
+                        value: '250ms',
                     },
                     javascript: {
                         name: 'tpDuration4',
-                        value: '300ms',
+                        value: '250ms',
+                    },
+                    ios: {
+                        name: 'duration4',
+                        value: '0.25',
+                    },
+                    android: {
+                        name: 'tp_duration_4',
+                        value: '250',
                     },
                 },
             },
@@ -1328,11 +1360,41 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: 'tp-duration__5',
-                        value: '350ms',
+                        value: '300ms',
                     },
                     javascript: {
                         name: 'tpDuration5',
+                        value: '300ms',
+                    },
+                    ios: {
+                        name: 'duration5',
+                        value: '0.3',
+                    },
+                    android: {
+                        name: 'tp_duration_5',
+                        value: '300',
+                    },
+                },
+            },
+            {
+                id: '6',
+                type: 'string',
+                platforms: {
+                    scss: {
+                        name: 'tp-duration__6',
                         value: '350ms',
+                    },
+                    javascript: {
+                        name: 'tpDuration6',
+                        value: '350ms',
+                    },
+                    ios: {
+                        name: 'duration6',
+                        value: '0.35',
+                    },
+                    android: {
+                        name: 'tp_duration_6',
+                        value: '350',
                     },
                 },
             },
