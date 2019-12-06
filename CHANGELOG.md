@@ -5,6 +5,7 @@
 ### Added
 
 -   [Minor] Add tokens for light and dark scrims. These are values for transparent light and dark curtains that cover content.
+-   [Minor] Add tokens for animation durations for all platforms and easings for SCSS/JS only.
 
 ## 10.0.0 - 2019-11-05
 

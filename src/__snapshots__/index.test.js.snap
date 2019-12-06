@@ -45,6 +45,12 @@ exports[`outputted Android matches snapshot 1`] = `
     <color name=\\"tp_gray_300\\">#e9eced</color>
     <color name=\\"tp_gray\\">#d3d4d5</color>
     <color name=\\"tp_white\\">#ffffff</color>
+    <item name=\\"tp_duration_1\\">75</item>
+    <item name=\\"tp_duration_2\\">150</item>
+    <item name=\\"tp_duration_3\\">200</item>
+    <item name=\\"tp_duration_4\\">250</item>
+    <item name=\\"tp_duration_5\\">300</item>
+    <item name=\\"tp_duration_6\\">350</item>
     <item name=\\"tp_scrim_light_80\\">#ccffffff</item>
     <item name=\\"tp_scrim_dark_80\\">#cc000000</item>
     <dimen name=\\"tp_space_1\\">4dp</dimen>
@@ -116,6 +122,15 @@ exports.tpColorGray200 = \\"#fafafa\\";
 exports.tpColorGray300 = \\"#e9eced\\";
 exports.tpColorGray = \\"#d3d4d5\\";
 exports.tpColorWhite = \\"#ffffff\\";
+exports.tpDuration1 = \\"75ms\\";
+exports.tpDuration2 = \\"150ms\\";
+exports.tpDuration3 = \\"200ms\\";
+exports.tpDuration4 = \\"250ms\\";
+exports.tpDuration5 = \\"300ms\\";
+exports.tpDuration6 = \\"350ms\\";
+exports.tpEaseIn = \\"cubic-bezier(0.50, 0, 1, 1)\\";
+exports.tpEaseOut = \\"cubic-bezier(0, 0, 0.40, 1)\\";
+exports.tpEaseInOut = \\"cubic-bezier(0.45, 0, 0.40, 1)\\";
 exports.tpFontFamilyBase = \\"Mark, Avenir, Helvetica, Arial, sans-serif\\";
 exports.tpFontFamilyMonospace = \\"'Source Code Pro', monospace\\";
 exports.tpFontWeightNormal = \\"400\\";
@@ -244,6 +259,15 @@ export var tpColorGray200 = \\"#fafafa\\";
 export var tpColorGray300 = \\"#e9eced\\";
 export var tpColorGray = \\"#d3d4d5\\";
 export var tpColorWhite = \\"#ffffff\\";
+export var tpDuration1 = \\"75ms\\";
+export var tpDuration2 = \\"150ms\\";
+export var tpDuration3 = \\"200ms\\";
+export var tpDuration4 = \\"250ms\\";
+export var tpDuration5 = \\"300ms\\";
+export var tpDuration6 = \\"350ms\\";
+export var tpEaseIn = \\"cubic-bezier(0.50, 0, 1, 1)\\";
+export var tpEaseOut = \\"cubic-bezier(0, 0, 0.40, 1)\\";
+export var tpEaseInOut = \\"cubic-bezier(0.45, 0, 0.40, 1)\\";
 export var tpFontFamilyBase = \\"Mark, Avenir, Helvetica, Arial, sans-serif\\";
 export var tpFontFamilyMonospace = \\"'Source Code Pro', monospace\\";
 export var tpFontWeightNormal = \\"400\\";
@@ -372,6 +396,15 @@ $tp-color__gray-200: #fafafa;
 $tp-color__gray-300: #e9eced;
 $tp-color__gray: #d3d4d5;
 $tp-color__white: #ffffff;
+tp-duration__1: 75ms;
+tp-duration__2: 150ms;
+tp-duration__3: 200ms;
+tp-duration__4: 250ms;
+tp-duration__5: 300ms;
+tp-duration__6: 350ms;
+tp-ease__in: cubic-bezier(0.50, 0, 1, 1);
+tp-ease__out: cubic-bezier(0, 0, 0.40, 1);
+tp-ease__in-out: cubic-bezier(0.45, 0, 0.40, 1);
 $tp-font-family__base: Mark, Avenir, Helvetica, Arial, sans-serif;
 $tp-font-family__monospace: 'Source Code Pro', monospace;
 $tp-font-weight__normal: 400;
@@ -532,6 +565,15 @@ public enum Color {
     public static let gray: UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)
     /// White – #ffffff
     public static let white: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+}
+
+public enum Duration {
+    public static let duration1: 0.075
+    public static let duration2: 0.15
+    public static let duration3: 0.2
+    public static let duration4: 0.25
+    public static let duration5: 0.3
+    public static let duration6: 0.35
 }
 
 /// Values for transparent light and dark curtains that cover content.
