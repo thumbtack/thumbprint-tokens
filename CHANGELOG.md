@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 10.1.0 - 2019-12-06
+
 ### Added
 
 -   [Minor] Add tokens for light and dark scrims. These are values for transparent light and dark curtains that cover content.
