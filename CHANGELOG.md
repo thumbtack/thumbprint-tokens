@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 10.0.0 - 2019-11-05
+
+-   [Minor] Add Android support through JitPack.
+
 ## 8.3.3 - 2019-10-17
 
 ### Added
