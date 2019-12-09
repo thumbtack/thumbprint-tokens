@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Fixed
+
+-   [Patch] Fix tag types in Android build. (#11)
+
 ## 10.1.1 - 2019-12-06
 
 ### Fixed

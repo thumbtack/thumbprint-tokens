@@ -45,6 +45,10 @@ module.exports = {
             return 'dimen';
         }
 
+        if (format === 'time') {
+            return 'double';
+        }
+
         return 'item';
     },
     ifEquals: (arg1, arg2, options) => (arg1 === arg2 ? options.fn(this) : options.inverse(this)),
