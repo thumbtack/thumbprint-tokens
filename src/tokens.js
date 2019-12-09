@@ -1269,6 +1269,7 @@ module.exports = [
             {
                 id: '1',
                 type: 'string',
+                format: 'time',
                 platforms: {
                     scss: {
                         name: 'tp-duration__1',
@@ -1291,6 +1292,7 @@ module.exports = [
             {
                 id: '2',
                 type: 'string',
+                format: 'time',
                 platforms: {
                     scss: {
                         name: 'tp-duration__2',
@@ -1313,6 +1315,7 @@ module.exports = [
             {
                 id: '3',
                 type: 'string',
+                format: 'time',
                 platforms: {
                     scss: {
                         name: 'tp-duration__3',
@@ -1335,6 +1338,7 @@ module.exports = [
             {
                 id: '4',
                 type: 'string',
+                format: 'time',
                 platforms: {
                     scss: {
                         name: 'tp-duration__4',
@@ -1357,6 +1361,7 @@ module.exports = [
             {
                 id: '5',
                 type: 'string',
+                format: 'time',
                 platforms: {
                     scss: {
                         name: 'tp-duration__5',
@@ -1379,6 +1384,7 @@ module.exports = [
             {
                 id: '6',
                 type: 'string',
+                format: 'time',
                 platforms: {
                     scss: {
                         name: 'tp-duration__6',
@@ -2280,6 +2286,7 @@ module.exports = [
             {
                 id: 'scrim-light-80',
                 type: 'string',
+                format: 'color',
                 platforms: {
                     scss: {
                         name: '$tp-scrim__light-80',
@@ -2302,6 +2309,7 @@ module.exports = [
             {
                 id: 'scrim-dark-80',
                 type: 'string',
+                format: 'color',
                 platforms: {
                     scss: {
                         name: '$tp-scrim__dark-80',
