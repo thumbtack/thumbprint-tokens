@@ -35,6 +35,7 @@ const typeDefs = gql`
     enum TokenFormats {
         color
         size
+        time
     }
 
     type Token {
