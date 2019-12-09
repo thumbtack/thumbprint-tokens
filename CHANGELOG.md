@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Fixed
+
+-   [Patch] Fix `white` token value for iOS. It broke in `10.1.1`. (#12)
+
 ## 10.1.1 - 2019-12-06
 
 ### Fixed

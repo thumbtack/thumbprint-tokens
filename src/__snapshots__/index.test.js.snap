@@ -564,7 +564,7 @@ public enum Color {
     /// Gray – #d3d4d5
     public static let gray: UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)
     /// White – #ffffff
-    public static let white: UIColor = UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+    public static let white: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
 }
 
 public enum Duration {
