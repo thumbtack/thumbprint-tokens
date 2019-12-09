@@ -4,6 +4,7 @@
 
 ### Fixed
 
+-   [Patch] Fix `white` token value for iOS. It broke in `10.1.1`. (#12)
 -   [Patch] Fix tag types in Android build. (#11)
 
 ## 10.1.1 - 2019-12-06
