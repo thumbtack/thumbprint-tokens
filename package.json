@@ -1,7 +1,7 @@
 {
     "name": "@thumbtack/thumbprint-tokens",
     "description": "Design variables that power Thumbtack’s UI.",
-    "version": "10.1.2",
+    "version": "10.1.3-0",
     "main": "dist/javascript-cjs/index.js",
     "module": "dist/javascript-es/index.js",
     "sideEffects": false,
