@@ -46,7 +46,7 @@ module.exports = {
         }
 
         if (format === 'time') {
-            return 'double';
+            return 'integer';
         }
 
         return 'item';
