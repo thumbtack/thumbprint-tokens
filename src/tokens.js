@@ -1272,7 +1272,7 @@ module.exports = [
                 format: 'time',
                 platforms: {
                     scss: {
-                        name: 'tp-duration__1',
+                        name: '$tp-duration__1',
                         value: '75ms',
                     },
                     javascript: {
@@ -1295,7 +1295,7 @@ module.exports = [
                 format: 'time',
                 platforms: {
                     scss: {
-                        name: 'tp-duration__2',
+                        name: '$tp-duration__2',
                         value: '150ms',
                     },
                     javascript: {
@@ -1318,7 +1318,7 @@ module.exports = [
                 format: 'time',
                 platforms: {
                     scss: {
-                        name: 'tp-duration__3',
+                        name: '$tp-duration__3',
                         value: '200ms',
                     },
                     javascript: {
@@ -1341,7 +1341,7 @@ module.exports = [
                 format: 'time',
                 platforms: {
                     scss: {
-                        name: 'tp-duration__4',
+                        name: '$tp-duration__4',
                         value: '250ms',
                     },
                     javascript: {
@@ -1364,7 +1364,7 @@ module.exports = [
                 format: 'time',
                 platforms: {
                     scss: {
-                        name: 'tp-duration__5',
+                        name: '$tp-duration__5',
                         value: '300ms',
                     },
                     javascript: {
@@ -1387,7 +1387,7 @@ module.exports = [
                 format: 'time',
                 platforms: {
                     scss: {
-                        name: 'tp-duration__6',
+                        name: '$tp-duration__6',
                         value: '350ms',
                     },
                     javascript: {
@@ -1414,7 +1414,7 @@ module.exports = [
                 type: 'string',
                 platforms: {
                     scss: {
-                        name: 'tp-ease__in',
+                        name: '$tp-ease__in',
                         value: 'cubic-bezier(0.50, 0, 1, 1)',
                     },
                     javascript: {
@@ -1428,7 +1428,7 @@ module.exports = [
                 type: 'string',
                 platforms: {
                     scss: {
-                        name: 'tp-ease__out',
+                        name: '$tp-ease__out',
                         value: 'cubic-bezier(0, 0, 0.40, 1)',
                     },
                     javascript: {
@@ -1442,7 +1442,7 @@ module.exports = [
                 type: 'string',
                 platforms: {
                     scss: {
-                        name: 'tp-ease__in-out',
+                        name: '$tp-ease__in-out',
                         value: 'cubic-bezier(0.45, 0, 0.40, 1)',
                     },
                     javascript: {
