@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Fixed
+
+-   [Patch] Prepend `$` to duration and easing tokens.
+
 ## 10.1.3 - 2019-12-10
 
 ### Fixed
