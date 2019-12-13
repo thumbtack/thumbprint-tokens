@@ -1272,12 +1272,12 @@ module.exports = [
                 format: 'time',
                 platforms: {
                     scss: {
-                        name: 'tp-duration__1',
+                        name: '$tp-duration__1',
                         value: '75ms',
                     },
                     javascript: {
                         name: 'tpDuration1',
-                        value: '75ms',
+                        value: '75',
                     },
                     ios: {
                         name: 'duration1',
@@ -1295,12 +1295,12 @@ module.exports = [
                 format: 'time',
                 platforms: {
                     scss: {
-                        name: 'tp-duration__2',
+                        name: '$tp-duration__2',
                         value: '150ms',
                     },
                     javascript: {
                         name: 'tpDuration2',
-                        value: '150ms',
+                        value: '150',
                     },
                     ios: {
                         name: 'duration2',
@@ -1318,12 +1318,12 @@ module.exports = [
                 format: 'time',
                 platforms: {
                     scss: {
-                        name: 'tp-duration__3',
+                        name: '$tp-duration__3',
                         value: '200ms',
                     },
                     javascript: {
                         name: 'tpDuration3',
-                        value: '200ms',
+                        value: '200',
                     },
                     ios: {
                         name: 'duration3',
@@ -1341,12 +1341,12 @@ module.exports = [
                 format: 'time',
                 platforms: {
                     scss: {
-                        name: 'tp-duration__4',
+                        name: '$tp-duration__4',
                         value: '250ms',
                     },
                     javascript: {
                         name: 'tpDuration4',
-                        value: '250ms',
+                        value: '250',
                     },
                     ios: {
                         name: 'duration4',
@@ -1364,12 +1364,12 @@ module.exports = [
                 format: 'time',
                 platforms: {
                     scss: {
-                        name: 'tp-duration__5',
+                        name: '$tp-duration__5',
                         value: '300ms',
                     },
                     javascript: {
                         name: 'tpDuration5',
-                        value: '300ms',
+                        value: '300',
                     },
                     ios: {
                         name: 'duration5',
@@ -1387,12 +1387,12 @@ module.exports = [
                 format: 'time',
                 platforms: {
                     scss: {
-                        name: 'tp-duration__6',
+                        name: '$tp-duration__6',
                         value: '350ms',
                     },
                     javascript: {
                         name: 'tpDuration6',
-                        value: '350ms',
+                        value: '350',
                     },
                     ios: {
                         name: 'duration6',
@@ -1414,7 +1414,7 @@ module.exports = [
                 type: 'string',
                 platforms: {
                     scss: {
-                        name: 'tp-ease__in',
+                        name: '$tp-ease__in',
                         value: 'cubic-bezier(0.50, 0, 1, 1)',
                     },
                     javascript: {
@@ -1428,7 +1428,7 @@ module.exports = [
                 type: 'string',
                 platforms: {
                     scss: {
-                        name: 'tp-ease__out',
+                        name: '$tp-ease__out',
                         value: 'cubic-bezier(0, 0, 0.40, 1)',
                     },
                     javascript: {
@@ -1442,7 +1442,7 @@ module.exports = [
                 type: 'string',
                 platforms: {
                     scss: {
-                        name: 'tp-ease__in-out',
+                        name: '$tp-ease__in-out',
                         value: 'cubic-bezier(0.45, 0, 0.40, 1)',
                     },
                     javascript: {
