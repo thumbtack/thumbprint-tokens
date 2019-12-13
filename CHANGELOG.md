@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 10.1.4 - 2019-12-13
+
 ### Fixed
 
 -   [Patch] Prepend `$` to duration and easing SCSS tokens.
