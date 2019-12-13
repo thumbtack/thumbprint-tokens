@@ -5,6 +5,7 @@
 ### Fixed
 
 -   [Patch] Prepend `$` to duration and easing SCSS tokens.
+-   [Patch] Remove `ms` from duration JS tokens.
 
 ## 10.1.3 - 2019-12-10
 

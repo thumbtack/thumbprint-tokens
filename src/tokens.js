@@ -1277,7 +1277,7 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpDuration1',
-                        value: '75ms',
+                        value: '75',
                     },
                     ios: {
                         name: 'duration1',
@@ -1300,7 +1300,7 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpDuration2',
-                        value: '150ms',
+                        value: '150',
                     },
                     ios: {
                         name: 'duration2',
@@ -1323,7 +1323,7 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpDuration3',
-                        value: '200ms',
+                        value: '200',
                     },
                     ios: {
                         name: 'duration3',
@@ -1346,7 +1346,7 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpDuration4',
-                        value: '250ms',
+                        value: '250',
                     },
                     ios: {
                         name: 'duration4',
@@ -1369,7 +1369,7 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpDuration5',
-                        value: '300ms',
+                        value: '300',
                     },
                     ios: {
                         name: 'duration5',
@@ -1392,7 +1392,7 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpDuration6',
-                        value: '350ms',
+                        value: '350',
                     },
                     ios: {
                         name: 'duration6',
