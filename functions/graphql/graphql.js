@@ -8,11 +8,6 @@ const tokens = require('./tokens-copy');
 const { version } = require('./package-copy.json');
 
 const typeDefs = gql`
-    enum TokenType {
-        string
-        number
-    }
-
     type TokenValue {
         name: String!
         value: String!
@@ -42,7 +37,6 @@ const typeDefs = gql`
         id: String!
         platforms: TokenPlatforms!
         format: TokenFormats
-        type: TokenType!
         group: String
         deprecated: Boolean
     }

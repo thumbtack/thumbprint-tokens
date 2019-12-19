@@ -14,7 +14,6 @@ module.exports = [
                         value: '4px',
                     },
                 },
-                type: 'string',
             },
             {
                 id: 'big',
@@ -28,7 +27,6 @@ module.exports = [
                         value: '6px',
                     },
                 },
-                type: 'string',
             },
             {
                 id: 'full',
@@ -42,7 +40,6 @@ module.exports = [
                         value: '50%',
                     },
                 },
-                type: 'string',
             },
             {
                 id: 'sides',
@@ -56,7 +53,6 @@ module.exports = [
                         value: '9999px',
                     },
                 },
-                type: 'string',
             },
         ],
     },
@@ -75,7 +71,6 @@ module.exports = [
                         value: '1025px',
                     },
                 },
-                type: 'string',
             },
             {
                 id: 'large__value',
@@ -86,10 +81,9 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpBreakpointLargeValue',
-                        value: '1025',
+                        value: 1025,
                     },
                 },
-                type: 'number',
             },
             {
                 id: 'medium',
@@ -103,7 +97,6 @@ module.exports = [
                         value: '700px',
                     },
                 },
-                type: 'string',
             },
             {
                 id: 'medium__value',
@@ -114,10 +107,9 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpBreakpointMediumValue',
-                        value: '700',
+                        value: 700,
                     },
                 },
-                type: 'number',
             },
             {
                 id: 'small',
@@ -131,7 +123,6 @@ module.exports = [
                         value: '481px',
                     },
                 },
-                type: 'string',
             },
             {
                 id: 'small__value',
@@ -142,10 +133,9 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpBreakpointSmallValue',
-                        value: '481',
+                        value: 481,
                     },
                 },
-                type: 'number',
             },
             {
                 id: 'split-view__medium',
@@ -159,7 +149,6 @@ module.exports = [
                         value: '1060px',
                     },
                 },
-                type: 'string',
             },
             {
                 id: 'split-view__medium__value',
@@ -170,10 +159,9 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpBreakpointSplitViewMediumValue',
-                        value: '1060',
+                        value: 1060,
                     },
                 },
-                type: 'number',
             },
             {
                 id: 'split-view__small',
@@ -187,7 +175,6 @@ module.exports = [
                         value: '769px',
                     },
                 },
-                type: 'string',
             },
             {
                 id: 'split-view__small__value',
@@ -198,10 +185,9 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpBreakpointSplitViewSmallValue',
-                        value: '769',
+                        value: 769,
                     },
                 },
-                type: 'number',
             },
         ],
     },
@@ -232,7 +218,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'blue-200',
@@ -257,7 +242,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'blue-300',
@@ -282,7 +266,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'blue',
@@ -307,7 +290,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'blue-500',
@@ -332,7 +314,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'blue-600',
@@ -357,7 +338,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'indigo-100',
@@ -382,7 +362,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'indigo-200',
@@ -407,7 +386,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'indigo-300',
@@ -432,7 +410,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'indigo',
@@ -457,7 +434,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'indigo-500',
@@ -482,7 +458,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'indigo-600',
@@ -507,7 +482,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'purple-100',
@@ -532,7 +506,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'purple-200',
@@ -560,7 +533,6 @@ module.exports = [
                     ios: 'UIColor = UIColor(red: 0.8745098, green: 0.8, blue: 1.0, alpha: 1.0)',
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'purple-300',
@@ -585,7 +557,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'purple',
@@ -610,7 +581,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'purple-500',
@@ -635,7 +605,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'purple-600',
@@ -660,7 +629,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'green-100',
@@ -685,7 +653,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'green-200',
@@ -710,7 +677,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'green-300',
@@ -735,7 +701,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'green',
@@ -760,7 +725,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'green-500',
@@ -785,7 +749,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'green-600',
@@ -810,7 +773,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'yellow-100',
@@ -835,7 +797,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'yellow-200',
@@ -860,7 +821,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'yellow-300',
@@ -885,7 +845,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'yellow',
@@ -910,7 +869,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'yellow-500',
@@ -935,7 +893,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'yellow-600',
@@ -960,7 +917,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'red-100',
@@ -985,7 +941,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'red-200',
@@ -1010,7 +965,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'red-300',
@@ -1035,7 +989,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'red',
@@ -1060,7 +1013,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'red-500',
@@ -1085,7 +1037,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'red-600',
@@ -1110,7 +1061,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'black-300',
@@ -1135,7 +1085,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'black',
@@ -1160,7 +1109,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'gray-200',
@@ -1185,7 +1133,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'gray-300',
@@ -1210,7 +1157,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'gray',
@@ -1235,7 +1181,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
             {
                 id: 'white',
@@ -1259,7 +1204,6 @@ module.exports = [
                     },
                 },
                 format: 'color',
-                type: 'string',
             },
         ],
     },
@@ -1268,7 +1212,6 @@ module.exports = [
         tokens: [
             {
                 id: '1',
-                type: 'string',
                 format: 'time',
                 platforms: {
                     scss: {
@@ -1291,7 +1234,6 @@ module.exports = [
             },
             {
                 id: '2',
-                type: 'string',
                 format: 'time',
                 platforms: {
                     scss: {
@@ -1314,7 +1256,6 @@ module.exports = [
             },
             {
                 id: '3',
-                type: 'string',
                 format: 'time',
                 platforms: {
                     scss: {
@@ -1337,7 +1278,6 @@ module.exports = [
             },
             {
                 id: '4',
-                type: 'string',
                 format: 'time',
                 platforms: {
                     scss: {
@@ -1360,7 +1300,6 @@ module.exports = [
             },
             {
                 id: '5',
-                type: 'string',
                 format: 'time',
                 platforms: {
                     scss: {
@@ -1383,7 +1322,6 @@ module.exports = [
             },
             {
                 id: '6',
-                type: 'string',
                 format: 'time',
                 platforms: {
                     scss: {
@@ -1411,7 +1349,6 @@ module.exports = [
         tokens: [
             {
                 id: 'ease-in',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-ease__in',
@@ -1425,7 +1362,6 @@ module.exports = [
             },
             {
                 id: 'ease-out',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-ease__out',
@@ -1439,7 +1375,6 @@ module.exports = [
             },
             {
                 id: 'ease-in-out',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-ease__in-out',
@@ -1468,7 +1403,6 @@ module.exports = [
                         value: 'Mark, Avenir, Helvetica, Arial, sans-serif',
                     },
                 },
-                type: 'string',
             },
             {
                 id: 'monospace',
@@ -1482,7 +1416,6 @@ module.exports = [
                         value: "'Source Code Pro', monospace",
                     },
                 },
-                type: 'string',
             },
         ],
     },
@@ -1501,7 +1434,6 @@ module.exports = [
                         value: '400',
                     },
                 },
-                type: 'string',
             },
             {
                 id: 'bold',
@@ -1515,7 +1447,6 @@ module.exports = [
                         value: '700',
                     },
                 },
-                type: 'string',
             },
         ],
     },
@@ -1525,7 +1456,6 @@ module.exports = [
             {
                 group: 'Title 1',
                 id: 'title__1__size',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__1__size',
@@ -1540,7 +1470,6 @@ module.exports = [
             {
                 group: 'Title 1',
                 id: 'title__1__line-height',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__1__line-height',
@@ -1555,7 +1484,6 @@ module.exports = [
             {
                 group: 'Title 1',
                 id: 'title__1__weight',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__1__weight',
@@ -1570,7 +1498,6 @@ module.exports = [
             {
                 group: 'Title 1',
                 id: 'title__1__responsive__size',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__1__responsive__size',
@@ -1585,7 +1512,6 @@ module.exports = [
             {
                 group: 'Title 1',
                 id: 'title__1__responsive__line-height',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__1__responsive__line-height',
@@ -1600,7 +1526,6 @@ module.exports = [
             {
                 group: 'Title 1',
                 id: 'title__1__responsive__weight',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__1__responsive__weight',
@@ -1615,7 +1540,6 @@ module.exports = [
             {
                 group: 'Title 2',
                 id: 'title__2__size',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__2__size',
@@ -1630,7 +1554,6 @@ module.exports = [
             {
                 group: 'Title 2',
                 id: 'title__2__line-height',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__2__line-height',
@@ -1645,7 +1568,6 @@ module.exports = [
             {
                 group: 'Title 2',
                 id: 'title__2__weight',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__2__weight',
@@ -1660,7 +1582,6 @@ module.exports = [
             {
                 group: 'Title 2',
                 id: 'title__2__responsive__size',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__2__responsive__size',
@@ -1675,7 +1596,6 @@ module.exports = [
             {
                 group: 'Title 2',
                 id: 'title__2__responsive__line-height',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__2__responsive__line-height',
@@ -1690,7 +1610,6 @@ module.exports = [
             {
                 group: 'Title 2',
                 id: 'title__2__responsive__weight',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__2__responsive__weight',
@@ -1705,7 +1624,6 @@ module.exports = [
             {
                 group: 'Title 3',
                 id: 'title__3__size',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__3__size',
@@ -1720,7 +1638,6 @@ module.exports = [
             {
                 group: 'Title 3',
                 id: 'title__3__line-height',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__3__line-height',
@@ -1735,7 +1652,6 @@ module.exports = [
             {
                 group: 'Title 3',
                 id: 'title__3__weight',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__3__weight',
@@ -1750,7 +1666,6 @@ module.exports = [
             {
                 group: 'Title 3',
                 id: 'title__3__responsive__size',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__3__responsive__size',
@@ -1765,7 +1680,6 @@ module.exports = [
             {
                 group: 'Title 3',
                 id: 'title__3__responsive__line-height',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__3__responsive__line-height',
@@ -1780,7 +1694,6 @@ module.exports = [
             {
                 group: 'Title 3',
                 id: 'title__3__responsive__weight',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__3__responsive__weight',
@@ -1795,7 +1708,6 @@ module.exports = [
             {
                 group: 'Title 4',
                 id: 'title__4__size',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__4__size',
@@ -1810,7 +1722,6 @@ module.exports = [
             {
                 group: 'Title 4',
                 id: 'title__4__line-height',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__4__line-height',
@@ -1825,7 +1736,6 @@ module.exports = [
             {
                 group: 'Title 4',
                 id: 'title__4__weight',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__4__weight',
@@ -1840,7 +1750,6 @@ module.exports = [
             {
                 group: 'Title 5',
                 id: 'title__5__size',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__5__size',
@@ -1855,7 +1764,6 @@ module.exports = [
             {
                 group: 'Title 5',
                 id: 'title__5__line-height',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__5__line-height',
@@ -1870,7 +1778,6 @@ module.exports = [
             {
                 group: 'Title 5',
                 id: 'title__5__weight',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__5__weight',
@@ -1885,7 +1792,6 @@ module.exports = [
             {
                 group: 'Title 6',
                 id: 'title__6__size',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__6__size',
@@ -1900,7 +1806,6 @@ module.exports = [
             {
                 group: 'Title 6',
                 id: 'title__6__line-height',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__6__line-height',
@@ -1915,7 +1820,6 @@ module.exports = [
             {
                 group: 'Title 6',
                 id: 'title__6__weight',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__6__weight',
@@ -1930,7 +1834,6 @@ module.exports = [
             {
                 group: 'Title 7',
                 id: 'title__7__size',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__7__size',
@@ -1945,7 +1848,6 @@ module.exports = [
             {
                 group: 'Title 7',
                 id: 'title__7__line-height',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__7__line-height',
@@ -1960,7 +1862,6 @@ module.exports = [
             {
                 group: 'Title 7',
                 id: 'title__7__weight',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__7__weight',
@@ -1975,7 +1876,6 @@ module.exports = [
             {
                 group: 'Title 8',
                 id: 'title__8__size',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__8__size',
@@ -1990,7 +1890,6 @@ module.exports = [
             {
                 group: 'Title 8',
                 id: 'title__8__line-height',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__8__line-height',
@@ -2005,7 +1904,6 @@ module.exports = [
             {
                 group: 'Title 8',
                 id: 'title__8__weight',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__title__8__weight',
@@ -2020,7 +1918,6 @@ module.exports = [
             {
                 group: 'Body 1',
                 id: 'body__1__size',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__body__1__size',
@@ -2035,7 +1932,6 @@ module.exports = [
             {
                 group: 'Body 1',
                 id: 'body__1__line-height',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__body__1__line-height',
@@ -2050,7 +1946,6 @@ module.exports = [
             {
                 group: 'Body 2',
                 id: 'body__2__size',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__body__2__size',
@@ -2065,7 +1960,6 @@ module.exports = [
             {
                 group: 'Body 2',
                 id: 'body__2__line-height',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__body__2__line-height',
@@ -2080,7 +1974,6 @@ module.exports = [
             {
                 group: 'Body 3',
                 id: 'body__3__size',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__body__3__size',
@@ -2095,7 +1988,6 @@ module.exports = [
             {
                 group: 'Body 3',
                 id: 'body__3__line-height',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-font__body__3__line-height',
@@ -2114,7 +2006,6 @@ module.exports = [
         tokens: [
             {
                 id: 'loose',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-letter-spacing__loose',
@@ -2128,7 +2019,6 @@ module.exports = [
             },
             {
                 id: 'tight',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-letter-spacing__tight',
@@ -2142,7 +2032,6 @@ module.exports = [
             },
             {
                 id: 'extra-tight',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-letter-spacing__extra-tight',
@@ -2161,7 +2050,6 @@ module.exports = [
         tokens: [
             {
                 id: 'base',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-line-height__base',
@@ -2175,7 +2063,6 @@ module.exports = [
             },
             {
                 id: 'tight',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-line-height__tight',
@@ -2189,7 +2076,6 @@ module.exports = [
             },
             {
                 id: 'loose',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-line-height__loose',
@@ -2208,7 +2094,6 @@ module.exports = [
         tokens: [
             {
                 id: '100',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-shadow__100',
@@ -2222,7 +2107,6 @@ module.exports = [
             },
             {
                 id: '200',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-shadow__200',
@@ -2236,7 +2120,6 @@ module.exports = [
             },
             {
                 id: '300',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-shadow__300',
@@ -2250,7 +2133,6 @@ module.exports = [
             },
             {
                 id: '400',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-shadow__400',
@@ -2265,7 +2147,6 @@ module.exports = [
             {
                 id: 'card',
                 deprecated: true,
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-shadow__card',
@@ -2285,7 +2166,6 @@ module.exports = [
         tokens: [
             {
                 id: 'scrim-light-80',
-                type: 'string',
                 format: 'color',
                 platforms: {
                     scss: {
@@ -2308,7 +2188,6 @@ module.exports = [
             },
             {
                 id: 'scrim-dark-80',
-                type: 'string',
                 format: 'color',
                 platforms: {
                     scss: {
@@ -2336,7 +2215,6 @@ module.exports = [
         tokens: [
             {
                 id: '1',
-                type: 'string',
                 format: 'size',
                 platforms: {
                     scss: {
@@ -2360,7 +2238,6 @@ module.exports = [
             },
             {
                 id: '2',
-                type: 'string',
                 format: 'size',
                 platforms: {
                     scss: {
@@ -2384,7 +2261,6 @@ module.exports = [
             },
             {
                 id: '3',
-                type: 'string',
                 format: 'size',
                 platforms: {
                     scss: {
@@ -2408,7 +2284,6 @@ module.exports = [
             },
             {
                 id: '4',
-                type: 'string',
                 format: 'size',
                 platforms: {
                     scss: {
@@ -2432,7 +2307,6 @@ module.exports = [
             },
             {
                 id: '5',
-                type: 'string',
                 format: 'size',
                 platforms: {
                     scss: {
@@ -2456,7 +2330,6 @@ module.exports = [
             },
             {
                 id: '6',
-                type: 'string',
                 format: 'size',
                 platforms: {
                     scss: {
@@ -2480,7 +2353,6 @@ module.exports = [
             },
             {
                 id: '7',
-                type: 'string',
                 format: 'size',
                 platforms: {
                     scss: {
@@ -2495,7 +2367,6 @@ module.exports = [
             },
             {
                 id: '8',
-                type: 'string',
                 format: 'size',
                 platforms: {
                     scss: {
@@ -2515,7 +2386,6 @@ module.exports = [
         tokens: [
             {
                 id: 'max-width',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-wrap__max-width',
@@ -2529,7 +2399,6 @@ module.exports = [
             },
             {
                 id: 'no-pad-width',
-                type: 'string',
                 platforms: {
                     scss: {
                         name: '$tp-wrap__no-pad-width',
@@ -2549,7 +2418,6 @@ module.exports = [
         tokens: [
             {
                 id: 'modal',
-                type: 'number',
                 platforms: {
                     scss: {
                         name: '$tp-z-index__modal',

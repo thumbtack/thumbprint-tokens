@@ -7,7 +7,7 @@
 {{#if token.deprecated}}
 // @deprecated
 {{/if}}
-export var {{token.platforms.javascript.name}} = {{#ifEquals token.type "string"}}"{{/ifEquals}}{{{token.platforms.javascript.value}}}{{#ifEquals token.type "string"}}"{{/ifEquals}};
+export var {{token.platforms.javascript.name}} = {{#isString token.platforms.javascript.value}}"{{/isString}}{{{token.platforms.javascript.value}}}{{#isString token.platforms.javascript.value}}"{{/isString}};
 {{/if}}
 {{/each}}
 {{/each}}
