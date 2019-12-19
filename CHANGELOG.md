@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Changed
+
+-   [Major] Change JS and Android duration tokens from number to string.
+
 ## 10.1.4 - 2019-12-13
 
 ### Fixed

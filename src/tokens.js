@@ -1220,7 +1220,7 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpDuration1',
-                        value: '75',
+                        value: 75,
                     },
                     ios: {
                         name: 'duration1',
@@ -1228,7 +1228,7 @@ module.exports = [
                     },
                     android: {
                         name: 'tp_duration_1',
-                        value: '75',
+                        value: 75,
                     },
                 },
             },
@@ -1242,7 +1242,7 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpDuration2',
-                        value: '150',
+                        value: 150,
                     },
                     ios: {
                         name: 'duration2',
@@ -1250,7 +1250,7 @@ module.exports = [
                     },
                     android: {
                         name: 'tp_duration_2',
-                        value: '150',
+                        value: 150,
                     },
                 },
             },
@@ -1264,7 +1264,7 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpDuration3',
-                        value: '200',
+                        value: 200,
                     },
                     ios: {
                         name: 'duration3',
@@ -1272,7 +1272,7 @@ module.exports = [
                     },
                     android: {
                         name: 'tp_duration_3',
-                        value: '200',
+                        value: 200,
                     },
                 },
             },
@@ -1286,7 +1286,7 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpDuration4',
-                        value: '250',
+                        value: 250,
                     },
                     ios: {
                         name: 'duration4',
@@ -1294,7 +1294,7 @@ module.exports = [
                     },
                     android: {
                         name: 'tp_duration_4',
-                        value: '250',
+                        value: 250,
                     },
                 },
             },
@@ -1308,7 +1308,7 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpDuration5',
-                        value: '300',
+                        value: 300,
                     },
                     ios: {
                         name: 'duration5',
@@ -1316,7 +1316,7 @@ module.exports = [
                     },
                     android: {
                         name: 'tp_duration_5',
-                        value: '300',
+                        value: 300,
                     },
                 },
             },
@@ -1330,7 +1330,7 @@ module.exports = [
                     },
                     javascript: {
                         name: 'tpDuration6',
-                        value: '350',
+                        value: 350,
                     },
                     ios: {
                         name: 'duration6',
@@ -1338,7 +1338,7 @@ module.exports = [
                     },
                     android: {
                         name: 'tp_duration_6',
-                        value: '350',
+                        value: 350,
                     },
                 },
             },
