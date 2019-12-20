@@ -568,12 +568,12 @@ public enum Color {
 }
 
 public enum Duration {
-    public static let duration1: TimeInterval = 0.075
-    public static let duration2: TimeInterval = 0.15
-    public static let duration3: TimeInterval = 0.2
-    public static let duration4: TimeInterval = 0.25
-    public static let duration5: TimeInterval = 0.3
-    public static let duration6: TimeInterval = 0.35
+    public static let one: TimeInterval = 0.075
+    public static let two: TimeInterval = 0.15
+    public static let three: TimeInterval = 0.2
+    public static let four: TimeInterval = 0.25
+    public static let five: TimeInterval = 0.3
+    public static let six: TimeInterval = 0.35
 }
 
 /// Values for transparent light and dark curtains that cover content.

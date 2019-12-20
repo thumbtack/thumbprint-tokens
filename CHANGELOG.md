@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Changed
+
+-   [Major] Rename iOS duration tokens to `one`, `two`, `three` (and so on…) rather than `duration1`, `duration2`, etc…
+
 ## 11.0.0 - 2019-12-18
 
 ### Changed
