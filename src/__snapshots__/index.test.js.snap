@@ -585,7 +585,7 @@ public enum FontWeight {
     case bold
 }
 
-public enum FontAttributes {
+public enum Font {
     public static let title1Size: CGFloat = 28
     public static let title1Weight: FontWeight = .bold
     public static let title2Size: CGFloat = 28

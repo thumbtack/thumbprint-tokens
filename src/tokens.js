@@ -1464,9 +1464,6 @@ module.exports = [
     },
     {
         name: 'Font',
-        memberName: {
-            ios: 'FontAttributes',
-        },
         tokens: [
             {
                 group: 'Title 1',
