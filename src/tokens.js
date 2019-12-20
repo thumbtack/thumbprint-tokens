@@ -1428,6 +1428,7 @@ module.exports = [
         tokens: [
             {
                 id: 'normal',
+                format: 'fontWeight',
                 platforms: {
                     scss: {
                         name: '$tp-font-weight__normal',
@@ -1439,12 +1440,12 @@ module.exports = [
                     },
                     ios: {
                         name: 'normal',
-                        type: 'enumCase',
                     },
                 },
             },
             {
                 id: 'bold',
+                format: 'fontWeight',
                 platforms: {
                     scss: {
                         name: '$tp-font-weight__bold',
@@ -1456,7 +1457,6 @@ module.exports = [
                     },
                     ios: {
                         name: 'bold',
-                        type: 'enumCase',
                     },
                 },
             },

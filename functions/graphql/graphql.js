@@ -31,6 +31,7 @@ const typeDefs = gql`
         color
         size
         time
+        fontWeight
     }
 
     type Token {
