@@ -4,7 +4,7 @@ import UIKit.UIColor
 {{#if description}}
 /// {{description}}
 {{/if}}
-public enum {{#if this.memberName.ios}}{{removeSpaces this.memberName.ios}}{{else}}{{removeSpaces this.name}}{{/if}} {
+public enum {{#if this.memberName.ios}}{{this.memberName.ios}}{{else}}{{removeSpaces this.name}}{{/if}} {
     {{#each tokens as |token|}}
     {{#if token.platforms.ios}}
     {{#if token.platforms.ios.description}}
