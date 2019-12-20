@@ -1227,7 +1227,7 @@ module.exports = [
                         value: 75,
                     },
                     ios: {
-                        name: 'duration1',
+                        name: 'one',
                         value: 'TimeInterval = 0.075',
                     },
                     android: {
@@ -1249,7 +1249,7 @@ module.exports = [
                         value: 150,
                     },
                     ios: {
-                        name: 'duration2',
+                        name: 'two',
                         value: 'TimeInterval = 0.15',
                     },
                     android: {
@@ -1271,7 +1271,7 @@ module.exports = [
                         value: 200,
                     },
                     ios: {
-                        name: 'duration3',
+                        name: 'three',
                         value: 'TimeInterval = 0.2',
                     },
                     android: {
@@ -1293,7 +1293,7 @@ module.exports = [
                         value: 250,
                     },
                     ios: {
-                        name: 'duration4',
+                        name: 'four',
                         value: 'TimeInterval = 0.25',
                     },
                     android: {
@@ -1315,7 +1315,7 @@ module.exports = [
                         value: 300,
                     },
                     ios: {
-                        name: 'duration5',
+                        name: 'five',
                         value: 'TimeInterval = 0.3',
                     },
                     android: {
@@ -1337,7 +1337,7 @@ module.exports = [
                         value: 350,
                     },
                     ios: {
-                        name: 'duration6',
+                        name: 'six',
                         value: 'TimeInterval = 0.35',
                     },
                     android: {
