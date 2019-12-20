@@ -479,6 +479,10 @@ $tp-z-index__modal: 200;
 exports[`outputted iOS matches snapshot 1`] = `
 "import UIKit.UIColor
 
+public enum BorderRadius {
+    public static let base: CGFloat = 4
+}
+
 /// These are the colors we use at Thumbtack.
 public enum Color {
     /// Blue 100 – #eaf6fa
@@ -574,6 +578,33 @@ public enum Duration {
     public static let duration4: TimeInterval = 0.25
     public static let duration5: TimeInterval = 0.3
     public static let duration6: TimeInterval = 0.35
+}
+
+public enum FontWeight {
+    case normal
+    case bold
+}
+
+public enum FontAttributes {
+    public static let title1Size: CGFloat = 28
+    public static let title1Weight: FontWeight = .bold
+    public static let title2Size: CGFloat = 28
+    public static let title2Weight: FontWeight = .bold
+    public static let title3Size: CGFloat = 22
+    public static let title3Weight: FontWeight = .bold
+    public static let title4Size: CGFloat = 20
+    public static let title4Weight: FontWeight = .bold
+    public static let title5Size: CGFloat = 18
+    public static let title5Weight: FontWeight = .bold
+    public static let title6Size: CGFloat = 16
+    public static let title6Weight: FontWeight = .bold
+    public static let title7Size: CGFloat = 14
+    public static let title7Weight: FontWeight = .bold
+    public static let title8Size: CGFloat = 12
+    public static let title8Weight: FontWeight = .bold
+    public static let body1Size: CGFloat = 16
+    public static let body2Size: CGFloat = 14
+    public static let body3Size: CGFloat = 12
 }
 
 /// Values for transparent light and dark curtains that cover content.
