@@ -13,6 +13,10 @@ module.exports = [
                         name: 'tpBorderRadiusBase',
                         value: '4px',
                     },
+                    ios: {
+                        name: 'base',
+                        value: 'CGFloat = 4',
+                    },
                 },
             },
             {
@@ -1433,6 +1437,10 @@ module.exports = [
                         name: 'tpFontWeightNormal',
                         value: '400',
                     },
+                    ios: {
+                        name: 'normal',
+                        type: 'enumCase',
+                    },
                 },
             },
             {
@@ -1446,12 +1454,19 @@ module.exports = [
                         name: 'tpFontWeightBold',
                         value: '700',
                     },
+                    ios: {
+                        name: 'bold',
+                        type: 'enumCase',
+                    },
                 },
             },
         ],
     },
     {
         name: 'Font',
+        memberName: {
+            ios: 'FontAttributes',
+        },
         tokens: [
             {
                 group: 'Title 1',
@@ -1464,6 +1479,10 @@ module.exports = [
                     javascript: {
                         name: 'tpFontTitle1Size',
                         value: '28px',
+                    },
+                    ios: {
+                        name: 'title1Size',
+                        value: 'CGFloat = 28',
                     },
                 },
             },
@@ -1492,6 +1511,10 @@ module.exports = [
                     javascript: {
                         name: 'tpFontTitle1Weight',
                         value: '700',
+                    },
+                    ios: {
+                        name: 'title1Weight',
+                        value: 'FontWeight = .bold',
                     },
                 },
             },
@@ -1549,6 +1572,10 @@ module.exports = [
                         name: 'tpFontTitle2Size',
                         value: '24px',
                     },
+                    ios: {
+                        name: 'title2Size',
+                        value: 'CGFloat = 28',
+                    },
                 },
             },
             {
@@ -1576,6 +1603,10 @@ module.exports = [
                     javascript: {
                         name: 'tpFontTitle2Weight',
                         value: '700',
+                    },
+                    ios: {
+                        name: 'title2Weight',
+                        value: 'FontWeight = .bold',
                     },
                 },
             },
@@ -1633,6 +1664,10 @@ module.exports = [
                         name: 'tpFontTitle3Size',
                         value: '22px',
                     },
+                    ios: {
+                        name: 'title3Size',
+                        value: 'CGFloat = 22',
+                    },
                 },
             },
             {
@@ -1660,6 +1695,10 @@ module.exports = [
                     javascript: {
                         name: 'tpFontTitle3Weight',
                         value: '700',
+                    },
+                    ios: {
+                        name: 'title3Weight',
+                        value: 'FontWeight = .bold',
                     },
                 },
             },
@@ -1717,6 +1756,10 @@ module.exports = [
                         name: 'tpFontTitle4Size',
                         value: '20px',
                     },
+                    ios: {
+                        name: 'title4Size',
+                        value: 'CGFloat = 20',
+                    },
                 },
             },
             {
@@ -1745,6 +1788,10 @@ module.exports = [
                         name: 'tpFontTitle4Weight',
                         value: '700',
                     },
+                    ios: {
+                        name: 'title4Weight',
+                        value: 'FontWeight = .bold',
+                    },
                 },
             },
             {
@@ -1758,6 +1805,10 @@ module.exports = [
                     javascript: {
                         name: 'tpFontTitle5Size',
                         value: '18px',
+                    },
+                    ios: {
+                        name: 'title5Size',
+                        value: 'CGFloat = 18',
                     },
                 },
             },
@@ -1787,6 +1838,10 @@ module.exports = [
                         name: 'tpFontTitle5Weight',
                         value: '700',
                     },
+                    ios: {
+                        name: 'title5Weight',
+                        value: 'FontWeight = .bold',
+                    },
                 },
             },
             {
@@ -1800,6 +1855,10 @@ module.exports = [
                     javascript: {
                         name: 'tpFontTitle6Size',
                         value: '16px',
+                    },
+                    ios: {
+                        name: 'title6Size',
+                        value: 'CGFloat = 16',
                     },
                 },
             },
@@ -1829,6 +1888,10 @@ module.exports = [
                         name: 'tpFontTitle6Weight',
                         value: '700',
                     },
+                    ios: {
+                        name: 'title6Weight',
+                        value: 'FontWeight = .bold',
+                    },
                 },
             },
             {
@@ -1842,6 +1905,10 @@ module.exports = [
                     javascript: {
                         name: 'tpFontTitle7Size',
                         value: '14px',
+                    },
+                    ios: {
+                        name: 'title7Size',
+                        value: 'CGFloat = 14',
                     },
                 },
             },
@@ -1871,6 +1938,10 @@ module.exports = [
                         name: 'tpFontTitle7Weight',
                         value: '700',
                     },
+                    ios: {
+                        name: 'title7Weight',
+                        value: 'FontWeight = .bold',
+                    },
                 },
             },
             {
@@ -1884,6 +1955,10 @@ module.exports = [
                     javascript: {
                         name: 'tpFontTitle8Size',
                         value: '12px',
+                    },
+                    ios: {
+                        name: 'title8Size',
+                        value: 'CGFloat = 12',
                     },
                 },
             },
@@ -1913,6 +1988,10 @@ module.exports = [
                         name: 'tpFontTitle8Weight',
                         value: '700',
                     },
+                    ios: {
+                        name: 'title8Weight',
+                        value: 'FontWeight = .bold',
+                    },
                 },
             },
             {
@@ -1926,6 +2005,10 @@ module.exports = [
                     javascript: {
                         name: 'tpFontBody1Size',
                         value: '16px',
+                    },
+                    ios: {
+                        name: 'body1Size',
+                        value: 'CGFloat = 16',
                     },
                 },
             },
@@ -1955,6 +2038,10 @@ module.exports = [
                         name: 'tpFontBody2Size',
                         value: '14px',
                     },
+                    ios: {
+                        name: 'body2Size',
+                        value: 'CGFloat = 14',
+                    },
                 },
             },
             {
@@ -1982,6 +2069,10 @@ module.exports = [
                     javascript: {
                         name: 'tpFontBody3Size',
                         value: '12px',
+                    },
+                    ios: {
+                        name: 'body3Size',
+                        value: 'CGFloat = 12',
                     },
                 },
             },

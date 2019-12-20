@@ -51,6 +51,9 @@ module.exports = {
 
         return 'item';
     },
+
     isString: (arg1, options) =>
         typeof arg1 === 'string' ? options.fn(this) : options.inverse(this),
+
+    ifEquals: (arg1, arg2, options) => (arg1 === arg2 ? options.fn(this) : options.inverse(this)),
 };

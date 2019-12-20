@@ -4,7 +4,7 @@ import UIKit.UIColor
 {{#if description}}
 /// {{description}}
 {{/if}}
-public enum {{removeSpaces this.name}} {
+public enum {{#if this.memberName.ios}}{{removeSpaces this.memberName.ios}}{{else}}{{removeSpaces this.name}}{{/if}} {
     {{#each tokens as |token|}}
     {{#if token.platforms.ios}}
     {{#if token.platforms.ios.description}}
@@ -13,7 +13,11 @@ public enum {{removeSpaces this.name}} {
     {{#if token.deprecated}}
     @available(*, deprecated)
     {{/if}}
+    {{#ifEquals token.platforms.ios.type "enumCase"}}
+    case {{token.platforms.ios.name}}{{#if token.platforms.ios.value}} = {{{token.platforms.ios.value}}}{{/if}}
+    {{else}}
     public static let {{token.platforms.ios.name}}: {{{token.platforms.ios.value}}}
+    {{/ifEquals}}
     {{/if}}
     {{/each}}
 }
