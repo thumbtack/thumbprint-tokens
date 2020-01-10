@@ -479,10 +479,6 @@ $tp-z-index__modal: 200;
 exports[`outputted iOS matches snapshot 1`] = `
 "import UIKit.UIColor
 
-public enum BorderRadius {
-    public static let base: CGFloat = 4
-}
-
 /// These are the colors we use at Thumbtack.
 public enum Color {
     /// Blue 100 – #eaf6fa

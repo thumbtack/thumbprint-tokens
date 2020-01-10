@@ -13,10 +13,6 @@ module.exports = [
                         name: 'tpBorderRadiusBase',
                         value: '4px',
                     },
-                    ios: {
-                        name: 'base',
-                        value: 'CGFloat = 4',
-                    },
                 },
             },
             {
