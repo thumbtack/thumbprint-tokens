@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+### Added
+
+-   [Minor] Add iOS, JavaScript, and SCSS CornerRadius tokens. (#25)
+
+### Deprecated
+
+-   [Patch] Deprecate BorderRadius in favor of a more cross-platform friendly CorderRadius. (#25)
+
 ### Changed
 
 -   [Major] Rename iOS duration tokens to `one`, `two`, `three` (and so on…) rather than `duration1`, `duration2`, etc…
