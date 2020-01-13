@@ -598,9 +598,9 @@ public enum Font {
     public static let title7Weight: FontWeight = .bold
     public static let title8Size: CGFloat = 12
     public static let title8Weight: FontWeight = .bold
-    public static let body1Size: CGFloat = 16
-    public static let body2Size: CGFloat = 14
-    public static let body3Size: CGFloat = 12
+    public static let text1Size: CGFloat = 16
+    public static let text2Size: CGFloat = 14
+    public static let text3Size: CGFloat = 12
 }
 
 /// Values for transparent light and dark curtains that cover content.

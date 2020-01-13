@@ -2000,7 +2000,7 @@ module.exports = [
                         value: '16px',
                     },
                     ios: {
-                        name: 'body1Size',
+                        name: 'text1Size',
                         value: 'CGFloat = 16',
                     },
                 },
@@ -2032,7 +2032,7 @@ module.exports = [
                         value: '14px',
                     },
                     ios: {
-                        name: 'body2Size',
+                        name: 'text2Size',
                         value: 'CGFloat = 14',
                     },
                 },
@@ -2064,7 +2064,7 @@ module.exports = [
                         value: '12px',
                     },
                     ios: {
-                        name: 'body3Size',
+                        name: 'text3Size',
                         value: 'CGFloat = 12',
                     },
                 },
