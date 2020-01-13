@@ -66,9 +66,13 @@ exports[`outputted Android matches snapshot 1`] = `
 exports[`outputted CommonJS matches snapshot 1`] = `
 "\\"use strict\\";
 Object.defineProperty(exports, \\"__esModule\\", { value: true });
+// @deprecated
 exports.tpBorderRadiusBase = \\"4px\\";
+// @deprecated
 exports.tpBorderRadiusBig = \\"6px\\";
+// @deprecated
 exports.tpBorderRadiusFull = \\"50%\\";
+// @deprecated
 exports.tpBorderRadiusSides = \\"9999px\\";
 exports.tpBreakpointLarge = \\"1025px\\";
 exports.tpBreakpointLargeValue = 1025;
@@ -122,6 +126,10 @@ exports.tpColorGray200 = \\"#fafafa\\";
 exports.tpColorGray300 = \\"#e9eced\\";
 exports.tpColorGray = \\"#d3d4d5\\";
 exports.tpColorWhite = \\"#ffffff\\";
+exports.tpCornerRadiusBase = \\"4px\\";
+exports.tpCornerRadiusBig = \\"6px\\";
+exports.tpCornerRadiusFull = \\"50%\\";
+exports.tpCornerRadiusSides = \\"9999px\\";
 exports.tpDuration1 = 75;
 exports.tpDuration2 = 150;
 exports.tpDuration3 = 200;
@@ -203,9 +211,13 @@ exports.tpZIndexModal = 200;
 `;
 
 exports[`outputted ES module matches snapshot 1`] = `
-"export var tpBorderRadiusBase = \\"4px\\";
+"// @deprecated
+export var tpBorderRadiusBase = \\"4px\\";
+// @deprecated
 export var tpBorderRadiusBig = \\"6px\\";
+// @deprecated
 export var tpBorderRadiusFull = \\"50%\\";
+// @deprecated
 export var tpBorderRadiusSides = \\"9999px\\";
 export var tpBreakpointLarge = \\"1025px\\";
 export var tpBreakpointLargeValue = 1025;
@@ -259,6 +271,10 @@ export var tpColorGray200 = \\"#fafafa\\";
 export var tpColorGray300 = \\"#e9eced\\";
 export var tpColorGray = \\"#d3d4d5\\";
 export var tpColorWhite = \\"#ffffff\\";
+export var tpCornerRadiusBase = \\"4px\\";
+export var tpCornerRadiusBig = \\"6px\\";
+export var tpCornerRadiusFull = \\"50%\\";
+export var tpCornerRadiusSides = \\"9999px\\";
 export var tpDuration1 = 75;
 export var tpDuration2 = 150;
 export var tpDuration3 = 200;
@@ -340,9 +356,13 @@ export var tpZIndexModal = 200;
 `;
 
 exports[`outputted SCSS matches snapshot 1`] = `
-"$tp-border-radius__base: 4px;
+"// @deprecated
+$tp-border-radius__base: 4px;
+// @deprecated
 $tp-border-radius__big: 6px;
+// @deprecated
 $tp-border-radius__full: 50%;
+// @deprecated
 $tp-border-radius__sides: 9999px;
 $tp-breakpoint__large: 1025px;
 $tp-breakpoint__large__value: 1025;
@@ -396,6 +416,10 @@ $tp-color__gray-200: #fafafa;
 $tp-color__gray-300: #e9eced;
 $tp-color__gray: #d3d4d5;
 $tp-color__white: #ffffff;
+$tp-corner-radius__base: 4px;
+$tp-corner-radius__big: 6px;
+$tp-corner-radius__full: 50%;
+$tp-corner-radius__sides: 9999px;
 $tp-duration__1: 75ms;
 $tp-duration__2: 150ms;
 $tp-duration__3: 200ms;
@@ -565,6 +589,10 @@ public enum Color {
     public static let gray: UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)
     /// White – #ffffff
     public static let white: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+}
+
+public enum CornerRadius {
+    public static let base: CGFloat = 4
 }
 
 public enum Duration {

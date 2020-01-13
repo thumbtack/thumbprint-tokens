@@ -14,6 +14,7 @@ module.exports = [
                         value: '4px',
                     },
                 },
+                deprecated: true,
             },
             {
                 id: 'big',
@@ -27,6 +28,7 @@ module.exports = [
                         value: '6px',
                     },
                 },
+                deprecated: true,
             },
             {
                 id: 'full',
@@ -40,6 +42,7 @@ module.exports = [
                         value: '50%',
                     },
                 },
+                deprecated: true,
             },
             {
                 id: 'sides',
@@ -53,6 +56,7 @@ module.exports = [
                         value: '9999px',
                     },
                 },
+                deprecated: true,
             },
         ],
     },
@@ -1204,6 +1208,67 @@ module.exports = [
                     },
                 },
                 format: 'color',
+            },
+        ],
+    },
+    {
+        name: 'Corner Radius',
+        tokens: [
+            {
+                id: 'base',
+                platforms: {
+                    scss: {
+                        name: '$tp-corner-radius__base',
+                        value: '4px',
+                    },
+                    javascript: {
+                        name: 'tpCornerRadiusBase',
+                        value: '4px',
+                    },
+                    ios: {
+                        name: 'base',
+                        value: 'CGFloat = 4',
+                    },
+                },
+            },
+            {
+                id: 'big',
+                platforms: {
+                    scss: {
+                        name: '$tp-corner-radius__big',
+                        value: '6px',
+                    },
+                    javascript: {
+                        name: 'tpCornerRadiusBig',
+                        value: '6px',
+                    },
+                },
+            },
+            {
+                id: 'full',
+                platforms: {
+                    scss: {
+                        name: '$tp-corner-radius__full',
+                        value: '50%',
+                    },
+                    javascript: {
+                        name: 'tpCornerRadiusFull',
+                        value: '50%',
+                    },
+                },
+            },
+            {
+                id: 'sides',
+                platforms: {
+                    scss: {
+                        name: '$tp-corner-radius__sides',
+                        value: '9999px',
+                    },
+                    javascript: {
+                        name: 'tpCornerRadiusSides',
+                        value: '9999px',
+                    },
+                },
             },
         ],
     },
