@@ -604,6 +604,33 @@ public enum Duration {
     public static let six: TimeInterval = 0.35
 }
 
+public enum FontWeight {
+    case normal
+    case bold
+}
+
+public enum Font {
+    public static let title1Size: CGFloat = 28
+    public static let title1Weight: FontWeight = .bold
+    public static let title2Size: CGFloat = 28
+    public static let title2Weight: FontWeight = .bold
+    public static let title3Size: CGFloat = 22
+    public static let title3Weight: FontWeight = .bold
+    public static let title4Size: CGFloat = 20
+    public static let title4Weight: FontWeight = .bold
+    public static let title5Size: CGFloat = 18
+    public static let title5Weight: FontWeight = .bold
+    public static let title6Size: CGFloat = 16
+    public static let title6Weight: FontWeight = .bold
+    public static let title7Size: CGFloat = 14
+    public static let title7Weight: FontWeight = .bold
+    public static let title8Size: CGFloat = 12
+    public static let title8Weight: FontWeight = .bold
+    public static let text1Size: CGFloat = 16
+    public static let text2Size: CGFloat = 14
+    public static let text3Size: CGFloat = 12
+}
+
 /// Values for transparent light and dark curtains that cover content.
 public enum Scrim {
     public static let light80: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)

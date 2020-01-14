@@ -13,7 +13,11 @@ public enum {{removeSpaces this.name}} {
     {{#if token.deprecated}}
     @available(*, deprecated)
     {{/if}}
+    {{#ifEquals token.format "fontWeight"}}
+    case {{token.platforms.ios.name}}
+    {{else}}
     public static let {{token.platforms.ios.name}}: {{{token.platforms.ios.value}}}
+    {{/ifEquals}}
     {{/if}}
     {{/each}}
 }
