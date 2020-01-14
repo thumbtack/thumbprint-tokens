@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 12.0.0 - 2020-01-14
+
 ### Added
 
 -   [Minor] Add iOS, JavaScript, and SCSS CornerRadius tokens. (#25)
