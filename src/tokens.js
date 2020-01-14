@@ -1501,6 +1501,7 @@ module.exports = [
                     },
                     ios: {
                         name: 'normal',
+                        value: 'normal',
                     },
                 },
             },
@@ -1518,6 +1519,7 @@ module.exports = [
                     },
                     ios: {
                         name: 'bold',
+                        value: 'bold',
                     },
                 },
             },

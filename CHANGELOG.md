@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Changed
+
+-   [Patch] Fix the `bold`/`normal` token shema. This doesn't affect the distributed code.
+
 ## 12.0.0 - 2020-01-14
 
 ### Added
