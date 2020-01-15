@@ -6,6 +6,10 @@
 
 -   [Patch] Fix the `bold`/`normal` token schema. This doesn't affect the distributed code.
 
+### Fixed
+
+-   [Patch] Fix value of Title 2 font size on iOS.
+
 ## 12.0.0 - 2020-01-14
 
 ### Added
