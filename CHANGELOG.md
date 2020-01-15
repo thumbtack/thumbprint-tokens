@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 12.0.1 - 2020-01-15
+
 ### Changed
 
 -   [Patch] Fix the `bold`/`normal` token schema. This doesn't affect the distributed code.
