@@ -1634,7 +1634,7 @@ module.exports = [
                     },
                     ios: {
                         name: 'title2Size',
-                        value: 'CGFloat = 28',
+                        value: 'CGFloat = 24',
                     },
                 },
             },

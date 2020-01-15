@@ -612,7 +612,7 @@ public enum FontWeight {
 public enum Font {
     public static let title1Size: CGFloat = 28
     public static let title1Weight: FontWeight = .bold
-    public static let title2Size: CGFloat = 28
+    public static let title2Size: CGFloat = 24
     public static let title2Weight: FontWeight = .bold
     public static let title3Size: CGFloat = 22
     public static let title3Weight: FontWeight = .bold
