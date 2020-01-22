@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 12.1.0 - 2020-01-22
+
 ### Changed
 
 -   [Minor] Add `UIFont.TextStyle` properties to support Dynamic Type.
