@@ -612,23 +612,37 @@ public enum FontWeight {
 public enum Font {
     public static let title1Size: CGFloat = 28
     public static let title1Weight: FontWeight = .bold
+    public static let title1UIFontTextStyle: UIFont.TextStyle = .headline
     public static let title2Size: CGFloat = 24
     public static let title2Weight: FontWeight = .bold
+    public static let title2UIFontTextStyle: UIFont.TextStyle = .subheadline
     public static let title3Size: CGFloat = 22
     public static let title3Weight: FontWeight = .bold
+    public static let title3UIFontTextStyle: UIFont.TextStyle = .title1
     public static let title4Size: CGFloat = 20
     public static let title4Weight: FontWeight = .bold
+    public static let title4UIFontTextStyle: UIFont.TextStyle = .title2
     public static let title5Size: CGFloat = 18
     public static let title5Weight: FontWeight = .bold
+    public static let title5UIFontTextStyle: UIFont.TextStyle = .title3
     public static let title6Size: CGFloat = 16
     public static let title6Weight: FontWeight = .bold
+    public static let title6UIFontTextStyle: UIFont.TextStyle = .body
     public static let title7Size: CGFloat = 14
     public static let title7Weight: FontWeight = .bold
+    public static let title7UIFontTextStyle: UIFont.TextStyle = .body
     public static let title8Size: CGFloat = 12
     public static let title8Weight: FontWeight = .bold
+    public static let title8UIFontTextStyle: UIFont.TextStyle = .body
     public static let text1Size: CGFloat = 16
+    public static let text1Weight: FontWeight = .normal
+    public static let text1UIFontTextStyle: UIFont.TextStyle = .body
     public static let text2Size: CGFloat = 14
+    public static let text2Weight: FontWeight = .normal
+    public static let text2UIFontTextStyle: UIFont.TextStyle = .body
     public static let text3Size: CGFloat = 12
+    public static let text3Weight: FontWeight = .normal
+    public static let text3UIFontTextStyle: UIFont.TextStyle = .body
 }
 
 /// Values for transparent light and dark curtains that cover content.

@@ -1621,6 +1621,16 @@ module.exports = [
                 },
             },
             {
+                group: 'Title 1',
+                id: 'title__1__uifont__text__style',
+                platforms: {
+                    ios: {
+                        name: 'title1UIFontTextStyle',
+                        value: 'UIFont.TextStyle = .headline',
+                    },
+                },
+            },
+            {
                 group: 'Title 2',
                 id: 'title__2__size',
                 platforms: {
@@ -1709,6 +1719,16 @@ module.exports = [
                     javascript: {
                         name: 'tpFontTitle2ResponsiveWeight',
                         value: '700',
+                    },
+                },
+            },
+            {
+                group: 'Title 2',
+                id: 'title__2__uifont__text__style',
+                platforms: {
+                    ios: {
+                        name: 'title2UIFontTextStyle',
+                        value: 'UIFont.TextStyle = .subheadline',
                     },
                 },
             },
@@ -1805,6 +1825,16 @@ module.exports = [
                 },
             },
             {
+                group: 'Title 3',
+                id: 'title__3__uifont__text__style',
+                platforms: {
+                    ios: {
+                        name: 'title3UIFontTextStyle',
+                        value: 'UIFont.TextStyle = .title1',
+                    },
+                },
+            },
+            {
                 group: 'Title 4',
                 id: 'title__4__size',
                 platforms: {
@@ -1851,6 +1881,16 @@ module.exports = [
                     ios: {
                         name: 'title4Weight',
                         value: 'FontWeight = .bold',
+                    },
+                },
+            },
+            {
+                group: 'Title 4',
+                id: 'title__4__uifont__text__style',
+                platforms: {
+                    ios: {
+                        name: 'title4UIFontTextStyle',
+                        value: 'UIFont.TextStyle = .title2',
                     },
                 },
             },
@@ -1905,6 +1945,16 @@ module.exports = [
                 },
             },
             {
+                group: 'Title 5',
+                id: 'title__5__uifont__text__style',
+                platforms: {
+                    ios: {
+                        name: 'title5UIFontTextStyle',
+                        value: 'UIFont.TextStyle = .title3',
+                    },
+                },
+            },
+            {
                 group: 'Title 6',
                 id: 'title__6__size',
                 platforms: {
@@ -1951,6 +2001,16 @@ module.exports = [
                     ios: {
                         name: 'title6Weight',
                         value: 'FontWeight = .bold',
+                    },
+                },
+            },
+            {
+                group: 'Title 6',
+                id: 'title__6__uifont__text__style',
+                platforms: {
+                    ios: {
+                        name: 'title6UIFontTextStyle',
+                        value: 'UIFont.TextStyle = .body',
                     },
                 },
             },
@@ -2005,6 +2065,16 @@ module.exports = [
                 },
             },
             {
+                group: 'Title 7',
+                id: 'title__7__uifont__text__style',
+                platforms: {
+                    ios: {
+                        name: 'title7UIFontTextStyle',
+                        value: 'UIFont.TextStyle = .body',
+                    },
+                },
+            },
+            {
                 group: 'Title 8',
                 id: 'title__8__size',
                 platforms: {
@@ -2055,6 +2125,16 @@ module.exports = [
                 },
             },
             {
+                group: 'Title 8',
+                id: 'title__8__uifont__text__style',
+                platforms: {
+                    ios: {
+                        name: 'title8UIFontTextStyle',
+                        value: 'UIFont.TextStyle = .body',
+                    },
+                },
+            },
+            {
                 group: 'Body 1',
                 id: 'body__1__size',
                 platforms: {
@@ -2083,6 +2163,26 @@ module.exports = [
                     javascript: {
                         name: 'tpFontBody1LineHeight',
                         value: '24px',
+                    },
+                },
+            },
+            {
+                group: 'Body 1',
+                id: 'body__1__weight',
+                platforms: {
+                    ios: {
+                        name: 'text1Weight',
+                        value: 'FontWeight = .normal',
+                    },
+                },
+            },
+            {
+                group: 'Body 1',
+                id: 'body__1__uifont__text__style',
+                platforms: {
+                    ios: {
+                        name: 'text1UIFontTextStyle',
+                        value: 'UIFont.TextStyle = .body',
                     },
                 },
             },
@@ -2119,6 +2219,26 @@ module.exports = [
                 },
             },
             {
+                group: 'Body 2',
+                id: 'body__2__weight',
+                platforms: {
+                    ios: {
+                        name: 'text2Weight',
+                        value: 'FontWeight = .normal',
+                    },
+                },
+            },
+            {
+                group: 'Body 2',
+                id: 'body__2__uifont__text__style',
+                platforms: {
+                    ios: {
+                        name: 'text2UIFontTextStyle',
+                        value: 'UIFont.TextStyle = .body',
+                    },
+                },
+            },
+            {
                 group: 'Body 3',
                 id: 'body__3__size',
                 platforms: {
@@ -2147,6 +2267,26 @@ module.exports = [
                     javascript: {
                         name: 'tpFontBody3LineHeight',
                         value: '18px',
+                    },
+                },
+            },
+            {
+                group: 'Body 3',
+                id: 'body__3__weight',
+                platforms: {
+                    ios: {
+                        name: 'text3Weight',
+                        value: 'FontWeight = .normal',
+                    },
+                },
+            },
+            {
+                group: 'Body 3',
+                id: 'body__3__uifont__text__style',
+                platforms: {
+                    ios: {
+                        name: 'text3UIFontTextStyle',
+                        value: 'UIFont.TextStyle = .body',
                     },
                 },
             },
