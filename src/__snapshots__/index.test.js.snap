@@ -643,14 +643,6 @@ public enum Font {
     public static let text3Size: CGFloat = 12
     public static let text3Weight: FontWeight = .normal
     public static let text3UIFontTextStyle: UIFont.TextStyle = .body
-    public static let tabBarItemSize: CGFloat = 10
-    public static let tabBarItemWeight: FontWeight = .bold
-    public static let tabBarItemBadgeSize: CGFloat = 14
-    public static let tabBarItemBadgeWeight: FontWeight = .normal
-    public static let navigationBarTitleSize: CGFloat = 16
-    public static let navigationBarTitleWeight: FontWeight = .bold
-    public static let navigationBarLargeTitleSize: CGFloat = 34
-    public static let navigationBarLargeTitleWeight: FontWeight = .bold
 }
 
 /// Values for transparent light and dark curtains that cover content.
