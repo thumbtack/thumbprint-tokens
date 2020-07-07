@@ -578,7 +578,7 @@ public enum Color {
     /// Red 600 – #7d0d10
     public static let red600: UIColor = UIColor(red: 0.492, green: 0.051, blue: 0.065, alpha: 1.0)
     /// Black 300 – #676d73
-    public static let black300: UIColor = UIColor(red: 0.404, green: 0.427, blue: 0.451, alpha: 1.0)
+    public static let black300: UIColor = UIColor(red: 0.40392157, green: 0.42745098, blue: 0.4509804, alpha: 1.0)
     /// Black – #2f3033
     public static let black: UIColor = UIColor(red: 0.18431373, green: 0.1882353, blue: 0.2, alpha: 1.0)
     /// Gray 200 – #fafafa
