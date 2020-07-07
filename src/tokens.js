@@ -333,8 +333,7 @@ module.exports = [
                     ios: {
                         name: 'blue600',
                         description: 'Blue 600 – #005979',
-                        value:
-                            'UIColor = UIColor(red: 0.0, green: 0.349, blue: 0.475, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.0, green: 0.349, blue: 0.475, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_blue_600',
@@ -600,8 +599,7 @@ module.exports = [
                     ios: {
                         name: 'purple500',
                         description: 'Purple 500 – #6637b6',
-                        value:
-                            'UIColor = UIColor(red: 0.4, green: 0.216, blue: 0.714, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.4, green: 0.216, blue: 0.714, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_purple_500',
@@ -768,8 +766,7 @@ module.exports = [
                     ios: {
                         name: 'green600',
                         description: 'Green 600 – #054e33',
-                        value:
-                            'UIColor = UIColor(red: 0.02, green: 0.306, blue: 0.2, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.02, green: 0.306, blue: 0.2, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_green_600',
