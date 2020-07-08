@@ -324,21 +324,20 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: '$tp-color__blue-600',
-                        value: '#005a7a',
+                        value: '#005979',
                     },
                     javascript: {
                         name: 'tpColorBlue600',
-                        value: '#005a7a',
+                        value: '#005979',
                     },
                     ios: {
                         name: 'blue600',
-                        description: 'Blue 600 – #005a7a',
-                        value:
-                            'UIColor = UIColor(red: 0.0, green: 0.3529412, blue: 0.47843137, alpha: 1.0)',
+                        description: 'Blue 600 – #005979',
+                        value: 'UIColor = UIColor(red: 0.0, green: 0.349, blue: 0.475, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_blue_600',
-                        value: '#005a7a',
+                        value: '#005979',
                     },
                 },
                 format: 'color',
@@ -543,21 +542,21 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: '$tp-color__purple-300',
-                        value: '#d3baff',
+                        value: '#c9acfd',
                     },
                     javascript: {
                         name: 'tpColorPurple300',
-                        value: '#d3baff',
+                        value: '#c9acfd',
                     },
                     ios: {
                         name: 'purple300',
-                        description: 'Purple 300 – #d3baff',
+                        description: 'Purple 300 – #c9acfd',
                         value:
-                            'UIColor = UIColor(red: 0.827451, green: 0.7294118, blue: 1.0, alpha: 1.0)',
+                            'UIColor = UIColor(red: 0.788, green: 0.675, blue: 0.992, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_purple_300',
-                        value: '#d3baff',
+                        value: '#c9acfd',
                     },
                 },
                 format: 'color',
@@ -567,21 +566,21 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: '$tp-color__purple',
-                        value: '#a97ff0',
+                        value: '#8d56eb',
                     },
                     javascript: {
                         name: 'tpColorPurple',
-                        value: '#a97ff0',
+                        value: '#8d56eb',
                     },
                     ios: {
                         name: 'purple',
-                        description: 'Purple – #a97ff0',
+                        description: 'Purple – #8d56eb',
                         value:
-                            'UIColor = UIColor(red: 0.6627451, green: 0.49803922, blue: 0.9411765, alpha: 1.0)',
+                            'UIColor = UIColor(red: 0.553, green: 0.337, blue: 0.922, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_purple',
-                        value: '#a97ff0',
+                        value: '#8d56eb',
                     },
                 },
                 format: 'color',
@@ -591,21 +590,20 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: '$tp-color__purple-500',
-                        value: '#8a5ed6',
+                        value: '#6637b6',
                     },
                     javascript: {
                         name: 'tpColorPurple500',
-                        value: '#8a5ed6',
+                        value: '#6637b6',
                     },
                     ios: {
                         name: 'purple500',
-                        description: 'Purple 500 – #8a5ed6',
-                        value:
-                            'UIColor = UIColor(red: 0.5411765, green: 0.36862746, blue: 0.8392157, alpha: 1.0)',
+                        description: 'Purple 500 – #6637b6',
+                        value: 'UIColor = UIColor(red: 0.4, green: 0.216, blue: 0.714, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_purple_500',
-                        value: '#8a5ed6',
+                        value: '#6637b6',
                     },
                 },
                 format: 'color',
@@ -615,21 +613,21 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: '$tp-color__purple-600',
-                        value: '#502095',
+                        value: '#492782',
                     },
                     javascript: {
                         name: 'tpColorPurple600',
-                        value: '#502095',
+                        value: '#492782',
                     },
                     ios: {
                         name: 'purple600',
-                        description: 'Purple 600 – #502095',
+                        description: 'Purple 600 – #492782',
                         value:
-                            'UIColor = UIColor(red: 0.3137255, green: 0.1254902, blue: 0.58431375, alpha: 1.0)',
+                            'UIColor = UIColor(red: 0.285, green: 0.153, blue: 0.508, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_purple_600',
-                        value: '#502095',
+                        value: '#492782',
                     },
                 },
                 format: 'color',
@@ -735,21 +733,21 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: '$tp-color__green-500',
-                        value: '#109e78',
+                        value: '#16855b',
                     },
                     javascript: {
                         name: 'tpColorGreen500',
-                        value: '#109e78',
+                        value: '#16855b',
                     },
                     ios: {
                         name: 'green500',
-                        description: 'Green 500 – #109e78',
+                        description: 'Green 500 – #16855b',
                         value:
-                            'UIColor = UIColor(red: 0.0627451, green: 0.61960787, blue: 0.47058824, alpha: 1.0)',
+                            'UIColor = UIColor(red: 0.086, green: 0.522, blue: 0.357, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_green_500',
-                        value: '#109e78',
+                        value: '#16855b',
                     },
                 },
                 format: 'color',
@@ -759,21 +757,20 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: '$tp-color__green-600',
-                        value: '#0f6648',
+                        value: '#054e33',
                     },
                     javascript: {
                         name: 'tpColorGreen600',
-                        value: '#0f6648',
+                        value: '#054e33',
                     },
                     ios: {
                         name: 'green600',
-                        description: 'Green 600 – #0f6648',
-                        value:
-                            'UIColor = UIColor(red: 0.05882353, green: 0.4, blue: 0.28235295, alpha: 1.0)',
+                        description: 'Green 600 – #054e33',
+                        value: 'UIColor = UIColor(red: 0.02, green: 0.306, blue: 0.2, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_green_600',
-                        value: '#0f6648',
+                        value: '#054e33',
                     },
                 },
                 format: 'color',
@@ -879,21 +876,21 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: '$tp-color__yellow-500',
-                        value: '#d48300',
+                        value: '#a77005',
                     },
                     javascript: {
                         name: 'tpColorYellow500',
-                        value: '#d48300',
+                        value: '#a77005',
                     },
                     ios: {
                         name: 'yellow500',
-                        description: 'Yellow 500 – #d48300',
+                        description: 'Yellow 500 – #a77005',
                         value:
-                            'UIColor = UIColor(red: 0.83137256, green: 0.5137255, blue: 0.0, alpha: 1.0)',
+                            'UIColor = UIColor(red: 0.654, green: 0.438, blue: 0.019, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_yellow_500',
-                        value: '#d48300',
+                        value: '#a77005',
                     },
                 },
                 format: 'color',
@@ -903,21 +900,21 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: '$tp-color__yellow-600',
-                        value: '#8a5500',
+                        value: '#714601',
                     },
                     javascript: {
                         name: 'tpColorYellow600',
-                        value: '#8a5500',
+                        value: '#714601',
                     },
                     ios: {
                         name: 'yellow600',
-                        description: 'Yellow 600 – #8a5500',
+                        description: 'Yellow 600 – #714601',
                         value:
-                            'UIColor = UIColor(red: 0.5411765, green: 0.33333334, blue: 0.0, alpha: 1.0)',
+                            'UIColor = UIColor(red: 0.442, green: 0.273, blue: 0.004, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_yellow_600',
-                        value: '#8a5500',
+                        value: '#714601',
                     },
                 },
                 format: 'color',
@@ -1023,21 +1020,21 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: '$tp-color__red-500',
-                        value: '#cc3553',
+                        value: '#b22d31',
                     },
                     javascript: {
                         name: 'tpColorRed500',
-                        value: '#cc3553',
+                        value: '#b22d31',
                     },
                     ios: {
                         name: 'red500',
-                        description: 'Red 500 – #cc3553',
+                        description: 'Red 500 – #b22d31',
                         value:
-                            'UIColor = UIColor(red: 0.8, green: 0.20784314, blue: 0.3254902, alpha: 1.0)',
+                            'UIColor = UIColor(red: 0.808, green: 0.209, blue: 0.266, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_red_500',
-                        value: '#cc3553',
+                        value: '#b22d31',
                     },
                 },
                 format: 'color',
@@ -1047,21 +1044,21 @@ module.exports = [
                 platforms: {
                     scss: {
                         name: '$tp-color__red-600',
-                        value: '#76012c',
+                        value: '#7d0d10',
                     },
                     javascript: {
                         name: 'tpColorRed600',
-                        value: '#76012c',
+                        value: '#7d0d10',
                     },
                     ios: {
                         name: 'red600',
-                        description: 'Red 600 – #76012c',
+                        description: 'Red 600 – #7d0d10',
                         value:
-                            'UIColor = UIColor(red: 0.4627451, green: 0.003921569, blue: 0.17254902, alpha: 1.0)',
+                            'UIColor = UIColor(red: 0.492, green: 0.051, blue: 0.065, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_red_600',
-                        value: '#76012c',
+                        value: '#7d0d10',
                     },
                 },
                 format: 'color',
