@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 12.1.1 - 2020-07-08
+
 ### Changed
 
 -   [Patch] Update color palette to improve accessibility.
