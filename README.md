@@ -16,7 +16,8 @@ You can use the [Thumbprint Tokens GraphQL server](https://thumbprint-tokens.net
 
 ## Releasing
 
-1. Run `git checkout master && git pull` to get the latest changes.
-2. Add the new version number to the `CHANGELOG.md`.
-3. Commit the changes on `master` with `git add CHANGELOG.md && git commit -m "Preparing for release."`
-4. Run `yarn release`.
+1. **Pull latest changes:** Run `git checkout master && git pull` to grab the latest changes rom GitHub.
+2. **Update the changelog:** Open the `CHANGELOG.md` file and look at the unreleased changes. Add the new version number ([following SemVer](https://semver.org/)) and date as a heading under the `## Unreleased` heading.
+3. **Commit the changelog changes**: Commit the changes on `master` with `git add CHANGELOG.md && git commit -m "Preparing for release."`
+4. **Release to NPM**: Run `yarn release`. It will prompt you for the new version number, run tests, and the publish to NPM.
+5. **Publish to CocoaPods:** Run `pod trunk push` to publish this to CocoaPods.
