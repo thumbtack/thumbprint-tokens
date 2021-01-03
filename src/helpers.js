@@ -22,7 +22,10 @@ module.exports = {
         const data = options.data ? handlebars.createFrame(options.data) : undefined;
         const result = [];
 
-        const filteredSections = sections.filter(s => s.tokens.some(t => t.platforms[platform]));
+        const sectionFilter = s =>
+            (s.tokens && s.tokens.some(t => t.platforms[platform])) ||
+            (s.subcategories && s.subcategories.some(sectionFilter));
+        const filteredSections = sections.filter(sectionFilter);
 
         for (let i = 0; i < filteredSections.length; i += 1) {
             data.index = i;

@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+-   [Minor] Update schema to support nested categories.
+-   [Minor] Add button theme tokens for all platforms.
+
 ## 12.1.1 - 2020-07-08
 
 ### Changed

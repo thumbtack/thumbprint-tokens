@@ -45,7 +45,8 @@ const typeDefs = gql`
     type Category {
         name: String!
         description: String
-        tokens: [Token]
+        tokens: [Token!]
+        subcategories: [Category!]
     }
 
     type Query {
@@ -67,12 +68,17 @@ const resolvers = {
             // Only return the tokens that have a value in the desired
             // platform. Categories that don't have any tokens in that
             // platform are omitted entirely.
-            return tokens
-                .map(category => ({
-                    ...category,
-                    ...{ tokens: category.tokens.filter(token => token.platforms[platform]) },
-                }))
-                .filter(category => category.tokens.length > 0);
+            const mapCategory = category => ({
+                ...category,
+                ...{
+                    tokens: category.tokens.filter(token => token.platforms[platform]),
+                    subcategories: category.subcategories.map(mapCategory),
+                },
+            });
+            const categoryFilter = s =>
+                (s.tokens && s.tokens.some(t => t.platforms[platform])) ||
+                (s.subcategories && s.subcategories.some(categoryFilter));
+            return tokens.map(category => mapCategory(category)).filter(categoryFilter);
         },
     },
 };

@@ -2719,4 +2719,1281 @@ module.exports = [
             },
         ],
     },
+    {
+        name: 'Button',
+        subcategories: [
+            {
+                name: 'Theme',
+                subcategories: [
+                    {
+                        name: 'Title Color',
+                        tokens: [
+                            {
+                                id: 'button-theme-title-color-primary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__title-color__primary',
+                                        value: '#ffffff',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeTitleColorPrimary',
+                                        value: '#ffffff',
+                                    },
+                                    ios: {
+                                        name: 'primary',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_title_color_primary',
+                                        value: '#ffffff',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-title-color-secondary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__title-color__secondary',
+                                        value: '#009fd9',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeTitleColorSecondary',
+                                        value: '#009fd9',
+                                    },
+                                    ios: {
+                                        name: 'secondary',
+                                        value:
+                                            'UIColor = UIColor(red: 0.0, green: 0.62352943, blue: 0.8509804, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_title_color_secondary',
+                                        value: '#009fd9',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-title-color-tertiary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__title-color__tertiary',
+                                        value: '#676d73',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeTitleColorTertiary',
+                                        value: '#676d73',
+                                    },
+                                    ios: {
+                                        name: 'tertiary',
+                                        value:
+                                            'UIColor = UIColor(red: 0.40392157, green: 0.42745098, blue: 0.4509804, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_title_color_tertiary',
+                                        value: '#676d73',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-title-color-caution',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__title-color__caution',
+                                        value: '#ff5a5f',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeTitleColorCaution',
+                                        value: '#ff5a5f',
+                                    },
+                                    ios: {
+                                        name: 'caution',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 0.3529412, blue: 0.37254903, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_title_color_caution',
+                                        value: '#ff5a5f',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-title-color-solid',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__title-color__solid',
+                                        value: '#2f3033',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeTitleColorSolid',
+                                        value: '#2f3033',
+                                    },
+                                    ios: {
+                                        name: 'solid',
+                                        value:
+                                            'UIColor = UIColor(red: 0.18431373, green: 0.1882353, blue: 0.2, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_title_color_solid',
+                                        value: '#2f3033',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-title-color-text',
+                                platforms: {
+                                    ios: {
+                                        name: 'text',
+                                        value:
+                                            'UIColor = UIColor(red: 0.18431373, green: 0.1882353, blue: 0.2, alpha: 1.0)',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-title-color-link',
+                                platforms: {
+                                    ios: {
+                                        name: 'link',
+                                        value:
+                                            'UIColor = UIColor(red: 0.0, green: 0.62352943, blue: 0.8509804, alpha: 1.0)',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'Active Title Color',
+                        tokens: [
+                            {
+                                id: 'button-theme-active-title-color-primary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__active-title-color__primary',
+                                        value: '#ffffff',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeActiveTitleColorPrimary',
+                                        value: '#ffffff',
+                                    },
+                                    ios: {
+                                        name: 'primary',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_active_title_color_primary',
+                                        value: '#ffffff',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-title-color-secondary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__active-title-color__secondary',
+                                        value: '#009fd9',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeActiveTitleColorSecondary',
+                                        value: '#009fd9',
+                                    },
+                                    ios: {
+                                        name: 'secondary',
+                                        value:
+                                            'UIColor = UIColor(red: 0.0, green: 0.62352943, blue: 0.8509804, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_active_title_color_secondary',
+                                        value: '#009fd9',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-title-color-tertiary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__active-title-color__tertiary',
+                                        value: '#676d73',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeActiveTitleColorTertiary',
+                                        value: '#676d73',
+                                    },
+                                    ios: {
+                                        name: 'tertiary',
+                                        value:
+                                            'UIColor = UIColor(red: 0.40392157, green: 0.42745098, blue: 0.4509804, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_active_title_color_tertiary',
+                                        value: '#676d73',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-title-color-caution',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__active-title-color__caution',
+                                        value: '#ff5a5f',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeActiveTitleColorCaution',
+                                        value: '#ff5a5f',
+                                    },
+                                    ios: {
+                                        name: 'caution',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 0.3529412, blue: 0.37254903, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_active_title_color_caution',
+                                        value: '#ff5a5f',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-title-color-solid',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__active-title-color__solid',
+                                        value: '#2f3033',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeActiveTitleColorSolid',
+                                        value: '#2f3033',
+                                    },
+                                    ios: {
+                                        name: 'solid',
+                                        value:
+                                            'UIColor = UIColor(red: 0.18431373, green: 0.1882353, blue: 0.2, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_active_title_color_solid',
+                                        value: '#2f3033',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-title-color-text',
+                                platforms: {
+                                    ios: {
+                                        name: 'text',
+                                        value:
+                                            'UIColor = UIColor(red: 0.40392157, green: 0.42745098, blue: 0.4509804, alpha: 1.0)',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-title-color-link',
+                                platforms: {
+                                    ios: {
+                                        name: 'link',
+                                        value:
+                                            'UIColor = UIColor(red: 0.4745098, green: 0.8235294, blue: 0.9490196, alpha: 1.0)',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'Disabled Title Color',
+                        tokens: [
+                            {
+                                id: 'button-theme-disabled-title-color-primary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__disabled-title-color__primary',
+                                        value: '#ffffff',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeDisabledTitleColorPrimary',
+                                        value: '#ffffff',
+                                    },
+                                    ios: {
+                                        name: 'primary',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_disabled_title_color_primary',
+                                        value: '#ffffff',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-title-color-secondary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__disabled-title-color__secondary',
+                                        value: '#79d2f2',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeDisabledTitleColorSecondary',
+                                        value: '#79d2f2',
+                                    },
+                                    ios: {
+                                        name: 'secondary',
+                                        value:
+                                            'UIColor = UIColor(red: 0.4745098, green: 0.8235294, blue: 0.9490196, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_disabled_title_color_secondary',
+                                        value: '#79d2f2',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-title-color-tertiary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__disabled-title-color__tertiary',
+                                        value: '#d3d4d5',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeDisabledTitleColorTertiary',
+                                        value: '#d3d4d5',
+                                    },
+                                    ios: {
+                                        name: 'tertiary',
+                                        value:
+                                            'UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_disabled_title_color_tertiary',
+                                        value: '#d3d4d5',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-title-color-caution',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__disabled-title-color__caution',
+                                        value: '#ffb0b0',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeDisabledTitleColorCaution',
+                                        value: '#ffb0b0',
+                                    },
+                                    ios: {
+                                        name: 'caution',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 0.6901961, blue: 0.6901961, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_disabled_title_color_caution',
+                                        value: '#ffb0b0',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-title-color-solid',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__disabled-title-color__solid',
+                                        value: '#d3d4d5',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeDisabledTitleColorSolid',
+                                        value: '#d3d4d5',
+                                    },
+                                    ios: {
+                                        name: 'solid',
+                                        value:
+                                            'UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_disabled_title_color_solid',
+                                        value: '#d3d4d5',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-title-color-text',
+                                platforms: {
+                                    ios: {
+                                        name: 'text',
+                                        value:
+                                            'UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-title-color-link',
+                                platforms: {
+                                    ios: {
+                                        name: 'link',
+                                        value:
+                                            'UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'Background Color',
+                        tokens: [
+                            {
+                                id: 'button-theme-background-color-primary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__background-color__primary',
+                                        value: '#009fd9',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeBackgroundColorPrimary',
+                                        value: '#009fd9',
+                                    },
+                                    ios: {
+                                        name: 'primary',
+                                        value:
+                                            'UIColor = UIColor(red: 0.0, green: 0.62352943, blue: 0.8509804, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_background_color_primary',
+                                        value: '#009fd9',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-background-color-secondary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__background-color__secondary',
+                                        value: '#ffffff',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeBackgroundColorSecondary',
+                                        value: '#ffffff',
+                                    },
+                                    ios: {
+                                        name: 'secondary',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_background_color_secondary',
+                                        value: '#ffffff',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-background-color-tertiary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__background-color__tertiary',
+                                        value: '#ffffff',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeBackgroundColorTertiary',
+                                        value: '#ffffff',
+                                    },
+                                    ios: {
+                                        name: 'tertiary',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_background_color_tertiary',
+                                        value: '#ffffff',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-background-color-caution',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__background-color__caution',
+                                        value: '#ffffff',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeBackgroundColorCaution',
+                                        value: '#ffffff',
+                                    },
+                                    ios: {
+                                        name: 'caution',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_background_color_caution',
+                                        value: '#ffffff',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-background-color-solid',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__background-color__solid',
+                                        value: '#ffffff',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeBackgroundColorSolid',
+                                        value: '#ffffff',
+                                    },
+                                    ios: {
+                                        name: 'solid',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_background_color_solid',
+                                        value: '#ffffff',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-background-color-text',
+                                platforms: {
+                                    ios: {
+                                        name: 'text',
+                                        value: 'UIColor = .clear',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-background-color-link',
+                                platforms: {
+                                    ios: {
+                                        name: 'link',
+                                        value: 'UIColor = .clear',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'Active Background Color',
+                        tokens: [
+                            {
+                                id: 'button-theme-active-background-color-primary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__active-background-color__primary',
+                                        value: '#007fad',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeActiveBackgroundColorPrimary',
+                                        value: '#007fad',
+                                    },
+                                    ios: {
+                                        name: 'primary',
+                                        value:
+                                            'UIColor = UIColor(red: 0.0, green: 0.49803922, blue: 0.6784314, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_active_background_color_primary',
+                                        value: '#007fad',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-background-color-secondary',
+                                platforms: {
+                                    scss: {
+                                        name:
+                                            '$tp-button__theme__active-background-color__secondary',
+                                        value: '#ffffff',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeActiveBackgroundColorSecondary',
+                                        value: '#ffffff',
+                                    },
+                                    ios: {
+                                        name: 'secondary',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_active_background_color_secondary',
+                                        value: '#ffffff',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-background-color-tertiary',
+                                platforms: {
+                                    scss: {
+                                        name:
+                                            '$tp-button__theme__active-background-color__tertiary',
+                                        value: '#ffffff',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeActiveBackgroundColorTertiary',
+                                        value: '#ffffff',
+                                    },
+                                    ios: {
+                                        name: 'tertiary',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_active_background_color_tertiary',
+                                        value: '#ffffff',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-background-color-caution',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__active-background-color__caution',
+                                        value: '#ffffff',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeActiveBackgroundColorCaution',
+                                        value: '#ffffff',
+                                    },
+                                    ios: {
+                                        name: 'caution',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_active_background_color_caution',
+                                        value: '#ffffff',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-background-color-solid',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__active-background-color__solid',
+                                        value: '#ffffff',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeActiveBackgroundColorSolid',
+                                        value: '#ffffff',
+                                    },
+                                    ios: {
+                                        name: 'solid',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_active_background_color_solid',
+                                        value: '#ffffff',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-background-color-text',
+                                platforms: {
+                                    ios: {
+                                        name: 'text',
+                                        value: 'UIColor = .clear',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-background-color-link',
+                                platforms: {
+                                    ios: {
+                                        name: 'link',
+                                        value: 'UIColor = .clear',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'Disabled Background Color',
+                        tokens: [
+                            {
+                                id: 'button-theme-disabled-background-color-primary',
+                                platforms: {
+                                    scss: {
+                                        name:
+                                            '$tp-button__theme__disabled-background-color__primary',
+                                        value: '#79d2f2',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeDisabledBackgroundColorPrimary',
+                                        value: '#79d2f2',
+                                    },
+                                    ios: {
+                                        name: 'primary',
+                                        value:
+                                            'UIColor = UIColor(red: 0.4745098, green: 0.8235294, blue: 0.9490196, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_disabled_background_color_primary',
+                                        value: '#79d2f2',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-background-color-secondary',
+                                platforms: {
+                                    scss: {
+                                        name:
+                                            '$tp-button__theme__disabled-background-color__secondary',
+                                        value: '#ffffff',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeDisabledBackgroundColorSecondary',
+                                        value: '#ffffff',
+                                    },
+                                    ios: {
+                                        name: 'secondary',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_disabled_background_color_secondary',
+                                        value: '#ffffff',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-background-color-tertiary',
+                                platforms: {
+                                    scss: {
+                                        name:
+                                            '$tp-button__theme__disabled-background-color__tertiary',
+                                        value: '#ffffff',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeDisabledBackgroundColorTertiary',
+                                        value: '#ffffff',
+                                    },
+                                    ios: {
+                                        name: 'tertiary',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_disabled_background_color_tertiary',
+                                        value: '#ffffff',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-background-color-caution',
+                                platforms: {
+                                    scss: {
+                                        name:
+                                            '$tp-button__theme__disabled-background-color__caution',
+                                        value: '#ffffff',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeDisabledBackgroundColorCaution',
+                                        value: '#ffffff',
+                                    },
+                                    ios: {
+                                        name: 'caution',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_disabled_background_color_caution',
+                                        value: '#ffffff',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-background-color-solid',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__disabled-background-color__solid',
+                                        value: '#ffffff',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeDisabledBackgroundColorSolid',
+                                        value: '#ffffff',
+                                    },
+                                    ios: {
+                                        name: 'solid',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_disabled_background_color_solid',
+                                        value: '#ffffff',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-background-color-text',
+                                platforms: {
+                                    ios: {
+                                        name: 'text',
+                                        value: 'UIColor = .clear',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-background-color-link',
+                                platforms: {
+                                    ios: {
+                                        name: 'link',
+                                        value: 'UIColor = .clear',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'Border Color',
+                        tokens: [
+                            {
+                                id: 'button-theme-border-color-primary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__border-color__primary',
+                                        value: '#00000000',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeBorderColorPrimary',
+                                        value: '#00000000',
+                                    },
+                                    ios: {
+                                        name: 'primary',
+                                        value: 'UIColor = .clear',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_border_color_primary',
+                                        value: '#00000000',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-border-color-secondary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__border-color__secondary',
+                                        value: '#d3d4d5',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeBorderColorSecondary',
+                                        value: '#d3d4d5',
+                                    },
+                                    ios: {
+                                        name: 'secondary',
+                                        value:
+                                            'UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_border_color_secondary',
+                                        value: '#d3d4d5',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-border-color-tertiary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__border-color__tertiary',
+                                        value: '#d3d4d5',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeBorderColorTertiary',
+                                        value: '#d3d4d5',
+                                    },
+                                    ios: {
+                                        name: 'tertiary',
+                                        value:
+                                            'UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_border_color_tertiary',
+                                        value: '#d3d4d5',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-border-color-caution',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__border-color__caution',
+                                        value: '#d3d4d5',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeBorderColorCaution',
+                                        value: '#d3d4d5',
+                                    },
+                                    ios: {
+                                        name: 'caution',
+                                        value:
+                                            'UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_border_color_caution',
+                                        value: '#d3d4d5',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-border-color-solid',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__border-color__solid',
+                                        value: '#00000000',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeBorderColorSolid',
+                                        value: '#00000000',
+                                    },
+                                    ios: {
+                                        name: 'solid',
+                                        value: 'UIColor = .clear',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_border_color_solid',
+                                        value: '#00000000',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-border-color-text',
+                                platforms: {
+                                    ios: {
+                                        name: 'text',
+                                        value: 'UIColor = .clear',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-border-color-link',
+                                platforms: {
+                                    ios: {
+                                        name: 'link',
+                                        value: 'UIColor = .clear',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'Active Border Color',
+                        tokens: [
+                            {
+                                id: 'button-theme-active-border-color-primary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__active-border-color__primary',
+                                        value: '#00000000',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeActiveBorderColorPrimary',
+                                        value: '#00000000',
+                                    },
+                                    ios: {
+                                        name: 'primary',
+                                        value: 'UIColor = .clear',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_active_border_color_primary',
+                                        value: '#00000000',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-border-color-secondary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__active-border-color__secondary',
+                                        value: '#009fd9',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeActiveBorderColorSecondary',
+                                        value: '#009fd9',
+                                    },
+                                    ios: {
+                                        name: 'secondary',
+                                        value:
+                                            'UIColor = UIColor(red: 0.0, green: 0.62352943, blue: 0.8509804, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_active_border_color_secondary',
+                                        value: '#009fd9',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-border-color-tertiary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__active-border-color__tertiary',
+                                        value: '#676d73',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeActiveBorderColorTertiary',
+                                        value: '#676d73',
+                                    },
+                                    ios: {
+                                        name: 'tertiary',
+                                        value:
+                                            'UIColor = UIColor(red: 0.40392157, green: 0.42745098, blue: 0.4509804, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_active_border_color_tertiary',
+                                        value: '#676d73',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-border-color-caution',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__active-border-color__caution',
+                                        value: '#ff5a5f',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeActiveBorderColorCaution',
+                                        value: '#ff5a5f',
+                                    },
+                                    ios: {
+                                        name: 'caution',
+                                        value:
+                                            'UIColor = UIColor(red: 1.0, green: 0.3529412, blue: 0.37254903, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_active_border_color_caution',
+                                        value: '#ff5a5f',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-border-color-solid',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__active-border-color__solid',
+                                        value: '#2f3033',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeActiveBorderColorSolid',
+                                        value: '#2f3033',
+                                    },
+                                    ios: {
+                                        name: 'solid',
+                                        value:
+                                            'UIColor = UIColor(red: 0.18431373, green: 0.1882353, blue: 0.2, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_active_border_color_solid',
+                                        value: '#2f3033',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-border-color-text',
+                                platforms: {
+                                    ios: {
+                                        name: 'text',
+                                        value: 'UIColor = .clear',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-active-border-color-link',
+                                platforms: {
+                                    ios: {
+                                        name: 'link',
+                                        value: 'UIColor = .clear',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'Disabled Border Color',
+                        tokens: [
+                            {
+                                id: 'button-theme-disabled-border-color-primary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__disabled-border-color__primary',
+                                        value: '#00000000',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeDisabledBorderColorPrimary',
+                                        value: '#00000000',
+                                    },
+                                    ios: {
+                                        name: 'primary',
+                                        value: 'UIColor = .clear',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_disabled_border_color_primary',
+                                        value: '#00000000',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-border-color-secondary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__disabled-border-color__secondary',
+                                        value: '#e9eced',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeDisabledBorderColorSecondary',
+                                        value: '#e9eced',
+                                    },
+                                    ios: {
+                                        name: 'secondary',
+                                        value:
+                                            'UIColor = UIColor(red: 0.9137255, green: 0.9254902, blue: 0.92941177, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_disabled_border_color_secondary',
+                                        value: '#e9eced',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-border-color-tertiary',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__disabled-border-color__tertiary',
+                                        value: '#e9eced',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeDisabledBorderColorTertiary',
+                                        value: '#e9eced',
+                                    },
+                                    ios: {
+                                        name: 'tertiary',
+                                        value:
+                                            'UIColor = UIColor(red: 0.9137255, green: 0.9254902, blue: 0.92941177, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_disabled_border_color_tertiary',
+                                        value: '#e9eced',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-border-color-caution',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__disabled-border-color__caution',
+                                        value: '#e9eced',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeDisabledBorderColorCaution',
+                                        value: '#e9eced',
+                                    },
+                                    ios: {
+                                        name: 'caution',
+                                        value:
+                                            'UIColor = UIColor(red: 0.9137255, green: 0.9254902, blue: 0.92941177, alpha: 1.0)',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_disabled_border_color_caution',
+                                        value: '#e9eced',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-border-color-solid',
+                                platforms: {
+                                    scss: {
+                                        name: '$tp-button__theme__disabled-border-color__solid',
+                                        value: '#00000000',
+                                    },
+                                    javascript: {
+                                        name: 'tpButtonThemeDisabledBorderColorSolid',
+                                        value: '#00000000',
+                                    },
+                                    ios: {
+                                        name: 'solid',
+                                        value: 'UIColor = .clear',
+                                    },
+                                    android: {
+                                        name: 'tp_button_theme_disabled_border_color_solid',
+                                        value: '#00000000',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-border-color-text',
+                                platforms: {
+                                    ios: {
+                                        name: 'text',
+                                        value: 'UIColor = .clear',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                            {
+                                id: 'button-theme-disabled-border-color-link',
+                                platforms: {
+                                    ios: {
+                                        name: 'link',
+                                        value: 'UIColor = .clear',
+                                    },
+                                },
+                                format: 'color',
+                            },
+                        ],
+                    },
+                ],
+            },
+        ],
+    },
 ];

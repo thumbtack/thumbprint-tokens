@@ -59,6 +59,51 @@ exports[`outputted Android matches snapshot 1`] = `
     <dimen name=\\"tp_space_4\\">24dp</dimen>
     <dimen name=\\"tp_space_5\\">32dp</dimen>
     <dimen name=\\"tp_space_6\\">48dp</dimen>
+    <color name=\\"tp_button_theme_title_color_primary\\">#ffffff</color>
+    <color name=\\"tp_button_theme_title_color_secondary\\">#009fd9</color>
+    <color name=\\"tp_button_theme_title_color_tertiary\\">#676d73</color>
+    <color name=\\"tp_button_theme_title_color_caution\\">#ff5a5f</color>
+    <color name=\\"tp_button_theme_title_color_solid\\">#2f3033</color>
+    <color name=\\"tp_button_theme_active_title_color_primary\\">#ffffff</color>
+    <color name=\\"tp_button_theme_active_title_color_secondary\\">#009fd9</color>
+    <color name=\\"tp_button_theme_active_title_color_tertiary\\">#676d73</color>
+    <color name=\\"tp_button_theme_active_title_color_caution\\">#ff5a5f</color>
+    <color name=\\"tp_button_theme_active_title_color_solid\\">#2f3033</color>
+    <color name=\\"tp_button_theme_disabled_title_color_primary\\">#ffffff</color>
+    <color name=\\"tp_button_theme_disabled_title_color_secondary\\">#79d2f2</color>
+    <color name=\\"tp_button_theme_disabled_title_color_tertiary\\">#d3d4d5</color>
+    <color name=\\"tp_button_theme_disabled_title_color_caution\\">#ffb0b0</color>
+    <color name=\\"tp_button_theme_disabled_title_color_solid\\">#d3d4d5</color>
+    <color name=\\"tp_button_theme_background_color_primary\\">#009fd9</color>
+    <color name=\\"tp_button_theme_background_color_secondary\\">#ffffff</color>
+    <color name=\\"tp_button_theme_background_color_tertiary\\">#ffffff</color>
+    <color name=\\"tp_button_theme_background_color_caution\\">#ffffff</color>
+    <color name=\\"tp_button_theme_background_color_solid\\">#ffffff</color>
+    <color name=\\"tp_button_theme_active_background_color_primary\\">#007fad</color>
+    <color name=\\"tp_button_theme_active_background_color_secondary\\">#ffffff</color>
+    <color name=\\"tp_button_theme_active_background_color_tertiary\\">#ffffff</color>
+    <color name=\\"tp_button_theme_active_background_color_caution\\">#ffffff</color>
+    <color name=\\"tp_button_theme_active_background_color_solid\\">#ffffff</color>
+    <color name=\\"tp_button_theme_disabled_background_color_primary\\">#79d2f2</color>
+    <color name=\\"tp_button_theme_disabled_background_color_secondary\\">#ffffff</color>
+    <color name=\\"tp_button_theme_disabled_background_color_tertiary\\">#ffffff</color>
+    <color name=\\"tp_button_theme_disabled_background_color_caution\\">#ffffff</color>
+    <color name=\\"tp_button_theme_disabled_background_color_solid\\">#ffffff</color>
+    <color name=\\"tp_button_theme_border_color_primary\\">#00000000</color>
+    <color name=\\"tp_button_theme_border_color_secondary\\">#d3d4d5</color>
+    <color name=\\"tp_button_theme_border_color_tertiary\\">#d3d4d5</color>
+    <color name=\\"tp_button_theme_border_color_caution\\">#d3d4d5</color>
+    <color name=\\"tp_button_theme_border_color_solid\\">#00000000</color>
+    <color name=\\"tp_button_theme_active_border_color_primary\\">#00000000</color>
+    <color name=\\"tp_button_theme_active_border_color_secondary\\">#009fd9</color>
+    <color name=\\"tp_button_theme_active_border_color_tertiary\\">#676d73</color>
+    <color name=\\"tp_button_theme_active_border_color_caution\\">#ff5a5f</color>
+    <color name=\\"tp_button_theme_active_border_color_solid\\">#2f3033</color>
+    <color name=\\"tp_button_theme_disabled_border_color_primary\\">#00000000</color>
+    <color name=\\"tp_button_theme_disabled_border_color_secondary\\">#e9eced</color>
+    <color name=\\"tp_button_theme_disabled_border_color_tertiary\\">#e9eced</color>
+    <color name=\\"tp_button_theme_disabled_border_color_caution\\">#e9eced</color>
+    <color name=\\"tp_button_theme_disabled_border_color_solid\\">#00000000</color>
 </resources>
 "
 `;
@@ -207,6 +252,51 @@ exports.tpSpace8 = \\"256px\\";
 exports.tpWrapMaxWidth = \\"946px\\";
 exports.tpWrapNoPadWidth = \\"1010px\\";
 exports.tpZIndexModal = 200;
+exports.tpButtonThemeTitleColorPrimary = \\"#ffffff\\";
+exports.tpButtonThemeTitleColorSecondary = \\"#009fd9\\";
+exports.tpButtonThemeTitleColorTertiary = \\"#676d73\\";
+exports.tpButtonThemeTitleColorCaution = \\"#ff5a5f\\";
+exports.tpButtonThemeTitleColorSolid = \\"#2f3033\\";
+exports.tpButtonThemeActiveTitleColorPrimary = \\"#ffffff\\";
+exports.tpButtonThemeActiveTitleColorSecondary = \\"#009fd9\\";
+exports.tpButtonThemeActiveTitleColorTertiary = \\"#676d73\\";
+exports.tpButtonThemeActiveTitleColorCaution = \\"#ff5a5f\\";
+exports.tpButtonThemeActiveTitleColorSolid = \\"#2f3033\\";
+exports.tpButtonThemeDisabledTitleColorPrimary = \\"#ffffff\\";
+exports.tpButtonThemeDisabledTitleColorSecondary = \\"#79d2f2\\";
+exports.tpButtonThemeDisabledTitleColorTertiary = \\"#d3d4d5\\";
+exports.tpButtonThemeDisabledTitleColorCaution = \\"#ffb0b0\\";
+exports.tpButtonThemeDisabledTitleColorSolid = \\"#d3d4d5\\";
+exports.tpButtonThemeBackgroundColorPrimary = \\"#009fd9\\";
+exports.tpButtonThemeBackgroundColorSecondary = \\"#ffffff\\";
+exports.tpButtonThemeBackgroundColorTertiary = \\"#ffffff\\";
+exports.tpButtonThemeBackgroundColorCaution = \\"#ffffff\\";
+exports.tpButtonThemeBackgroundColorSolid = \\"#ffffff\\";
+exports.tpButtonThemeActiveBackgroundColorPrimary = \\"#007fad\\";
+exports.tpButtonThemeActiveBackgroundColorSecondary = \\"#ffffff\\";
+exports.tpButtonThemeActiveBackgroundColorTertiary = \\"#ffffff\\";
+exports.tpButtonThemeActiveBackgroundColorCaution = \\"#ffffff\\";
+exports.tpButtonThemeActiveBackgroundColorSolid = \\"#ffffff\\";
+exports.tpButtonThemeDisabledBackgroundColorPrimary = \\"#79d2f2\\";
+exports.tpButtonThemeDisabledBackgroundColorSecondary = \\"#ffffff\\";
+exports.tpButtonThemeDisabledBackgroundColorTertiary = \\"#ffffff\\";
+exports.tpButtonThemeDisabledBackgroundColorCaution = \\"#ffffff\\";
+exports.tpButtonThemeDisabledBackgroundColorSolid = \\"#ffffff\\";
+exports.tpButtonThemeBorderColorPrimary = \\"#00000000\\";
+exports.tpButtonThemeBorderColorSecondary = \\"#d3d4d5\\";
+exports.tpButtonThemeBorderColorTertiary = \\"#d3d4d5\\";
+exports.tpButtonThemeBorderColorCaution = \\"#d3d4d5\\";
+exports.tpButtonThemeBorderColorSolid = \\"#00000000\\";
+exports.tpButtonThemeActiveBorderColorPrimary = \\"#00000000\\";
+exports.tpButtonThemeActiveBorderColorSecondary = \\"#009fd9\\";
+exports.tpButtonThemeActiveBorderColorTertiary = \\"#676d73\\";
+exports.tpButtonThemeActiveBorderColorCaution = \\"#ff5a5f\\";
+exports.tpButtonThemeActiveBorderColorSolid = \\"#2f3033\\";
+exports.tpButtonThemeDisabledBorderColorPrimary = \\"#00000000\\";
+exports.tpButtonThemeDisabledBorderColorSecondary = \\"#e9eced\\";
+exports.tpButtonThemeDisabledBorderColorTertiary = \\"#e9eced\\";
+exports.tpButtonThemeDisabledBorderColorCaution = \\"#e9eced\\";
+exports.tpButtonThemeDisabledBorderColorSolid = \\"#00000000\\";
 "
 `;
 
@@ -352,6 +442,51 @@ export var tpSpace8 = \\"256px\\";
 export var tpWrapMaxWidth = \\"946px\\";
 export var tpWrapNoPadWidth = \\"1010px\\";
 export var tpZIndexModal = 200;
+export var tpButtonThemeTitleColorPrimary = \\"#ffffff\\";
+export var tpButtonThemeTitleColorSecondary = \\"#009fd9\\";
+export var tpButtonThemeTitleColorTertiary = \\"#676d73\\";
+export var tpButtonThemeTitleColorCaution = \\"#ff5a5f\\";
+export var tpButtonThemeTitleColorSolid = \\"#2f3033\\";
+export var tpButtonThemeActiveTitleColorPrimary = \\"#ffffff\\";
+export var tpButtonThemeActiveTitleColorSecondary = \\"#009fd9\\";
+export var tpButtonThemeActiveTitleColorTertiary = \\"#676d73\\";
+export var tpButtonThemeActiveTitleColorCaution = \\"#ff5a5f\\";
+export var tpButtonThemeActiveTitleColorSolid = \\"#2f3033\\";
+export var tpButtonThemeDisabledTitleColorPrimary = \\"#ffffff\\";
+export var tpButtonThemeDisabledTitleColorSecondary = \\"#79d2f2\\";
+export var tpButtonThemeDisabledTitleColorTertiary = \\"#d3d4d5\\";
+export var tpButtonThemeDisabledTitleColorCaution = \\"#ffb0b0\\";
+export var tpButtonThemeDisabledTitleColorSolid = \\"#d3d4d5\\";
+export var tpButtonThemeBackgroundColorPrimary = \\"#009fd9\\";
+export var tpButtonThemeBackgroundColorSecondary = \\"#ffffff\\";
+export var tpButtonThemeBackgroundColorTertiary = \\"#ffffff\\";
+export var tpButtonThemeBackgroundColorCaution = \\"#ffffff\\";
+export var tpButtonThemeBackgroundColorSolid = \\"#ffffff\\";
+export var tpButtonThemeActiveBackgroundColorPrimary = \\"#007fad\\";
+export var tpButtonThemeActiveBackgroundColorSecondary = \\"#ffffff\\";
+export var tpButtonThemeActiveBackgroundColorTertiary = \\"#ffffff\\";
+export var tpButtonThemeActiveBackgroundColorCaution = \\"#ffffff\\";
+export var tpButtonThemeActiveBackgroundColorSolid = \\"#ffffff\\";
+export var tpButtonThemeDisabledBackgroundColorPrimary = \\"#79d2f2\\";
+export var tpButtonThemeDisabledBackgroundColorSecondary = \\"#ffffff\\";
+export var tpButtonThemeDisabledBackgroundColorTertiary = \\"#ffffff\\";
+export var tpButtonThemeDisabledBackgroundColorCaution = \\"#ffffff\\";
+export var tpButtonThemeDisabledBackgroundColorSolid = \\"#ffffff\\";
+export var tpButtonThemeBorderColorPrimary = \\"#00000000\\";
+export var tpButtonThemeBorderColorSecondary = \\"#d3d4d5\\";
+export var tpButtonThemeBorderColorTertiary = \\"#d3d4d5\\";
+export var tpButtonThemeBorderColorCaution = \\"#d3d4d5\\";
+export var tpButtonThemeBorderColorSolid = \\"#00000000\\";
+export var tpButtonThemeActiveBorderColorPrimary = \\"#00000000\\";
+export var tpButtonThemeActiveBorderColorSecondary = \\"#009fd9\\";
+export var tpButtonThemeActiveBorderColorTertiary = \\"#676d73\\";
+export var tpButtonThemeActiveBorderColorCaution = \\"#ff5a5f\\";
+export var tpButtonThemeActiveBorderColorSolid = \\"#2f3033\\";
+export var tpButtonThemeDisabledBorderColorPrimary = \\"#00000000\\";
+export var tpButtonThemeDisabledBorderColorSecondary = \\"#e9eced\\";
+export var tpButtonThemeDisabledBorderColorTertiary = \\"#e9eced\\";
+export var tpButtonThemeDisabledBorderColorCaution = \\"#e9eced\\";
+export var tpButtonThemeDisabledBorderColorSolid = \\"#00000000\\";
 "
 `;
 
@@ -497,6 +632,51 @@ $tp-space__8: 256px;
 $tp-wrap__max-width: 946px;
 $tp-wrap__no-pad-width: 1010px;
 $tp-z-index__modal: 200;
+$tp-button__theme__title-color__primary: #ffffff;
+$tp-button__theme__title-color__secondary: #009fd9;
+$tp-button__theme__title-color__tertiary: #676d73;
+$tp-button__theme__title-color__caution: #ff5a5f;
+$tp-button__theme__title-color__solid: #2f3033;
+$tp-button__theme__active-title-color__primary: #ffffff;
+$tp-button__theme__active-title-color__secondary: #009fd9;
+$tp-button__theme__active-title-color__tertiary: #676d73;
+$tp-button__theme__active-title-color__caution: #ff5a5f;
+$tp-button__theme__active-title-color__solid: #2f3033;
+$tp-button__theme__disabled-title-color__primary: #ffffff;
+$tp-button__theme__disabled-title-color__secondary: #79d2f2;
+$tp-button__theme__disabled-title-color__tertiary: #d3d4d5;
+$tp-button__theme__disabled-title-color__caution: #ffb0b0;
+$tp-button__theme__disabled-title-color__solid: #d3d4d5;
+$tp-button__theme__background-color__primary: #009fd9;
+$tp-button__theme__background-color__secondary: #ffffff;
+$tp-button__theme__background-color__tertiary: #ffffff;
+$tp-button__theme__background-color__caution: #ffffff;
+$tp-button__theme__background-color__solid: #ffffff;
+$tp-button__theme__active-background-color__primary: #007fad;
+$tp-button__theme__active-background-color__secondary: #ffffff;
+$tp-button__theme__active-background-color__tertiary: #ffffff;
+$tp-button__theme__active-background-color__caution: #ffffff;
+$tp-button__theme__active-background-color__solid: #ffffff;
+$tp-button__theme__disabled-background-color__primary: #79d2f2;
+$tp-button__theme__disabled-background-color__secondary: #ffffff;
+$tp-button__theme__disabled-background-color__tertiary: #ffffff;
+$tp-button__theme__disabled-background-color__caution: #ffffff;
+$tp-button__theme__disabled-background-color__solid: #ffffff;
+$tp-button__theme__border-color__primary: #00000000;
+$tp-button__theme__border-color__secondary: #d3d4d5;
+$tp-button__theme__border-color__tertiary: #d3d4d5;
+$tp-button__theme__border-color__caution: #d3d4d5;
+$tp-button__theme__border-color__solid: #00000000;
+$tp-button__theme__active-border-color__primary: #00000000;
+$tp-button__theme__active-border-color__secondary: #009fd9;
+$tp-button__theme__active-border-color__tertiary: #676d73;
+$tp-button__theme__active-border-color__caution: #ff5a5f;
+$tp-button__theme__active-border-color__solid: #2f3033;
+$tp-button__theme__disabled-border-color__primary: #00000000;
+$tp-button__theme__disabled-border-color__secondary: #e9eced;
+$tp-button__theme__disabled-border-color__tertiary: #e9eced;
+$tp-button__theme__disabled-border-color__caution: #e9eced;
+$tp-button__theme__disabled-border-color__solid: #00000000;
 "
 `;
 
@@ -664,6 +844,92 @@ public enum Space {
     public static let five: CGFloat = 32.0
     /// Space 6 – 48.0pt
     public static let six: CGFloat = 48.0
+}
+
+public enum Button {
+    public enum Theme {
+        public enum TitleColor {
+            public static let primary: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            public static let secondary: UIColor = UIColor(red: 0.0, green: 0.62352943, blue: 0.8509804, alpha: 1.0)
+            public static let tertiary: UIColor = UIColor(red: 0.40392157, green: 0.42745098, blue: 0.4509804, alpha: 1.0)
+            public static let caution: UIColor = UIColor(red: 1.0, green: 0.3529412, blue: 0.37254903, alpha: 1.0)
+            public static let solid: UIColor = UIColor(red: 0.18431373, green: 0.1882353, blue: 0.2, alpha: 1.0)
+            public static let text: UIColor = UIColor(red: 0.18431373, green: 0.1882353, blue: 0.2, alpha: 1.0)
+            public static let link: UIColor = UIColor(red: 0.0, green: 0.62352943, blue: 0.8509804, alpha: 1.0)
+        }
+        public enum ActiveTitleColor {
+            public static let primary: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            public static let secondary: UIColor = UIColor(red: 0.0, green: 0.62352943, blue: 0.8509804, alpha: 1.0)
+            public static let tertiary: UIColor = UIColor(red: 0.40392157, green: 0.42745098, blue: 0.4509804, alpha: 1.0)
+            public static let caution: UIColor = UIColor(red: 1.0, green: 0.3529412, blue: 0.37254903, alpha: 1.0)
+            public static let solid: UIColor = UIColor(red: 0.18431373, green: 0.1882353, blue: 0.2, alpha: 1.0)
+            public static let text: UIColor = UIColor(red: 0.40392157, green: 0.42745098, blue: 0.4509804, alpha: 1.0)
+            public static let link: UIColor = UIColor(red: 0.4745098, green: 0.8235294, blue: 0.9490196, alpha: 1.0)
+        }
+        public enum DisabledTitleColor {
+            public static let primary: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            public static let secondary: UIColor = UIColor(red: 0.4745098, green: 0.8235294, blue: 0.9490196, alpha: 1.0)
+            public static let tertiary: UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)
+            public static let caution: UIColor = UIColor(red: 1.0, green: 0.6901961, blue: 0.6901961, alpha: 1.0)
+            public static let solid: UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)
+            public static let text: UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)
+            public static let link: UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)
+        }
+        public enum BackgroundColor {
+            public static let primary: UIColor = UIColor(red: 0.0, green: 0.62352943, blue: 0.8509804, alpha: 1.0)
+            public static let secondary: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            public static let tertiary: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            public static let caution: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            public static let solid: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            public static let text: UIColor = .clear
+            public static let link: UIColor = .clear
+        }
+        public enum ActiveBackgroundColor {
+            public static let primary: UIColor = UIColor(red: 0.0, green: 0.49803922, blue: 0.6784314, alpha: 1.0)
+            public static let secondary: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            public static let tertiary: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            public static let caution: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            public static let solid: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            public static let text: UIColor = .clear
+            public static let link: UIColor = .clear
+        }
+        public enum DisabledBackgroundColor {
+            public static let primary: UIColor = UIColor(red: 0.4745098, green: 0.8235294, blue: 0.9490196, alpha: 1.0)
+            public static let secondary: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            public static let tertiary: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            public static let caution: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            public static let solid: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            public static let text: UIColor = .clear
+            public static let link: UIColor = .clear
+        }
+        public enum BorderColor {
+            public static let primary: UIColor = .clear
+            public static let secondary: UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)
+            public static let tertiary: UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)
+            public static let caution: UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)
+            public static let solid: UIColor = .clear
+            public static let text: UIColor = .clear
+            public static let link: UIColor = .clear
+        }
+        public enum ActiveBorderColor {
+            public static let primary: UIColor = .clear
+            public static let secondary: UIColor = UIColor(red: 0.0, green: 0.62352943, blue: 0.8509804, alpha: 1.0)
+            public static let tertiary: UIColor = UIColor(red: 0.40392157, green: 0.42745098, blue: 0.4509804, alpha: 1.0)
+            public static let caution: UIColor = UIColor(red: 1.0, green: 0.3529412, blue: 0.37254903, alpha: 1.0)
+            public static let solid: UIColor = UIColor(red: 0.18431373, green: 0.1882353, blue: 0.2, alpha: 1.0)
+            public static let text: UIColor = .clear
+            public static let link: UIColor = .clear
+        }
+        public enum DisabledBorderColor {
+            public static let primary: UIColor = .clear
+            public static let secondary: UIColor = UIColor(red: 0.9137255, green: 0.9254902, blue: 0.92941177, alpha: 1.0)
+            public static let tertiary: UIColor = UIColor(red: 0.9137255, green: 0.9254902, blue: 0.92941177, alpha: 1.0)
+            public static let caution: UIColor = UIColor(red: 0.9137255, green: 0.9254902, blue: 0.92941177, alpha: 1.0)
+            public static let solid: UIColor = .clear
+            public static let text: UIColor = .clear
+            public static let link: UIColor = .clear
+        }
+    }
 }
 "
 `;

@@ -1,27 +1,34 @@
 import UIKit.UIColor
 
-{{#eachSectionWithPlatformTokens this "ios"}}
+{{#*inline "sectionPartial"}}
 {{#if description}}
 /// {{description}}
 {{/if}}
 public enum {{removeSpaces this.name}} {
     {{#each tokens as |token|}}
-    {{#if token.platforms.ios}}
-    {{#if token.platforms.ios.description}}
+        {{#if token.platforms.ios}}
+            {{#if token.platforms.ios.description}}
     /// {{token.platforms.ios.description}}
-    {{/if}}
-    {{#if token.deprecated}}
+            {{/if}}
+            {{#if token.deprecated}}
     @available(*, deprecated)
-    {{/if}}
-    {{#ifEquals token.format "fontWeight"}}
+            {{/if}}
+            {{#ifEquals token.format "fontWeight"}}
     case {{token.platforms.ios.name}}
-    {{else}}
+            {{else}}
     public static let {{token.platforms.ios.name}}: {{{token.platforms.ios.value}}}
-    {{/ifEquals}}
-    {{/if}}
+            {{/ifEquals}}
+        {{/if}}
     {{/each}}
+    {{#eachSectionWithPlatformTokens subcategories "ios"}}
+    {{> sectionPartial}}
+    {{/eachSectionWithPlatformTokens}}
 }
-{{#unless @last}}
+{{/inline ~}}
 
-{{/unless}}
+{{#eachSectionWithPlatformTokens this "ios"}}
+    {{~> sectionPartial}}
+    {{#unless @last}}
+
+    {{/unless}}
 {{/eachSectionWithPlatformTokens}}

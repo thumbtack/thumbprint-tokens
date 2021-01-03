@@ -14,6 +14,75 @@ Thumbprint Tokens are published as JavaScript, SCSS, Swift, and Kotlin.
 
 You can use the [Thumbprint Tokens GraphQL server](https://thumbprint-tokens.netlify.com/) to query tokens and view the schema.
 
+Button, Theme, Title Color, Active, primary Tokens should follow this recommended hierarchy: `[<component-name>] <category-name> [<option-name> <state>] <token>`.
+
+-   For example, a simple token category like Space would look like:
+    ```
+    Space (Category)
+      |
+      |--- one (Token)
+      |--- two
+      ...
+    ```
+-   A more complex, component-level token category such as button themes might have a structure like:
+    ```
+    Button (Component)
+      |
+      |--- Theme (Category)
+             |
+             |--- Title Color (Option)
+                    |
+                    |--- Default (State)
+                      |
+                      |--- primary (Token)
+                      |--- secondary
+                      |--- tertiary
+                      |--- caution
+                      |--- solid
+                    |--- Active
+                      |
+                      |--- primary
+                      |--- secondary
+                      |--- ...
+                    |--- Disabled
+                      |
+                      |--- primary
+                      |--- secondary
+                      |--- ...
+             |--- Background Color
+                    |
+                    |--- Default
+                      |
+                      |--- ...
+                    |--- Active
+                      |
+                      |--- ...
+                    |--- Disabled
+                      |
+                      |--- ...
+             |--- Border Color
+                    |
+                    |--- Default
+                      |
+                      |--- ...
+                    |--- Active
+                      |
+                      |--- ...
+                    |--- Disabled
+                      |
+                      |--- ...
+      |--- Size
+             |
+             |--- ...
+    ```
+
+## Updating tokens
+
+1. **Make changes to tokens:** Make the desired changes to `src/tokens.js`.
+2. **Update tests:** Run `yarn test` to run the test suite. Assuming you made substantive changes to the tokens, the tests should fail, printing a diff of expected vs. actual output. If the diff looks correct based on the changes you made, run `yarn test:jest -u` to save these changes as the new expected baseline.
+3. **Update the changeload:** In `CHANGELOG.md`, summarize your changes under the "Unreleased" heading.
+4. **Submit pull request:** Commit all changes and submit a new pull request.
+
 ## Releasing
 
 1. **Pull latest changes:** Run `git checkout master && git pull` to grab the latest changes rom GitHub.

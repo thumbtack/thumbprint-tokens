@@ -1,13 +1,20 @@
-{{#each this as |section|}}
-{{#each section.tokens as |token|}}
-{{#if token.platforms.scss.value}}
-{{#if token.platforms.scss.description}}
-// {{token.platforms.scss.description}}
-{{/if}}
-{{#if token.deprecated}}
-// @deprecated
-{{/if}}
-{{token.platforms.scss.name}}: {{{token.platforms.scss.value}}};
-{{/if}}
-{{/each}}
+{{#*inline "sectionPartial"}}
+    {{#each tokens as |token|}}
+        {{#if token.platforms.scss.value}}
+            {{#if token.platforms.scss.description ~}}
+                // {{token.platforms.scss.description}}
+            {{/if}}
+            {{#if token.deprecated ~}}
+                // @deprecated
+            {{/if ~}}
+            {{token.platforms.scss.name}}: {{{token.platforms.scss.value}}};
+        {{/if}}
+    {{/each}}
+    {{#each subcategories}}
+        {{~> sectionPartial}}
+    {{/each}}
+{{/inline ~}}
+
+{{#each this}}
+    {{~> sectionPartial}}
 {{/each}}
