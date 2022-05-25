@@ -20,8 +20,7 @@
         "lint:prettier": "prettier \"**/*.{js,jsx,css,scss,json,md,mdx,html}\" --check",
         "test": "jest",
         "static": "yarn typecheck && yarn lint:js && yarn lint:prettier",
-        "verify": "yarn netlify-zip-it-ship-it-issue-38-workaround && yarn start && yarn static && yarn test",
-        "netlify-zip-it-ship-it-issue-38-workaround": "cp src/tokens.ts functions/graphql/tokens-copy.ts && cp package.json functions/graphql/package-copy.json",
+        "verify": "yarn start && yarn static && yarn test",
         "prepublish": "yarn start",
         "release": "np --no-release-draft"
     },

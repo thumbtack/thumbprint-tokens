@@ -8,10 +8,10 @@ jobs:
         runs-on: ubuntu-20.04
         steps:
             - uses: actions/checkout@master
-            - name: Use Node.js 12.x
+            - name: Use Node.js 16.x
               uses: actions/setup-node@v1
               with:
-                  node-version: 12.x
+                  node-version: 16.x
             - name: Restore Yarn cache
               uses: actions/cache@v2
               with:
@@ -21,19 +21,19 @@ jobs:
                   key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
             - name: Install dependencies
               run: |
-                  yarn install --frozen-lockfile
+                  yarn install
             - name: Run Jest
               run: |
-                  yarn netlify-zip-it-ship-it-issue-38-workaround && yarn start && yarn run test:jest
+                  yarn start && yarn test
     eslint:
         name: ESLint
         runs-on: ubuntu-20.04
         steps:
             - uses: actions/checkout@master
-            - name: Use Node.js 12.x
+            - name: Use Node.js 16.x
               uses: actions/setup-node@v1
               with:
-                  node-version: 12.x
+                  node-version: 16.x
             - name: Restore Yarn cache
               uses: actions/cache@v2
               with:
@@ -46,16 +46,16 @@ jobs:
                   yarn install --frozen-lockfile
             - name: Run ESLint
               run: |
-                  yarn netlify-zip-it-ship-it-issue-38-workaround && yarn start && yarn run test:eslint
+                  yarn start && yarn lint:js
     prettier:
         name: Prettier
         runs-on: ubuntu-20.04
         steps:
             - uses: actions/checkout@master
-            - name: Use Node.js 12.x
+            - name: Use Node.js 16.x
               uses: actions/setup-node@v1
               with:
-                  node-version: 12.x
+                  node-version: 16.x
             - name: Restore Yarn cache
               uses: actions/cache@v2
               with:
@@ -65,7 +65,7 @@ jobs:
                   key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
             - name: Install dependencies
               run: |
-                  yarn install --frozen-lockfile
+                  yarn install
             - name: Run Prettier
               run: |
-                  yarn netlify-zip-it-ship-it-issue-38-workaround && yarn start && yarn run test:prettier
+                  yarn start && yarn lint:prettier
