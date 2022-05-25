@@ -1,6 +1,6 @@
-const JSZip = require('jszip');
-const fs = require('fs');
-const path = require('path');
+import JSZip from 'jszip';
+import fs from 'fs';
+import path from 'path';
 
 const distPath = path.join(__dirname, '../dist');
 

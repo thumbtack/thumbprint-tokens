@@ -1,5 +1,5 @@
 [build]
-  command = "yarn install --frozen-lockfile --prod && yarn run netlify-zip-it-ship-it-issue-38-workaround"
+  command = "yarn install --immutable"
   functions = "functions"
 
 [[redirects]]

@@ -1,28 +1,37 @@
-const handlebars = require('handlebars');
+import handlebars from 'handlebars';
+import { PlatformSlug, TokenFormat, TokenGroup } from './token-types';
 
-module.exports = {
+interface HelperOptions<T> {
+    inverse: (section: TokenGroup) => string;
+    fn: (section: TokenGroup, obj?: { data: T }) => string;
+    data: T;
+}
+
+export default {
     /**
      * Changes 'Border Radius' to 'BorderRadius'.
      */
-    removeSpaces: name => name.replace(/\s/g, ''),
+    removeSpaces: (name: string): string => name.replace(/\s/g, ''),
 
     /**
      * Filters the sections so that we only loop over ones that have tokens in
      * that platform.
      */
-    eachSectionWithPlatformTokens: function eachSectionWithPlatformTokens(
-        sections,
-        platform,
-        options,
-    ) {
+    eachSectionWithPlatformTokens: function eachSectionWithPlatformTokens<T>(
+        sections: TokenGroup[],
+        platform: PlatformSlug,
+        options: HelperOptions<T>,
+    ): string {
         if (!sections || sections.length === 0) {
             return options.inverse(this);
         }
 
         const data = options.data ? handlebars.createFrame(options.data) : undefined;
-        const result = [];
+        const result: string[] = [];
 
-        const filteredSections = sections.filter(s => s.tokens.some(t => t.platforms[platform]));
+        const filteredSections = sections.filter((s) =>
+            s.tokens.some((t) => t.platforms[platform]),
+        );
 
         for (let i = 0; i < filteredSections.length; i += 1) {
             data.index = i;
@@ -33,7 +42,7 @@ module.exports = {
         return result.join('');
     },
 
-    getAndroidTag: format => {
+    getAndroidTag: (format: TokenFormat): 'color' | 'dimen' | 'integer' | 'item' => {
         // This is a helper because it's hard to do complicated conditionals within
         // `.handlebars` files. This function is similar to:
         // https://github.com/amzn/style-dictionary/blob/master/examples/advanced/custom-formats-with-templates/templates/android-xml.template
@@ -52,8 +61,9 @@ module.exports = {
         return 'item';
     },
 
-    isString: (arg1, options) =>
+    isString: <T>(arg1: unknown, options: HelperOptions<T>): string =>
         typeof arg1 === 'string' ? options.fn(this) : options.inverse(this),
 
-    ifEquals: (arg1, arg2, options) => (arg1 === arg2 ? options.fn(this) : options.inverse(this)),
+    ifEquals: <T>(arg1: unknown, arg2: unknown, options: HelperOptions<T>): string =>
+        arg1 === arg2 ? options.fn(this) : options.inverse(this),
 };
