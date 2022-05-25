@@ -215,8 +215,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'blue100',
                         description: 'Blue 100 – #eaf6fa',
-                        value:
-                            'UIColor = UIColor(red: 0.91764706, green: 0.9647059, blue: 0.98039216, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.91764706, green: 0.9647059, blue: 0.98039216, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_blue_100',
@@ -239,8 +238,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'blue200',
                         description: 'Blue 200 – #b3ebff',
-                        value:
-                            'UIColor = UIColor(red: 0.7019608, green: 0.92156863, blue: 1.0, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.7019608, green: 0.92156863, blue: 1.0, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_blue_200',
@@ -263,8 +261,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'blue300',
                         description: 'Blue 300 – #79d2f2',
-                        value:
-                            'UIColor = UIColor(red: 0.4745098, green: 0.8235294, blue: 0.9490196, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.4745098, green: 0.8235294, blue: 0.9490196, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_blue_300',
@@ -287,8 +284,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'blue',
                         description: 'Blue – #009fd9',
-                        value:
-                            'UIColor = UIColor(red: 0.0, green: 0.62352943, blue: 0.8509804, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.0, green: 0.62352943, blue: 0.8509804, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_blue',
@@ -311,8 +307,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'blue500',
                         description: 'Blue 500 – #007fad',
-                        value:
-                            'UIColor = UIColor(red: 0.0, green: 0.49803922, blue: 0.6784314, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.0, green: 0.49803922, blue: 0.6784314, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_blue_500',
@@ -358,8 +353,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'indigo100',
                         description: 'Indigo 100 – #e8f1fd',
-                        value:
-                            'UIColor = UIColor(red: 0.9098039, green: 0.94509804, blue: 0.99215686, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.9098039, green: 0.94509804, blue: 0.99215686, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_indigo_100',
@@ -382,8 +376,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'indigo200',
                         description: 'Indigo 200 – #cce1ff',
-                        value:
-                            'UIColor = UIColor(red: 0.8, green: 0.88235295, blue: 1.0, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.8, green: 0.88235295, blue: 1.0, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_indigo_200',
@@ -406,8 +399,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'indigo300',
                         description: 'Indigo 300 – #96c2ff',
-                        value:
-                            'UIColor = UIColor(red: 0.5882353, green: 0.7607843, blue: 1.0, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.5882353, green: 0.7607843, blue: 1.0, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_indigo_300',
@@ -430,8 +422,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'indigo',
                         description: 'Indigo – #5968e2',
-                        value:
-                            'UIColor = UIColor(red: 0.34901962, green: 0.40784314, blue: 0.8862745, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.34901962, green: 0.40784314, blue: 0.8862745, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_indigo',
@@ -454,8 +445,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'indigo500',
                         description: 'Indigo 500 – #4f54b3',
-                        value:
-                            'UIColor = UIColor(red: 0.30980393, green: 0.32941177, blue: 0.7019608, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.30980393, green: 0.32941177, blue: 0.7019608, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_indigo_500',
@@ -478,8 +468,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'indigo600',
                         description: 'Indigo 600 – #383c80',
-                        value:
-                            'UIColor = UIColor(red: 0.21960784, green: 0.23529412, blue: 0.5019608, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.21960784, green: 0.23529412, blue: 0.5019608, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_indigo_600',
@@ -502,8 +491,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'purple100',
                         description: 'Purple 100 – #f5efff',
-                        value:
-                            'UIColor = UIColor(red: 0.9607843, green: 0.9372549, blue: 1.0, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.9607843, green: 0.9372549, blue: 1.0, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_purple_100',
@@ -526,14 +514,14 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'purple200',
                         description: 'Purple 200 – #dfccff',
-                        value:
-                            'UIColor = UIColor(red: 0.8745098, green: 0.8, blue: 1.0, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.8745098, green: 0.8, blue: 1.0, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_purple_200',
                         value: '#dfccff',
                     },
                 },
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
                 // @ts-ignore TODO(giles) should this be removed? no other token has a value here.
                 value: {
                     ios: 'UIColor = UIColor(red: 0.8745098, green: 0.8, blue: 1.0, alpha: 1.0)',
@@ -554,8 +542,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'purple300',
                         description: 'Purple 300 – #c9acfd',
-                        value:
-                            'UIColor = UIColor(red: 0.788, green: 0.675, blue: 0.992, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.788, green: 0.675, blue: 0.992, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_purple_300',
@@ -578,8 +565,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'purple',
                         description: 'Purple – #8d56eb',
-                        value:
-                            'UIColor = UIColor(red: 0.553, green: 0.337, blue: 0.922, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.553, green: 0.337, blue: 0.922, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_purple',
@@ -625,8 +611,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'purple600',
                         description: 'Purple 600 – #492782',
-                        value:
-                            'UIColor = UIColor(red: 0.285, green: 0.153, blue: 0.508, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.285, green: 0.153, blue: 0.508, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_purple_600',
@@ -649,8 +634,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'green100',
                         description: 'Green 100 – #e1fdf3',
-                        value:
-                            'UIColor = UIColor(red: 0.88235295, green: 0.99215686, blue: 0.9529412, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.88235295, green: 0.99215686, blue: 0.9529412, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_green_100',
@@ -673,8 +657,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'green200',
                         description: 'Green 200 – #c6f7da',
-                        value:
-                            'UIColor = UIColor(red: 0.7764706, green: 0.96862745, blue: 0.85490197, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.7764706, green: 0.96862745, blue: 0.85490197, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_green_200',
@@ -697,8 +680,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'green300',
                         description: 'Green 300 – #73e4a2',
-                        value:
-                            'UIColor = UIColor(red: 0.4509804, green: 0.89411765, blue: 0.63529414, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.4509804, green: 0.89411765, blue: 0.63529414, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_green_300',
@@ -721,8 +703,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'green',
                         description: 'Green – #2db783',
-                        value:
-                            'UIColor = UIColor(red: 0.1764706, green: 0.7176471, blue: 0.5137255, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.1764706, green: 0.7176471, blue: 0.5137255, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_green',
@@ -745,8 +726,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'green500',
                         description: 'Green 500 – #16855b',
-                        value:
-                            'UIColor = UIColor(red: 0.086, green: 0.522, blue: 0.357, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.086, green: 0.522, blue: 0.357, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_green_500',
@@ -792,8 +772,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'yellow100',
                         description: 'Yellow 100 – #fdf7e7',
-                        value:
-                            'UIColor = UIColor(red: 0.99215686, green: 0.96862745, blue: 0.90588236, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.99215686, green: 0.96862745, blue: 0.90588236, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_yellow_100',
@@ -816,8 +795,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'yellow200',
                         description: 'Yellow 200 – #ffebb3',
-                        value:
-                            'UIColor = UIColor(red: 1.0, green: 0.92156863, blue: 0.7019608, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 1.0, green: 0.92156863, blue: 0.7019608, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_yellow_200',
@@ -840,8 +818,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'yellow300',
                         description: 'Yellow 300 – #ffdd80',
-                        value:
-                            'UIColor = UIColor(red: 1.0, green: 0.8666667, blue: 0.5019608, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 1.0, green: 0.8666667, blue: 0.5019608, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_yellow_300',
@@ -864,8 +841,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'yellow',
                         description: 'Yellow – #febe14',
-                        value:
-                            'UIColor = UIColor(red: 0.99607843, green: 0.74509805, blue: 0.078431375, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.99607843, green: 0.74509805, blue: 0.078431375, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_yellow',
@@ -888,8 +864,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'yellow500',
                         description: 'Yellow 500 – #a77005',
-                        value:
-                            'UIColor = UIColor(red: 0.654, green: 0.438, blue: 0.019, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.654, green: 0.438, blue: 0.019, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_yellow_500',
@@ -912,8 +887,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'yellow600',
                         description: 'Yellow 600 – #714601',
-                        value:
-                            'UIColor = UIColor(red: 0.442, green: 0.273, blue: 0.004, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.442, green: 0.273, blue: 0.004, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_yellow_600',
@@ -936,8 +910,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'red100',
                         description: 'Red 100 – #ffeff0',
-                        value:
-                            'UIColor = UIColor(red: 1.0, green: 0.9372549, blue: 0.9411765, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 1.0, green: 0.9372549, blue: 0.9411765, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_red_100',
@@ -960,8 +933,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'red200',
                         description: 'Red 200 – #ffd9d9',
-                        value:
-                            'UIColor = UIColor(red: 1.0, green: 0.8509804, blue: 0.8509804, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 1.0, green: 0.8509804, blue: 0.8509804, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_red_200',
@@ -984,8 +956,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'red300',
                         description: 'Red 300 – #ffb0b0',
-                        value:
-                            'UIColor = UIColor(red: 1.0, green: 0.6901961, blue: 0.6901961, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 1.0, green: 0.6901961, blue: 0.6901961, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_red_300',
@@ -1008,8 +979,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'red',
                         description: 'Red – #ff5a5f',
-                        value:
-                            'UIColor = UIColor(red: 1.0, green: 0.3529412, blue: 0.37254903, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 1.0, green: 0.3529412, blue: 0.37254903, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_red',
@@ -1032,8 +1002,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'red500',
                         description: 'Red 500 – #b22d31',
-                        value:
-                            'UIColor = UIColor(red: 0.808, green: 0.209, blue: 0.266, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.808, green: 0.209, blue: 0.266, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_red_500',
@@ -1056,8 +1025,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'red600',
                         description: 'Red 600 – #7d0d10',
-                        value:
-                            'UIColor = UIColor(red: 0.492, green: 0.051, blue: 0.065, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.492, green: 0.051, blue: 0.065, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_red_600',
@@ -1080,8 +1048,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'black300',
                         description: 'Black 300 – #676d73',
-                        value:
-                            'UIColor = UIColor(red: 0.40392157, green: 0.42745098, blue: 0.4509804, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.40392157, green: 0.42745098, blue: 0.4509804, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_black_300',
@@ -1104,8 +1071,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'black',
                         description: 'Black – #2f3033',
-                        value:
-                            'UIColor = UIColor(red: 0.18431373, green: 0.1882353, blue: 0.2, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.18431373, green: 0.1882353, blue: 0.2, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_black',
@@ -1128,8 +1094,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'gray200',
                         description: 'Gray 200 – #fafafa',
-                        value:
-                            'UIColor = UIColor(red: 0.98039216, green: 0.98039216, blue: 0.98039216, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.98039216, green: 0.98039216, blue: 0.98039216, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_gray_200',
@@ -1152,8 +1117,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'gray300',
                         description: 'Gray 300 – #e9eced',
-                        value:
-                            'UIColor = UIColor(red: 0.9137255, green: 0.9254902, blue: 0.92941177, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.9137255, green: 0.9254902, blue: 0.92941177, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_gray_300',
@@ -1176,8 +1140,7 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'gray',
                         description: 'Gray – #d3d4d5',
-                        value:
-                            'UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)',
+                        value: 'UIColor = UIColor(red: 0.827451, green: 0.83137256, blue: 0.8352941, alpha: 1.0)',
                     },
                     android: {
                         name: 'tp_gray',

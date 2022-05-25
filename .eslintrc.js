@@ -32,6 +32,10 @@ module.exports = {
         // dependencies, not devDependencies".
         'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
 
+        // Enabled in airbnb, but we don't want to use extensions in TS files
+        'import/extensions': 'off',
+        'import/no-unresolved': 'off',
+
         '@typescript-eslint/explicit-function-return-type': 'error',
         '@typescript-eslint/no-explicit-any': 'error',
     },

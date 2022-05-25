@@ -1,10 +1,10 @@
 import handlebars from 'handlebars';
 import { PlatformSlug, TokenFormat, TokenGroup } from './token-types';
 
-interface HelperOptions {
-    inverse: (x: any) => any;
-    fn: (section: TokenGroup, obj?: { data: any }) => any;
-    data: any;
+interface HelperOptions<T> {
+    inverse: (section: TokenGroup) => string;
+    fn: (section: TokenGroup, obj?: { data: T }) => string;
+    data: T;
 }
 
 export default {
@@ -17,19 +17,21 @@ export default {
      * Filters the sections so that we only loop over ones that have tokens in
      * that platform.
      */
-    eachSectionWithPlatformTokens: function eachSectionWithPlatformTokens(
+    eachSectionWithPlatformTokens: function eachSectionWithPlatformTokens<T>(
         sections: TokenGroup[],
         platform: PlatformSlug,
-        options: HelperOptions,
-    ) {
+        options: HelperOptions<T>,
+    ): string {
         if (!sections || sections.length === 0) {
             return options.inverse(this);
         }
 
         const data = options.data ? handlebars.createFrame(options.data) : undefined;
-        const result = [];
+        const result: string[] = [];
 
-        const filteredSections = sections.filter(s => s.tokens.some(t => t.platforms[platform]));
+        const filteredSections = sections.filter((s) =>
+            s.tokens.some((t) => t.platforms[platform]),
+        );
 
         for (let i = 0; i < filteredSections.length; i += 1) {
             data.index = i;
@@ -59,9 +61,9 @@ export default {
         return 'item';
     },
 
-    isString: (arg1: unknown, options: HelperOptions): void =>
+    isString: <T>(arg1: unknown, options: HelperOptions<T>): string =>
         typeof arg1 === 'string' ? options.fn(this) : options.inverse(this),
 
-    ifEquals: (arg1: unknown, arg2: unknown, options: HelperOptions): void =>
+    ifEquals: <T>(arg1: unknown, arg2: unknown, options: HelperOptions<T>): string =>
         arg1 === arg2 ? options.fn(this) : options.inverse(this),
 };

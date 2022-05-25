@@ -24,7 +24,7 @@ const outputs: Output[] = [
         slug: 'ios',
         distName: 'ThumbprintTokens.swift',
         // Packages the iOS dist into a zip file.
-        postWrite: async (distPath) => {
+        postWrite: async (distPath): Promise<void> => {
             // Prep the zip file.
             const zip = new JSZip();
 
@@ -43,7 +43,7 @@ const outputs: Output[] = [
     },
 ];
 
-export function typedEntries<K extends string | number | symbol, V>(
+function typedEntries<K extends string | number | symbol, V>(
     object: Partial<Record<K, V>>,
 ): [K, V][] {
     return Object.entries(object) as [K, V][];
