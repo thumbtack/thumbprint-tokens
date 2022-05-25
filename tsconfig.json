@@ -8,7 +8,8 @@
         "emitDeclarationOnly": false,
         "noImplicitAny": true,
         "moduleResolution": "node",
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "resolveJsonModule": true
     },
     "include": ["**/*.ts"],
     "exclude": ["functions/"]

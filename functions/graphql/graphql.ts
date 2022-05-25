@@ -1,11 +1,9 @@
-const { ApolloServer, gql } = require('apollo-server-lambda');
+import { ApolloServer, gql } from 'apollo-server-lambda';
+import { Handler } from '@netlify/functions';
 
-// These imports are of copied files to work around this bug:
-// https://github.com/netlify/zip-it-and-ship-it/issues/38
-// Once the bug is fixed, these two files should also be removed from
-// `.gitignore` file.
-const tokens = require('./tokens-copy');
-const { version } = require('./package-copy.json');
+import tokens from '../../src/tokens';
+import { version } from '../../package.json';
+import { PlatformSlug, TokenGroup } from '../../src/token-types';
 
 const typeDefs = gql`
     type TokenValue {
@@ -56,8 +54,8 @@ const typeDefs = gql`
 
 const resolvers = {
     Query: {
-        version: () => version,
-        categories: (parent, args) => {
+        version: (): string => version,
+        categories: (_parent: unknown, args: { platform: PlatformSlug }): TokenGroup[] => {
             const { platform } = args;
 
             if (!platform) {
@@ -82,4 +80,7 @@ const server = new ApolloServer({
     resolvers,
 });
 
-exports.handler = server.createHandler();
+const handler: Handler = server.createHandler() as unknown as Handler;
+
+// eslint-disable-next-line import/prefer-default-export
+export { handler };
