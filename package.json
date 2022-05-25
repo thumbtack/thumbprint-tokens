@@ -66,6 +66,9 @@
         "apollo-server-lambda": "^2.9.7",
         "graphql": "^14.5.8"
     },
+    "resolutions": {
+        "@types/istanbul-lib-report": "3.0.0"
+    },
     "husky": {
         "hooks": {
             "pre-commit": "pretty-quick --staged"

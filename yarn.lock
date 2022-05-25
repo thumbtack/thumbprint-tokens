@@ -1278,12 +1278,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/istanbul-lib-report@npm:*":
-  version: 1.1.1
-  resolution: "@types/istanbul-lib-report@npm:1.1.1"
+"@types/istanbul-lib-report@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@types/istanbul-lib-report@npm:3.0.0"
   dependencies:
     "@types/istanbul-lib-coverage": "*"
-  checksum: 56c995ede09cb2638e2d35d90d9455d6c046d4225fcfe2c547f42e5282474c3bfa1f083139f61d66740e29037d0428e54102784ef8417d6076aebc4be889af3c
+  checksum: 656398b62dc288e1b5226f8880af98087233cdb90100655c989a09f3052b5775bf98ba58a16c5ae642fb66c61aba402e07a9f2bff1d1569e3b306026c59f3f36
   languageName: node
   linkType: hard
 
