@@ -21,7 +21,7 @@ jobs:
                   key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
             - name: Install dependencies
               run: |
-                  yarn install
+                  yarn install --immutable
             - name: Run Jest
               run: |
                   yarn start && yarn test
