@@ -1,12 +1,21 @@
 #!/usr/bin/env node
-const path = require('path');
-const fse = require('fs-extra');
-const JSZip = require('jszip');
-const handlebars = require('handlebars');
-const allTokens = require('./tokens');
-const helpers = require('./helpers');
 
-const outputs = [
+import path from 'path';
+import fse from 'fs-extra';
+import JSZip from 'jszip';
+import handlebars from 'handlebars';
+import allTokens, { TokenGroup } from './tokens';
+import helpers from './helpers';
+
+type PlatformSlug = 'typescript' | 'scss' | 'android' | 'ios';
+
+interface Output {
+    slug: PlatformSlug;
+    distName: string;
+    postWrite?: (distPath: string) => Promise<void>;
+}
+
+const outputs: Output[] = [
     { slug: 'typescript', distName: 'index.ts' },
     { slug: 'scss', distName: '_index.scss' },
     { slug: 'android', distName: 'index.xml' },
@@ -33,7 +42,7 @@ const outputs = [
     },
 ];
 
-const compile = (output, tokens) => {
+function compile(output: string, tokens: TokenGroup[]): string {
     const template = fse.readFileSync(require.resolve(`./templates/${output}.handlebars`), 'utf-8');
 
     // Dynamically register the helpers for each `template`.
@@ -44,7 +53,7 @@ const compile = (output, tokens) => {
     });
 
     return handlebars.compile(template)(tokens);
-};
+}
 
 (() => {
     outputs.forEach(async ({ slug, distName, postWrite }) => {

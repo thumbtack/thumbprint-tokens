@@ -1,4 +1,29 @@
-module.exports = [
+interface PlatformToken {
+    name: string;
+    value: string | number;
+    description?: string;
+}
+
+interface Token {
+    id: string;
+    platforms: {
+        scss?: PlatformToken;
+        javascript?: PlatformToken;
+        ios?: PlatformToken;
+        android?: PlatformToken;
+    };
+    deprecated?: boolean;
+    format?: 'color' | 'time' | 'fontWeight' | 'size';
+    group?: string;
+}
+
+export interface TokenGroup {
+    name: string;
+    description?: string;
+    tokens: Token[];
+}
+
+const tokenGroups: TokenGroup[] = [
     {
         name: 'Border Radius',
         tokens: [
@@ -2720,3 +2745,5 @@ module.exports = [
         ],
     },
 ];
+
+export default tokenGroups;
