@@ -31,5 +31,8 @@ module.exports = {
         // would error with "<Package> should be listed in the project's
         // dependencies, not devDependencies".
         'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+
+        '@typescript-eslint/explicit-function-return-type': 'error',
+        '@typescript-eslint/no-explicit-any': 'error',
     },
 };

@@ -24,7 +24,7 @@ const outputs: Output[] = [
         slug: 'ios',
         distName: 'ThumbprintTokens.swift',
         // Packages the iOS dist into a zip file.
-        postWrite: async distPath => {
+        postWrite: async (distPath) => {
             // Prep the zip file.
             const zip = new JSZip();
 
@@ -60,7 +60,7 @@ function compile(output: string, tokens: TokenGroup[]): string {
     return handlebars.compile(template)(tokens);
 }
 
-(() => {
+((): void => {
     outputs.forEach(async ({ slug, distName, postWrite }) => {
         const contents = compile(slug, allTokens);
         const dist = path.resolve(__dirname, `../dist/${slug}/${distName}`);
