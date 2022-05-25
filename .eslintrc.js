@@ -39,4 +39,13 @@ module.exports = {
         '@typescript-eslint/explicit-function-return-type': 'error',
         '@typescript-eslint/no-explicit-any': 'error',
     },
+    overrides: [
+        {
+            files: ['**/*.js', '**/*.jsx'],
+            rules: {
+                '@typescript-eslint/no-var-requires': 'off',
+                '@typescript-eslint/explicit-function-return-type': 'off',
+            },
+        },
+    ],
 };

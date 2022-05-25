@@ -68,11 +68,11 @@ const resolvers = {
             // platform. Categories that don't have any tokens in that
             // platform are omitted entirely.
             return tokens
-                .map(category => ({
+                .map((category) => ({
                     ...category,
-                    ...{ tokens: category.tokens.filter(token => token.platforms[platform]) },
+                    ...{ tokens: category.tokens.filter((token) => token.platforms[platform]) },
                 }))
-                .filter(category => category.tokens.length > 0);
+                .filter((category) => category.tokens.length > 0);
         },
     },
 };
