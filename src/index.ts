@@ -4,13 +4,14 @@ import path from 'path';
 import fse from 'fs-extra';
 import JSZip from 'jszip';
 import handlebars from 'handlebars';
-import allTokens, { TokenGroup } from './tokens';
+import allTokens from './tokens';
 import helpers from './helpers';
+import { TokenGroup } from './token-types';
 
-type PlatformSlug = 'typescript' | 'scss' | 'android' | 'ios';
+type OutputSlug = 'typescript' | 'scss' | 'android' | 'ios';
 
 interface Output {
-    slug: PlatformSlug;
+    slug: OutputSlug;
     distName: string;
     postWrite?: (distPath: string) => Promise<void>;
 }
@@ -42,14 +43,18 @@ const outputs: Output[] = [
     },
 ];
 
+export function typedEntries<K extends string | number | symbol, V>(
+    object: Partial<Record<K, V>>,
+): [K, V][] {
+    return Object.entries(object) as [K, V][];
+}
+
 function compile(output: string, tokens: TokenGroup[]): string {
     const template = fse.readFileSync(require.resolve(`./templates/${output}.handlebars`), 'utf-8');
 
     // Dynamically register the helpers for each `template`.
-    const helperNames = Object.keys(helpers);
-
-    helperNames.forEach(currentHelper => {
-        handlebars.registerHelper(currentHelper, helpers[currentHelper]);
+    typedEntries(helpers).forEach(([helperName, helper]) => {
+        handlebars.registerHelper(helperName, helper);
     });
 
     return handlebars.compile(template)(tokens);

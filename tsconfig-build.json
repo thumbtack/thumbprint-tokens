@@ -1,14 +1,13 @@
 {
     "compilerOptions": {
-        "rootDir": ".",
+        "rootDir": "dist/typescript",
         "declaration": true,
         "declarationMap": true,
         "isolatedModules": false,
-        "noEmit": true,
+        "noEmit": false,
         "emitDeclarationOnly": false,
         "noImplicitAny": true,
-        "moduleResolution": "node",
-        "esModuleInterop": true
+        "moduleResolution": "node"
     },
-    "include": ["**/*.ts"]
+    "files": ["dist/typescript/index.ts"]
 }

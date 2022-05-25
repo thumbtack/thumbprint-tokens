@@ -1,4 +1,6 @@
 module.exports = {
+    parser: '@typescript-eslint/parser',
+    plugins: ['@typescript-eslint'],
     env: {
         commonjs: true,
         es6: true,
@@ -6,10 +8,16 @@ module.exports = {
     },
     extends: [
         'airbnb-base',
+        'plugin:@typescript-eslint/recommended',
         'plugin:jest/recommended',
         // Prettier must go last so that it can turn off other rules
         'prettier',
     ],
+    settings: {
+        'import/parsers': {
+            '@typescript-eslint/parser': ['.ts', '.tsx'],
+        },
+    },
     globals: {
         Atomics: 'readonly',
         SharedArrayBuffer: 'readonly',
