@@ -1192,6 +1192,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'base',
                         value: 'CGFloat = 4',
                     },
+                    android: {
+                        name: 'tp_corner_radius_base',
+                        value: '4dp',
+                    },
                 },
             },
             {
@@ -1204,6 +1208,10 @@ const tokenGroups: TokenGroup[] = [
                     javascript: {
                         name: 'tpCornerRadiusBig',
                         value: '6px',
+                    },
+                    android: {
+                        name: 'tp_corner_radius_big',
+                        value: '6dp',
                     },
                 },
             },
@@ -1466,6 +1474,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'normal',
                         value: 'normal',
                     },
+                    android: {
+                        name: 'tp_font_weight_normal',
+                        value: '400',
+                    },
                 },
             },
             {
@@ -1483,6 +1495,10 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'bold',
                         value: 'bold',
+                    },
+                    android: {
+                        name: 'tp_font_weight_bold',
+                        value: '700',
                     },
                 },
             },
@@ -1507,6 +1523,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'title1Size',
                         value: 'CGFloat = 28',
                     },
+                    android: {
+                        name: 'tp_title_1_size',
+                        value: '28sp',
+                    },
                 },
             },
             {
@@ -1520,6 +1540,10 @@ const tokenGroups: TokenGroup[] = [
                     javascript: {
                         name: 'tpFontTitle1LineHeight',
                         value: '32px',
+                    },
+                    android: {
+                        name: 'tp_title_1_line_height',
+                        value: '32sp',
                     },
                 },
             },
@@ -1538,6 +1562,10 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'title1Weight',
                         value: 'FontWeight = .bold',
+                    },
+                    android: {
+                        name: 'tp_title_1_weight',
+                        value: '700',
                     },
                 },
             },
@@ -1609,6 +1637,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'title2Size',
                         value: 'CGFloat = 24',
                     },
+                    android: {
+                        name: 'tp_title_2_size',
+                        value: '24sp',
+                    },
                 },
             },
             {
@@ -1622,6 +1654,10 @@ const tokenGroups: TokenGroup[] = [
                     javascript: {
                         name: 'tpFontTitle2LineHeight',
                         value: '28px',
+                    },
+                    android: {
+                        name: 'tp_title_2_line_height',
+                        value: '28sp',
                     },
                 },
             },
@@ -1640,6 +1676,10 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'title2Weight',
                         value: 'FontWeight = .bold',
+                    },
+                    android: {
+                        name: 'tp_title_2_weight',
+                        value: '700',
                     },
                 },
             },
@@ -1711,6 +1751,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'title3Size',
                         value: 'CGFloat = 22',
                     },
+                    android: {
+                        name: 'tp_title_3_size',
+                        value: '22sp',
+                    },
                 },
             },
             {
@@ -1724,6 +1768,10 @@ const tokenGroups: TokenGroup[] = [
                     javascript: {
                         name: 'tpFontTitle3LineHeight',
                         value: '28px',
+                    },
+                    android: {
+                        name: 'tp_title_3_line_height',
+                        value: '28sp',
                     },
                 },
             },
@@ -1742,6 +1790,10 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'title3Weight',
                         value: 'FontWeight = .bold',
+                    },
+                    android: {
+                        name: 'tp_title_3_weight',
+                        value: '700',
                     },
                 },
             },
@@ -1813,6 +1865,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'title4Size',
                         value: 'CGFloat = 20',
                     },
+                    android: {
+                        name: 'tp_title_4_size',
+                        value: '20sp',
+                    },
                 },
             },
             {
@@ -1826,6 +1882,10 @@ const tokenGroups: TokenGroup[] = [
                     javascript: {
                         name: 'tpFontTitle4LineHeight',
                         value: '28px',
+                    },
+                    android: {
+                        name: 'tp_title_4_line_height',
+                        value: '28sp',
                     },
                 },
             },
@@ -1844,6 +1904,10 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'title4Weight',
                         value: 'FontWeight = .bold',
+                    },
+                    android: {
+                        name: 'tp_title_4_weight',
+                        value: '700',
                     },
                 },
             },
@@ -1873,6 +1937,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'title5Size',
                         value: 'CGFloat = 18',
                     },
+                    android: {
+                        name: 'tp_title_5_size',
+                        value: '18sp',
+                    },
                 },
             },
             {
@@ -1886,6 +1954,10 @@ const tokenGroups: TokenGroup[] = [
                     javascript: {
                         name: 'tpFontTitle5LineHeight',
                         value: '24px',
+                    },
+                    android: {
+                        name: 'tp_title_5_line_height',
+                        value: '24sp',
                     },
                 },
             },
@@ -1904,6 +1976,10 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'title5Weight',
                         value: 'FontWeight = .bold',
+                    },
+                    android: {
+                        name: 'tp_title_5_weight',
+                        value: '700',
                     },
                 },
             },
@@ -1933,6 +2009,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'title6Size',
                         value: 'CGFloat = 16',
                     },
+                    android: {
+                        name: 'tp_title_6_size',
+                        value: '16sp',
+                    },
                 },
             },
             {
@@ -1946,6 +2026,10 @@ const tokenGroups: TokenGroup[] = [
                     javascript: {
                         name: 'tpFontTitle6LineHeight',
                         value: '24px',
+                    },
+                    android: {
+                        name: 'tp_title_6_line_height',
+                        value: '24sp',
                     },
                 },
             },
@@ -1964,6 +2048,10 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'title6Weight',
                         value: 'FontWeight = .bold',
+                    },
+                    android: {
+                        name: 'tp_title_6_weight',
+                        value: '700',
                     },
                 },
             },
@@ -1993,6 +2081,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'title7Size',
                         value: 'CGFloat = 14',
                     },
+                    android: {
+                        name: 'tp_title_7_size',
+                        value: '14sp',
+                    },
                 },
             },
             {
@@ -2006,6 +2098,10 @@ const tokenGroups: TokenGroup[] = [
                     javascript: {
                         name: 'tpFontTitle7LineHeight',
                         value: '20px',
+                    },
+                    android: {
+                        name: 'tp_title_7_line_height',
+                        value: '20sp',
                     },
                 },
             },
@@ -2024,6 +2120,10 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'title7Weight',
                         value: 'FontWeight = .bold',
+                    },
+                    android: {
+                        name: 'tp_title_7_weight',
+                        value: '700',
                     },
                 },
             },
@@ -2053,6 +2153,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'title8Size',
                         value: 'CGFloat = 12',
                     },
+                    android: {
+                        name: 'tp_title_8_size',
+                        value: '12sp',
+                    },
                 },
             },
             {
@@ -2066,6 +2170,10 @@ const tokenGroups: TokenGroup[] = [
                     javascript: {
                         name: 'tpFontTitle8LineHeight',
                         value: '18px',
+                    },
+                    android: {
+                        name: 'tp_title_8_line_height',
+                        value: '18sp',
                     },
                 },
             },
@@ -2084,6 +2192,10 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'title8Weight',
                         value: 'FontWeight = .bold',
+                    },
+                    android: {
+                        name: 'tp_title_8_weight',
+                        value: '700',
                     },
                 },
             },
@@ -2113,6 +2225,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'text1Size',
                         value: 'CGFloat = 16',
                     },
+                    android: {
+                        name: 'tp_body_1_size',
+                        value: '16sp',
+                    },
                 },
             },
             {
@@ -2127,6 +2243,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'tpFontBody1LineHeight',
                         value: '24px',
                     },
+                    android: {
+                        name: 'tp_body_1_line_height',
+                        value: '24sp',
+                    },
                 },
             },
             {
@@ -2136,6 +2256,10 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'text1Weight',
                         value: 'FontWeight = .normal',
+                    },
+                    android: {
+                        name: 'tp_body_1_weight',
+                        value: '400',
                     },
                 },
             },
@@ -2165,6 +2289,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'text2Size',
                         value: 'CGFloat = 14',
                     },
+                    android: {
+                        name: 'tp_body_2_size',
+                        value: '14sp',
+                    },
                 },
             },
             {
@@ -2179,6 +2307,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'tpFontBody2LineHeight',
                         value: '20px',
                     },
+                    android: {
+                        name: 'tp_body_2_line_height',
+                        value: '20sp',
+                    },
                 },
             },
             {
@@ -2188,6 +2320,10 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'text2Weight',
                         value: 'FontWeight = .normal',
+                    },
+                    android: {
+                        name: 'tp_body_2_weight',
+                        value: '400',
                     },
                 },
             },
@@ -2217,6 +2353,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'text3Size',
                         value: 'CGFloat = 12',
                     },
+                    android: {
+                        name: 'tp_body_3_size',
+                        value: '12sp',
+                    },
                 },
             },
             {
@@ -2231,6 +2371,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'tpFontBody3LineHeight',
                         value: '18px',
                     },
+                    android: {
+                        name: 'tp_body_3_line_height',
+                        value: '18sp',
+                    },
                 },
             },
             {
@@ -2240,6 +2384,10 @@ const tokenGroups: TokenGroup[] = [
                     ios: {
                         name: 'text3Weight',
                         value: 'FontWeight = .normal',
+                    },
+                    android: {
+                        name: 'tp_body_3_weight',
+                        value: '400',
                     },
                 },
             },
@@ -2269,6 +2417,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'tpLetterSpacingLoose',
                         value: '1px',
                     },
+                    android: {
+                        name: 'tp_letter_spacing_loose',
+                        value: '1sp',
+                    },
                 },
             },
             {
@@ -2282,6 +2434,10 @@ const tokenGroups: TokenGroup[] = [
                         name: 'tpLetterSpacingTight',
                         value: '-1px',
                     },
+                    android: {
+                        name: 'tp_letter_spacing_tight',
+                        value: '-1sp',
+                    },
                 },
             },
             {
@@ -2294,6 +2450,10 @@ const tokenGroups: TokenGroup[] = [
                     javascript: {
                         name: 'tpLetterSpacingExtraTight',
                         value: '-2px',
+                    },
+                    android: {
+                        name: 'tp_letter_spacing_extra_tight',
+                        value: '-2sp',
                     },
                 },
             },
