@@ -23,7 +23,7 @@
         "static": "yarn typecheck && yarn lint:js && yarn lint:prettier",
         "verify": "yarn start && yarn static && yarn test",
         "prepublish": "yarn start",
-        "release": "np --no-release-draft"
+        "release": "np --no-yarn --no-release-draft"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org/",
