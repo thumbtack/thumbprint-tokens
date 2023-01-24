@@ -1,10 +1,12 @@
 # Changelog
 
-## Unreleased
+## 12.2.0 - 2023-01-24
 
 ### Added
 
 -   [Minor] Add font size, weight, line height, corner radius, and letter spacing for Android.
+
+## Unreleased
 
 ## 12.1.1 - 2020-07-08
 
