@@ -1,7 +1,7 @@
 {
     "name": "@thumbtack/thumbprint-tokens",
     "description": "Design variables that power Thumbtack’s UI.",
-    "version": "12.1.1",
+    "version": "12.2.0",
     "main": "dist/javascript-cjs/index.js",
     "module": "dist/javascript-es/index.js",
     "sideEffects": false,
@@ -23,7 +23,7 @@
         "static": "yarn typecheck && yarn lint:js && yarn lint:prettier",
         "verify": "yarn start && yarn static && yarn test",
         "prepublish": "yarn start",
-        "release": "np --no-yarn --no-release-draft"
+        "release": "yarn npm publish"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org/",
