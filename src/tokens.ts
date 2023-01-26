@@ -1197,6 +1197,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '4dp',
                     },
                 },
+                format: 'size',
             },
             {
                 id: 'big',
@@ -1214,6 +1215,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '6dp',
                     },
                 },
+                format: 'size',
             },
             {
                 id: 'full',
@@ -1227,6 +1229,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '50%',
                     },
                 },
+                format: 'size',
             },
             {
                 id: 'sides',
@@ -1240,6 +1243,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '9999px',
                     },
                 },
+                format: 'size',
             },
         ],
     },
@@ -1528,6 +1532,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '28sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 1',
@@ -1546,6 +1551,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '32sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 1',
@@ -1568,6 +1574,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '700',
                     },
                 },
+                format: 'fontWeight',
             },
             {
                 group: 'Title 1',
@@ -1582,6 +1589,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '40px',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 1',
@@ -1596,6 +1604,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '44px',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 1',
@@ -1610,6 +1619,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '700',
                     },
                 },
+                format: 'fontWeight',
             },
             {
                 group: 'Title 1',
@@ -1642,6 +1652,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '24sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 2',
@@ -1660,6 +1671,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '28sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 2',
@@ -1682,6 +1694,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '700',
                     },
                 },
+                format: 'fontWeight',
             },
             {
                 group: 'Title 2',
@@ -1696,6 +1709,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '32px',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 2',
@@ -1710,6 +1724,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '40px',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 2',
@@ -1724,6 +1739,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '700',
                     },
                 },
+                format: 'fontWeight',
             },
             {
                 group: 'Title 2',
@@ -1756,6 +1772,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '22sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 3',
@@ -1774,6 +1791,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '28sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 3',
@@ -1796,6 +1814,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '700',
                     },
                 },
+                format: 'fontWeight',
             },
             {
                 group: 'Title 3',
@@ -1810,6 +1829,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '24px',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 3',
@@ -1824,6 +1844,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '32px',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 3',
@@ -1838,6 +1859,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '700',
                     },
                 },
+                format: 'fontWeight',
             },
             {
                 group: 'Title 3',
@@ -1848,6 +1870,7 @@ const tokenGroups: TokenGroup[] = [
                         value: 'UIFont.TextStyle = .title1',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 4',
@@ -1870,6 +1893,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '20sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 4',
@@ -1888,6 +1912,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '28sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 4',
@@ -1910,6 +1935,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '700',
                     },
                 },
+                format: 'fontWeight',
             },
             {
                 group: 'Title 4',
@@ -1942,6 +1968,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '18sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 5',
@@ -1960,6 +1987,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '24sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 5',
@@ -1982,6 +2010,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '700',
                     },
                 },
+                format: 'fontWeight',
             },
             {
                 group: 'Title 5',
@@ -2014,6 +2043,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '16sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 6',
@@ -2032,6 +2062,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '24sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 6',
@@ -2054,6 +2085,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '700',
                     },
                 },
+                format: 'fontWeight',
             },
             {
                 group: 'Title 6',
@@ -2086,6 +2118,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '14sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 7',
@@ -2104,6 +2137,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '20sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 7',
@@ -2126,6 +2160,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '700',
                     },
                 },
+                format: 'fontWeight',
             },
             {
                 group: 'Title 7',
@@ -2158,6 +2193,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '12sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 8',
@@ -2176,6 +2212,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '18sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Title 8',
@@ -2198,6 +2235,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '700',
                     },
                 },
+                format: 'fontWeight',
             },
             {
                 group: 'Title 8',
@@ -2230,6 +2268,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '16sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Body 1',
@@ -2248,6 +2287,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '24sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Body 1',
@@ -2262,6 +2302,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '400',
                     },
                 },
+                format: 'fontWeight',
             },
             {
                 group: 'Body 1',
@@ -2294,6 +2335,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '14sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Body 2',
@@ -2312,6 +2354,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '20sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Body 2',
@@ -2326,6 +2369,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '400',
                     },
                 },
+                format: 'fontWeight',
             },
             {
                 group: 'Body 2',
@@ -2358,6 +2402,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '12sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Body 3',
@@ -2376,6 +2421,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '18sp',
                     },
                 },
+                format: 'size',
             },
             {
                 group: 'Body 3',
@@ -2390,6 +2436,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '400',
                     },
                 },
+                format: 'fontWeight',
             },
             {
                 group: 'Body 3',

@@ -45,49 +45,49 @@ exports[`outputted Android matches snapshot 1`] = `
     <color name=\\"tp_gray_300\\">#e9eced</color>
     <color name=\\"tp_gray\\">#d3d4d5</color>
     <color name=\\"tp_white\\">#ffffff</color>
-    <item name=\\"tp_corner_radius_base\\">4dp</item>
-    <item name=\\"tp_corner_radius_big\\">6dp</item>
+    <dimen name=\\"tp_corner_radius_base\\">4dp</dimen>
+    <dimen name=\\"tp_corner_radius_big\\">6dp</dimen>
     <integer name=\\"tp_duration_1\\">75</integer>
     <integer name=\\"tp_duration_2\\">150</integer>
     <integer name=\\"tp_duration_3\\">200</integer>
     <integer name=\\"tp_duration_4\\">250</integer>
     <integer name=\\"tp_duration_5\\">300</integer>
     <integer name=\\"tp_duration_6\\">350</integer>
-    <item name=\\"tp_font_weight_normal\\">400</item>
-    <item name=\\"tp_font_weight_bold\\">700</item>
-    <item name=\\"tp_title_1_size\\">28sp</item>
-    <item name=\\"tp_title_1_line_height\\">32sp</item>
-    <item name=\\"tp_title_1_weight\\">700</item>
-    <item name=\\"tp_title_2_size\\">24sp</item>
-    <item name=\\"tp_title_2_line_height\\">28sp</item>
-    <item name=\\"tp_title_2_weight\\">700</item>
-    <item name=\\"tp_title_3_size\\">22sp</item>
-    <item name=\\"tp_title_3_line_height\\">28sp</item>
-    <item name=\\"tp_title_3_weight\\">700</item>
-    <item name=\\"tp_title_4_size\\">20sp</item>
-    <item name=\\"tp_title_4_line_height\\">28sp</item>
-    <item name=\\"tp_title_4_weight\\">700</item>
-    <item name=\\"tp_title_5_size\\">18sp</item>
-    <item name=\\"tp_title_5_line_height\\">24sp</item>
-    <item name=\\"tp_title_5_weight\\">700</item>
-    <item name=\\"tp_title_6_size\\">16sp</item>
-    <item name=\\"tp_title_6_line_height\\">24sp</item>
-    <item name=\\"tp_title_6_weight\\">700</item>
-    <item name=\\"tp_title_7_size\\">14sp</item>
-    <item name=\\"tp_title_7_line_height\\">20sp</item>
-    <item name=\\"tp_title_7_weight\\">700</item>
-    <item name=\\"tp_title_8_size\\">12sp</item>
-    <item name=\\"tp_title_8_line_height\\">18sp</item>
-    <item name=\\"tp_title_8_weight\\">700</item>
-    <item name=\\"tp_body_1_size\\">16sp</item>
-    <item name=\\"tp_body_1_line_height\\">24sp</item>
-    <item name=\\"tp_body_1_weight\\">400</item>
-    <item name=\\"tp_body_2_size\\">14sp</item>
-    <item name=\\"tp_body_2_line_height\\">20sp</item>
-    <item name=\\"tp_body_2_weight\\">400</item>
-    <item name=\\"tp_body_3_size\\">12sp</item>
-    <item name=\\"tp_body_3_line_height\\">18sp</item>
-    <item name=\\"tp_body_3_weight\\">400</item>
+    <integer name=\\"tp_font_weight_normal\\">400</integer>
+    <integer name=\\"tp_font_weight_bold\\">700</integer>
+    <dimen name=\\"tp_title_1_size\\">28sp</dimen>
+    <dimen name=\\"tp_title_1_line_height\\">32sp</dimen>
+    <integer name=\\"tp_title_1_weight\\">700</integer>
+    <dimen name=\\"tp_title_2_size\\">24sp</dimen>
+    <dimen name=\\"tp_title_2_line_height\\">28sp</dimen>
+    <integer name=\\"tp_title_2_weight\\">700</integer>
+    <dimen name=\\"tp_title_3_size\\">22sp</dimen>
+    <dimen name=\\"tp_title_3_line_height\\">28sp</dimen>
+    <integer name=\\"tp_title_3_weight\\">700</integer>
+    <dimen name=\\"tp_title_4_size\\">20sp</dimen>
+    <dimen name=\\"tp_title_4_line_height\\">28sp</dimen>
+    <integer name=\\"tp_title_4_weight\\">700</integer>
+    <dimen name=\\"tp_title_5_size\\">18sp</dimen>
+    <dimen name=\\"tp_title_5_line_height\\">24sp</dimen>
+    <integer name=\\"tp_title_5_weight\\">700</integer>
+    <dimen name=\\"tp_title_6_size\\">16sp</dimen>
+    <dimen name=\\"tp_title_6_line_height\\">24sp</dimen>
+    <integer name=\\"tp_title_6_weight\\">700</integer>
+    <dimen name=\\"tp_title_7_size\\">14sp</dimen>
+    <dimen name=\\"tp_title_7_line_height\\">20sp</dimen>
+    <integer name=\\"tp_title_7_weight\\">700</integer>
+    <dimen name=\\"tp_title_8_size\\">12sp</dimen>
+    <dimen name=\\"tp_title_8_line_height\\">18sp</dimen>
+    <integer name=\\"tp_title_8_weight\\">700</integer>
+    <dimen name=\\"tp_body_1_size\\">16sp</dimen>
+    <dimen name=\\"tp_body_1_line_height\\">24sp</dimen>
+    <integer name=\\"tp_body_1_weight\\">400</integer>
+    <dimen name=\\"tp_body_2_size\\">14sp</dimen>
+    <dimen name=\\"tp_body_2_line_height\\">20sp</dimen>
+    <integer name=\\"tp_body_2_weight\\">400</integer>
+    <dimen name=\\"tp_body_3_size\\">12sp</dimen>
+    <dimen name=\\"tp_body_3_line_height\\">18sp</dimen>
+    <integer name=\\"tp_body_3_weight\\">400</integer>
     <item name=\\"tp_letter_spacing_loose\\">1sp</item>
     <item name=\\"tp_letter_spacing_tight\\">-1sp</item>
     <item name=\\"tp_letter_spacing_extra_tight\\">-2sp</item>
@@ -654,37 +654,37 @@ public enum FontWeight {
 
 public enum Font {
     public static let title1Size: CGFloat = 28
-    public static let title1Weight: FontWeight = .bold
+    case title1Weight
     public static let title1UIFontTextStyle: UIFont.TextStyle = .headline
     public static let title2Size: CGFloat = 24
-    public static let title2Weight: FontWeight = .bold
+    case title2Weight
     public static let title2UIFontTextStyle: UIFont.TextStyle = .subheadline
     public static let title3Size: CGFloat = 22
-    public static let title3Weight: FontWeight = .bold
+    case title3Weight
     public static let title3UIFontTextStyle: UIFont.TextStyle = .title1
     public static let title4Size: CGFloat = 20
-    public static let title4Weight: FontWeight = .bold
+    case title4Weight
     public static let title4UIFontTextStyle: UIFont.TextStyle = .title2
     public static let title5Size: CGFloat = 18
-    public static let title5Weight: FontWeight = .bold
+    case title5Weight
     public static let title5UIFontTextStyle: UIFont.TextStyle = .title3
     public static let title6Size: CGFloat = 16
-    public static let title6Weight: FontWeight = .bold
+    case title6Weight
     public static let title6UIFontTextStyle: UIFont.TextStyle = .body
     public static let title7Size: CGFloat = 14
-    public static let title7Weight: FontWeight = .bold
+    case title7Weight
     public static let title7UIFontTextStyle: UIFont.TextStyle = .body
     public static let title8Size: CGFloat = 12
-    public static let title8Weight: FontWeight = .bold
+    case title8Weight
     public static let title8UIFontTextStyle: UIFont.TextStyle = .body
     public static let text1Size: CGFloat = 16
-    public static let text1Weight: FontWeight = .normal
+    case text1Weight
     public static let text1UIFontTextStyle: UIFont.TextStyle = .body
     public static let text2Size: CGFloat = 14
-    public static let text2Weight: FontWeight = .normal
+    case text2Weight
     public static let text2UIFontTextStyle: UIFont.TextStyle = .body
     public static let text3Size: CGFloat = 12
-    public static let text3Weight: FontWeight = .normal
+    case text3Weight
     public static let text3UIFontTextStyle: UIFont.TextStyle = .body
 }
 
