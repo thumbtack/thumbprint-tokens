@@ -17,9 +17,10 @@ You can use the [Thumbprint Tokens GraphQL server](https://thumbprint-tokens.net
 ## Releasing
 
 1. **Pull latest changes:** Run `git checkout master && git pull` to grab the latest changes rom GitHub.
-2. **Update the changelog:** Open the `CHANGELOG.md` file and look at the unreleased changes. Add the new version number ([following SemVer](https://semver.org/)) and date as a heading under the `## Unreleased` heading.
-3. **Commit the changelog changes**: Commit the changes on `master` with `git add CHANGELOG.md && git commit -m "Preparing for release."`
-4. **Release to NPM**: Run `yarn install && yarn release`. It will prompt you for the new version number, run tests, and the publish to NPM.
-5. **Push to GitHub:** Run `git push --tags` to push the changes to GitHub.
-6. **Publish to CocoaPods:** Run `pod trunk push` to publish this to CocoaPods.
-7. **Publish to JitPack:** Visit `https://jitpack.io/com/github/thumbtack/thumbprint-tokens/v12.1.1/build.log` but replace `12.1.1` with the new version number. This will kick off a build in JitPack which will be indicated [on the JitPack Thumbprint Tokens page](https://jitpack.io/#thumbtack/thumbprint-tokens/).
+2. **Update the `package.json` and changelog:** Edit the version in the `package.json` and then open the `CHANGELOG.md` file and look at the unreleased changes. Add the new version number ([following SemVer](https://semver.org/)) and date as a heading under the `## Unreleased` heading.
+3. **Commit the changelog changes**: Commit the changes on `master` with `git add CHANGELOG.md package.json && git commit -m "Preparing for release."`
+4. **Create a Git tag:** Run `git tag vX.Y.Z`, replacing `X.Y.Z` with the new version number.
+5. **Release to NPM**: Run `yarn install && yarn release`.
+6. **Push to GitHub:** Run `git push --tags` to push the changes to GitHub.
+7. **Publish to CocoaPods:** Run `pod trunk push` to publish this to CocoaPods.
+8. **Publish to JitPack:** Visit `https://jitpack.io/com/github/thumbtack/thumbprint-tokens/v12.1.1/build.log` but replace `12.1.1` with the new version number. This will kick off a build in JitPack which will be indicated [on the JitPack Thumbprint Tokens page](https://jitpack.io/#thumbtack/thumbprint-tokens/).
