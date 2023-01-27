@@ -1,5 +1,7 @@
 # Changelog
 
+## 12.2.1 - 2023-01-27
+
 ### Fixed
 
 -   [Patch] Attempt to fix the Android build.
