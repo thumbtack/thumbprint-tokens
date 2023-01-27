@@ -2469,6 +2469,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '1sp',
                     },
                 },
+                format: 'size',
             },
             {
                 id: 'tight',
@@ -2486,6 +2487,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '-1sp',
                     },
                 },
+                format: 'size',
             },
             {
                 id: 'extra-tight',
@@ -2503,6 +2505,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '-2sp',
                     },
                 },
+                format: 'size',
             },
         ],
     },
