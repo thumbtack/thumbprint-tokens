@@ -23,4 +23,4 @@ You can use the [Thumbprint Tokens GraphQL server](https://thumbprint-tokens.net
 5. **Release to NPM**: Run `yarn install && yarn release`.
 6. **Push to GitHub:** Run `git push --tags` to push the changes to GitHub.
 7. **Publish to CocoaPods:** Run `pod trunk push` to publish this to CocoaPods.
-8. **Publish to JitPack:** Visit `https://jitpack.io/com/github/thumbtack/thumbprint-tokens/v12.1.1/build.log` but replace `12.1.1` with the new version number. This will kick off a build in JitPack which will be indicated [on the JitPack Thumbprint Tokens page](https://jitpack.io/#thumbtack/thumbprint-tokens/).
+8. **Publish to JitPack:** Visit `https://jitpack.io/com/github/thumbtack/thumbprint-tokens/12.1.1/build.log` but replace `12.1.1` with the new version number. This will kick off a build in JitPack which will be indicated [on the JitPack Thumbprint Tokens page](https://jitpack.io/#thumbtack/thumbprint-tokens/).
