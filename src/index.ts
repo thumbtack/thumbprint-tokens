@@ -20,27 +20,7 @@ const outputs: Output[] = [
     { slug: 'typescript', distName: 'index.ts' },
     { slug: 'scss', distName: '_index.scss' },
     { slug: 'android', distName: 'index.xml' },
-    {
-        slug: 'ios',
-        distName: 'ThumbprintTokens.swift',
-        // Packages the iOS dist into a zip file.
-        postWrite: async (distPath): Promise<void> => {
-            // Prep the zip file.
-            const zip = new JSZip();
-
-            // Add files to the folder.
-            zip.file('ThumbprintTokens.swift', fse.readFileSync(distPath, 'utf-8'));
-            zip.file('LICENSE.txt', fse.readFileSync('./LICENSE', 'utf-8'));
-
-            // Save the zip file.
-            const encodedZip = await zip.generateAsync({ type: 'nodebuffer' });
-            const dist = path.resolve(__dirname, `../dist/ios.zip`);
-            await fse.outputFile(dist, encodedZip);
-
-            // We delete the `dist/ios` folder because we only want to keep the `.zip`.
-            await fse.remove('dist/ios');
-        },
-    },
+    { slug: 'ios', distName: '../Sources/ThumbprintTokens/ThumbprintTokens.swift' },
 ];
 
 function typedEntries<K extends string | number | symbol, V>(
