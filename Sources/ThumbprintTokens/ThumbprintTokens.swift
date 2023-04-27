@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 import UIKit.UIColor
 
 /// These are the colors we use at Thumbtack.
@@ -162,3 +163,4 @@ public enum Space {
     /// Space 6 – 48.0pt
     public static let six: CGFloat = 48.0
 }
+#endif

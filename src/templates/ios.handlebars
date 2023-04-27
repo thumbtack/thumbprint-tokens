@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 import UIKit.UIColor
 
 {{#eachSectionWithPlatformTokens this "ios"}}
@@ -25,3 +26,4 @@ public enum {{removeSpaces this.name}} {
 
 {{/unless}}
 {{/eachSectionWithPlatformTokens}}
+#endif
