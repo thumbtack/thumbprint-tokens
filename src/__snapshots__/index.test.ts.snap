@@ -544,7 +544,8 @@ $tp-z-index__modal: 200;
 `;
 
 exports[`outputted iOS matches snapshot 1`] = `
-"import UIKit.UIColor
+"#if canImport(UIKit)
+import UIKit.UIColor
 
 /// These are the colors we use at Thumbtack.
 public enum Color {
@@ -708,5 +709,6 @@ public enum Space {
     /// Space 6 – 48.0pt
     public static let six: CGFloat = 48.0
 }
+#endif
 "
 `;
