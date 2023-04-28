@@ -8,6 +8,7 @@ Thumbprint Tokens are published as JavaScript, SCSS, Swift, and Kotlin.
 | --- | --- | --- |
 | Web | React & SCSS | [![npm](https://img.shields.io/npm/v/@thumbtack/thumbprint-tokens)](https://www.npmjs.com/package/@thumbtack/thumbprint-tokens) |
 | Android | Kotlin | [![JitPack](https://img.shields.io/jitpack/v/github/thumbtack/thumbprint-tokens)](https://jitpack.io/#thumbtack/thumbprint-tokens) |
+| iOS | Swift | Swift Package Manager |
 
 ## API
 
