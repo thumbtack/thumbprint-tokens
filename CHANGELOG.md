@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+### Fixed
+
+## 13.0.1 - 2023-03-28
+
+-   [Patch] Fix font weight for iOS
+
 ## 13.0.0 - 2023-03-28
 
 ### Changed
