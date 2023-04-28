@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## 13.0.0 - 2023-03-28
+
+### Changed
+
+-   [Patch] Use Swift Package Manager instead of CocoaPods
+
 ## 12.2.2 - 2023-01-30
 
 ### Fixed
@@ -19,8 +25,6 @@
 ### Added
 
 -   [Minor] Add font size, weight, line height, corner radius, and letter spacing for Android.
-
-## Unreleased
 
 ## 12.1.1 - 2020-07-08
 
