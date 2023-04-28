@@ -1,29 +1,28 @@
-#if canImport(UIKit)
-import UIKit.UIColor
+#if canImport(UIKit) import UIKit.UIColor
 
-{{#eachSectionWithPlatformTokens this "ios"}}
-{{#if description}}
-/// {{description}}
-{{/if}}
-public enum {{removeSpaces this.name}} {
+{{#eachSectionWithPlatformTokens this 'ios'}}
+    {{#if description}}
+        ///
+        {{description}}
+    {{/if}}
+    public enum
+    {{removeSpaces this.name}}
+    {
     {{#each tokens as |token|}}
-    {{#if token.platforms.ios}}
-    {{#if token.platforms.ios.description}}
-    /// {{token.platforms.ios.description}}
-    {{/if}}
-    {{#if token.deprecated}}
-    @available(*, deprecated)
-    {{/if}}
-    {{#ifEquals token.format "fontWeight"}}
-    case {{token.platforms.ios.name}}
-    {{else}}
-    public static let {{token.platforms.ios.name}}: {{{token.platforms.ios.value}}}
-    {{/ifEquals}}
-    {{/if}}
+        {{#if token.platforms.ios}}
+            {{#if token.platforms.ios.description}}
+                ///
+                {{token.platforms.ios.description}}
+            {{/if}}
+            {{#if token.deprecated}}
+                @available(*, deprecated)
+            {{/if}}
+            public static let
+            {{token.platforms.ios.name}}:
+            {{{token.platforms.ios.value}}}
+        {{/if}}
     {{/each}}
-}
-{{#unless @last}}
-
-{{/unless}}
+    }
+    {{#unless @last}}{{/unless}}
 {{/eachSectionWithPlatformTokens}}
 #endif
