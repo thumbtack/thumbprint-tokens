@@ -1035,7 +1035,7 @@ __metadata:
     eslint-plugin-import: ^2.26.0
     eslint-plugin-jest: ^26.2.2
     fs-extra: ^10.1.0
-    graphql: ^14.5.8
+    graphql: ^14.7.0
     handlebars: ^4.2.0
     husky: ^3.0.9
     jest: ^28.1.0
@@ -4244,12 +4244,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql@npm:^14.5.8":
-  version: 14.5.8
-  resolution: "graphql@npm:14.5.8"
+"graphql@npm:^14.7.0":
+  version: 14.7.0
+  resolution: "graphql@npm:14.7.0"
   dependencies:
     iterall: ^1.2.2
-  checksum: 1f99058a6fd9006c6ee0fdfb6aa0dd64e2d78bb0440d2de240ebfaf6933d24b8c9daa3e0b751e92e10fb81829727fe4a00da1114dd93068b2006a866ec8fc530
+  checksum: e5f4e60799421a573904f390e1ec0aa76360f751688dbbe62e9c35baa0d3727c8d59a659bfc524f126dffe3518da87fd8ecaa78c94fd5c0fe4e035c670745242
   languageName: node
   linkType: hard
 
@@ -8539,7 +8539,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.7.2#~builtin<compat/typescript>":
   version: 4.7.2
-  resolution: "typescript@patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"
+  resolution: "typescript@patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver

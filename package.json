@@ -66,7 +66,7 @@
     "dependencies": {
         "@netlify/functions": "^1.0.0",
         "apollo-server-lambda": "^2.9.7",
-        "graphql": "^14.5.8"
+        "graphql": "^14.7.0"
     },
     "resolutions": {
         "@types/istanbul-lib-report": "3.0.0"
