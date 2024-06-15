@@ -839,12 +839,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/functions@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@netlify/functions@npm:1.0.0"
+"@netlify/functions@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@netlify/functions@npm:1.4.0"
   dependencies:
     is-promise: ^4.0.0
-  checksum: 1e3c234f14fd2fe8f46cae9336679054bf067b60217ee1c424adec1b1d1e4208eeaacb3401c48b625fe057df56f5dc553b961d4758f53bb0eae6f5b78d6385ad
+  checksum: 0adcd967689d647bcc98f5b20eda858e765cdef7caf4c56e11845edad03e070640c372865a1b846f0d7de786a9a87784bab099972bee7157e7771ccf0df503fb
   languageName: node
   linkType: hard
 
@@ -1022,7 +1022,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@thumbtack/thumbprint-tokens@workspace:."
   dependencies:
-    "@netlify/functions": ^1.0.0
+    "@netlify/functions": ^1.4.0
     "@types/fs-extra": ^9.0.13
     "@types/jest": ^27.5.1
     "@types/jszip": ^3.4.1
@@ -8539,7 +8539,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.7.2#~builtin<compat/typescript>":
   version: 4.7.2
-  resolution: "typescript@patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"
+  resolution: "typescript@patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
