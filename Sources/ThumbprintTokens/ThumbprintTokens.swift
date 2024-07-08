@@ -2,7 +2,7 @@
 import UIKit.UIColor
 
 /// These are the colors we use at Thumbtack.
-public enum Color {
+public enum Color: Sendable {
     /// Blue 100 – #eaf6fa
     public static let blue100: UIColor = UIColor(red: 0.91764706, green: 0.9647059, blue: 0.98039216, alpha: 1.0)
     /// Blue 200 – #b3ebff
@@ -89,11 +89,11 @@ public enum Color {
     public static let white: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
 }
 
-public enum CornerRadius {
+public enum CornerRadius: Sendable {
     public static let base: CGFloat = 4
 }
 
-public enum Duration {
+public enum Duration: Sendable {
     public static let one: TimeInterval = 0.075
     public static let two: TimeInterval = 0.15
     public static let three: TimeInterval = 0.2
@@ -102,12 +102,12 @@ public enum Duration {
     public static let six: TimeInterval = 0.35
 }
 
-public enum FontWeight {
+public enum FontWeight: Sendable {
     case normal
     case bold
 }
 
-public enum Font {
+public enum Font: Sendable {
     public static let title1Size: CGFloat = 28
     public static let title1Weight: FontWeight = .bold
     public static let title1UIFontTextStyle: UIFont.TextStyle = .headline
@@ -144,12 +144,12 @@ public enum Font {
 }
 
 /// Values for transparent light and dark curtains that cover content.
-public enum Scrim {
+public enum Scrim: Sendable {
     public static let light80: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)
     public static let dark80: UIColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.8)
 }
 
-public enum Space {
+public enum Space: Sendable {
     /// Space 1 – 4.0pt
     public static let one: CGFloat = 4.0
     /// Space 2 – 8.0pt
