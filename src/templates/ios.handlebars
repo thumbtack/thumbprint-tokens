@@ -6,8 +6,7 @@
         {{description}}
     {{/if}}
     public enum
-    {{removeSpaces this.name}}
-    {
+    {{removeSpaces this.name}}: Sendable {
     {{#each tokens as |token|}}
         {{#if token.platforms.ios}}
             {{#if token.platforms.ios.description}}

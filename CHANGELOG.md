@@ -2,6 +2,18 @@
 
 ## Unreleased
 
+### Changed
+
+## 13.0.3 - 2024-07-08
+
+-   [Patch] Make enums sendable
+
+### Changed
+
+## 13.0.2 - 2024-04-30
+
+-   [Patch] Upgrading SPM package version to 5.10
+
 ### Fixed
 
 ## 13.0.1 - 2023-03-28
