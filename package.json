@@ -64,7 +64,7 @@
     },
     "homepage": "https://thumbprint.design/tokens",
     "dependencies": {
-        "@netlify/functions": "^1.0.0",
+        "@netlify/functions": "^1.4.0",
         "apollo-server-lambda": "^2.9.7",
         "graphql": "^14.5.8"
     },
