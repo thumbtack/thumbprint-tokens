@@ -2513,15 +2513,15 @@ const tokenGroups: TokenGroup[] = [
         name: 'Line Height',
         tokens: [
             {
-                id: 'base',
+                id: 'flat',
                 platforms: {
                     scss: {
-                        name: '$tp-line-height__base',
-                        value: '1.6',
+                        name: '$tp-line-height__flat',
+                        value: '1.0',
                     },
                     javascript: {
-                        name: 'tpLineHeightBase',
-                        value: '1.6',
+                        name: 'tpLineHeightFlat',
+                        value: '1.0',
                     },
                 },
             },
@@ -2535,6 +2535,19 @@ const tokenGroups: TokenGroup[] = [
                     javascript: {
                         name: 'tpLineHeightTight',
                         value: '1.4',
+                    },
+                },
+            },
+            {
+                id: 'base',
+                platforms: {
+                    scss: {
+                        name: '$tp-line-height__base',
+                        value: '1.6',
+                    },
+                    javascript: {
+                        name: 'tpLineHeightBase',
+                        value: '1.6',
                     },
                 },
             },
