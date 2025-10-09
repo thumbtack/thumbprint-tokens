@@ -33,6 +33,76 @@ const tokenGroups: TokenGroup[] = [
                 deprecated: true,
             },
             {
+                id: 'xsmall',
+                platforms: {
+                    scss: {
+                        name: '$tp-border-radius__xsmall',
+                        value: '4px',
+                    },
+                    javascript: {
+                        name: 'tpBorderRadiusXSmall',
+                        value: '4px',
+                    },
+                },
+                deprecated: false,
+            },
+            {
+                id: 'small',
+                platforms: {
+                    scss: {
+                        name: '$tp-border-radius__small',
+                        value: '6px',
+                    },
+                    javascript: {
+                        name: 'tpBorderRadiusSmall',
+                        value: '6px',
+                    },
+                },
+                deprecated: false,
+            },
+            {
+                id: 'medium',
+                platforms: {
+                    scss: {
+                        name: '$tp-border-radius__medium',
+                        value: '12px',
+                    },
+                    javascript: {
+                        name: 'tpBorderRadiusMedium',
+                        value: '12px',
+                    },
+                },
+                deprecated: false,
+            },
+            {
+                id: 'large',
+                platforms: {
+                    scss: {
+                        name: '$tp-border-radius__large',
+                        value: '16px',
+                    },
+                    javascript: {
+                        name: 'tpBorderRadiusLarge',
+                        value: '16px',
+                    },
+                },
+                deprecated: false,
+            },
+            {
+                id: 'xlarge',
+                platforms: {
+                    scss: {
+                        name: '$tp-border-radius__xlarge',
+                        value: '24px',
+                    },
+                    javascript: {
+                        name: 'tpBorderRadiusXLarge',
+                        value: '24px',
+                    },
+                },
+                deprecated: false,
+            },
+            {
                 id: 'full',
                 platforms: {
                     scss: {
@@ -44,7 +114,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '50%',
                     },
                 },
-                deprecated: true,
+                deprecated: false,
             },
             {
                 id: 'sides',
@@ -58,7 +128,7 @@ const tokenGroups: TokenGroup[] = [
                         value: '9999px',
                     },
                 },
-                deprecated: true,
+                deprecated: false,
             },
         ],
     },
@@ -2513,15 +2583,15 @@ const tokenGroups: TokenGroup[] = [
         name: 'Line Height',
         tokens: [
             {
-                id: 'base',
+                id: 'flat',
                 platforms: {
                     scss: {
-                        name: '$tp-line-height__base',
-                        value: '1.6',
+                        name: '$tp-line-height__flat',
+                        value: '1.0',
                     },
                     javascript: {
-                        name: 'tpLineHeightBase',
-                        value: '1.6',
+                        name: 'tpLineHeightFlat',
+                        value: '1.0',
                     },
                 },
             },
@@ -2535,6 +2605,19 @@ const tokenGroups: TokenGroup[] = [
                     javascript: {
                         name: 'tpLineHeightTight',
                         value: '1.4',
+                    },
+                },
+            },
+            {
+                id: 'base',
+                platforms: {
+                    scss: {
+                        name: '$tp-line-height__base',
+                        value: '1.6',
+                    },
+                    javascript: {
+                        name: 'tpLineHeightBase',
+                        value: '1.6',
                     },
                 },
             },
